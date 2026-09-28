@@ -16,6 +16,21 @@ All notable changes to this project will be documented in this file.
 
 Next release will be **0.1.5**; subsequent releases increment the patch version (0.1.6, 0.1.7, ...).
 
+## 0.1.5 - 2026-09-28
+
+### Added
+
+- `src/support_agent/memory.py` with `ConversationMemory` dataclass for managing conversation history
+- `src/support_agent/agent.py` with `SupportAgent` class integrating memory with LLM calls and tool use
+- `src/support_agent/state.py` with `AgentState` dataclass and `update_state_from_extraction()` function
+- `src/support_agent/models.py` with `ExtractedTicket` and `CustomerMemory` models
+- `src/support_agent/customer_memory.py` with in-memory customer memory store (`add_memory()`, `get_customer_memories()`)
+- `tests/test_memory.py` with 5 tests covering user messages, conversation history, clear memory, state extraction, and customer memory
+
+### Fixed
+
+- `update_state_from_extraction()` now handles both enum and string values for category and priority fields
+
 ## 0.1.2 - 2026-09-24
 
 ### Added
