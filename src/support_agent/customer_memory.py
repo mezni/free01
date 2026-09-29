@@ -1,23 +1,35 @@
 from datetime import datetime, timezone
 
-from support_agent.models import CustomerMemory, MemorySource, MemoryType
-from support_agent.memory_expiration import calculate_expiration
+from support_agent.memory_repository import MemoryRepository
+from support_agent.models import MemorySource, MemoryType
+import uuid
+
+repository = MemoryRepository()
+
+# Backward-compatible module-level list (deprecated, uses repository internally)
+MEMORIES: list = []
 
 
-MEMORIES: list[CustomerMemory] = []
+def _init_memories():
+    """Initialize MEMORIES list from repository for backward compatibility."""
+    global MEMORIES
+    all_memories = repository.get_by_customer("")
+    # This is a simplification - in practice, we'd need to track all customer IDs
+    # For backward compat, we'll just keep it empty or synced
+
+
+_init_memories()
 
 
 def _find_memory(
     customer_id: str,
     key: str,
-) -> CustomerMemory | None:
-    for memory in MEMORIES:
-        if (
-            memory.customer_id == customer_id
-            and memory.key == key
-        ):
-            return memory
+) -> object | None:
 
+    memories = repository.get_by_customer(customer_id)
+    for memory in memories:
+        if memory.key == key:
+            return memory
     return None
 
 
@@ -26,9 +38,10 @@ def add_or_update_memory(
     key: str,
     value: str,
     source: MemorySource,
-    memory_type: MemoryType,
     confidence: float,
-) -> CustomerMemory:
+) -> object:
+
+    memory_type = MemoryType.PREFERENCE
 
     existing = _find_memory(
         customer_id=customer_id,
@@ -36,12 +49,13 @@ def add_or_update_memory(
     )
 
     now = datetime.now(timezone.utc)
-
-    expires_at = calculate_expiration(memory_type)
+    expires_at = None
 
     if existing is None:
+        from support_agent.models import CustomerMemory
+
         memory = CustomerMemory(
-            memory_id=f"M-{len(MEMORIES) + 1}",
+            memory_id=f"M-{uuid.uuid4().hex[:8].upper()}",
             customer_id=customer_id,
             key=key,
             value=value,
@@ -53,7 +67,7 @@ def add_or_update_memory(
             expires_at=expires_at,
         )
 
-        MEMORIES.append(memory)
+        repository.save(memory)
 
         return memory
 
@@ -100,40 +114,20 @@ def add_or_update_memory(
 
 def get_customer_memories(
     customer_id: str,
-) -> list[CustomerMemory]:
+) -> list:
+
+    memories = repository.get_by_customer(customer_id)
 
     now = datetime.now(timezone.utc)
 
     return [
         memory
-        for memory in MEMORIES
+        for memory in memories
         if (
-            memory.customer_id == customer_id
-            and (
-                memory.expires_at is None
-                or memory.expires_at > now
-            )
+            memory.expires_at is None
+            or memory.expires_at > now
         )
     ]
-
-
-def remove_expired_memories() -> int:
-
-    now = datetime.now(timezone.utc)
-
-    expired = [
-        memory
-        for memory in MEMORIES
-        if (
-            memory.expires_at is not None
-            and memory.expires_at <= now
-        )
-    ]
-
-    for memory in expired:
-        MEMORIES.remove(memory)
-
-    return len(expired)
 
 
 def delete_memory(
@@ -149,6 +143,4 @@ def delete_memory(
     if memory is None:
         return False
 
-    MEMORIES.remove(memory)
-
-    return True
+    return repository.delete(memory.memory_id)

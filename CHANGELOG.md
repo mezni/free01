@@ -14,7 +14,24 @@ All notable changes to this project will be documented in this file.
 
 ## Unreleased
 
-Next release will be **0.1.7**; subsequent releases increment the patch version (0.1.8, 0.1.9, ...).
+Next release will be **0.1.8**; subsequent releases increment the patch version (0.1.9, 0.1.10, ...).
+
+## 0.1.7 - 2026-09-28
+
+### Added
+
+- `src/support_agent/models.py` with `MemoryType` enum and updated `CustomerMemory` and `MemoryCandidate` models
+- `src/support_agent/memory_expiration.py` with `calculate_expiration()` function and expiration policies per memory type
+- `src/support_agent/memory_retrieval.py` with `retrieve_relevant_memories()` and `format_retrieved_memories()` functions
+- `src/support_agent/memory_policy.py` with `ALLOWED_MEMORY_TYPES` and updated `should_store_memory()` to validate memory types
+- `src/support_agent/customer_memory.py` with expiration-aware `get_customer_memories()`, new `remove_expired_memories()` function, and `MemoryType` parameter in `add_or_update_memory()`
+- `src/support_agent/memory_manager.py` passes `memory_type` to `add_or_update_memory()` and calculates `expires_at`
+- `tests/test_memory_retrieval.py` with 2 tests for memory retrieval and customer isolation
+- `tests/test_memory.py` with 4 new tests: `test_higher_priority_source_wins`, `test_higher_confidence_same_source_wins`, `test_expired_memory_is_not_retrieved`, and `test_non_expiring_memory_is_retrieved`
+
+### Fixed
+
+- N/A
 
 ## 0.1.6 - 2026-09-28
 

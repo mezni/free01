@@ -96,6 +96,7 @@ def test_create_memory():
         key="preferred_contact_method",
         value="email",
         source=MemorySource.CUSTOMER_STATEMENT,
+        memory_type=MemoryType.PREFERENCE,
         confidence=0.95,
     )
 
@@ -114,6 +115,7 @@ def test_duplicate_memory_does_not_create_new_record():
         key="preferred_contact_method",
         value="email",
         source=MemorySource.CUSTOMER_STATEMENT,
+        memory_type=MemoryType.PREFERENCE,
         confidence=0.90,
     )
 
@@ -122,6 +124,7 @@ def test_duplicate_memory_does_not_create_new_record():
         key="preferred_contact_method",
         value="email",
         source=MemorySource.CUSTOMER_STATEMENT,
+        memory_type=MemoryType.PREFERENCE,
         confidence=0.95,
     )
 
@@ -140,6 +143,7 @@ def test_memory_is_updated_when_value_changes():
         key="preferred_contact_method",
         value="email",
         source=MemorySource.CUSTOMER_STATEMENT,
+        memory_type=MemoryType.PREFERENCE,
         confidence=0.90,
     )
 
@@ -148,6 +152,7 @@ def test_memory_is_updated_when_value_changes():
         key="preferred_contact_method",
         value="phone",
         source=MemorySource.CUSTOMER_STATEMENT,
+        memory_type=MemoryType.PREFERENCE,
         confidence=0.98,
     )
 
@@ -165,7 +170,8 @@ def test_delete_memory():
         customer_id="C002",
         key="preferred_contact_method",
         value="email",
-        source="customer_statement",
+        source=MemorySource.CUSTOMER_STATEMENT,
+        memory_type=MemoryType.PREFERENCE,
         confidence=0.95,
     )
 

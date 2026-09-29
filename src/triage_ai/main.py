@@ -5,6 +5,7 @@ from rich import print
 
 from triage_ai.config import settings
 from triage_ai.data.loader import load_tickets
+from support_agent.database import initialize_database
 
 
 app = typer.Typer()
@@ -34,4 +35,5 @@ def tickets() -> None:
 
 
 if __name__ == "__main__":
+    initialize_database()
     app()
