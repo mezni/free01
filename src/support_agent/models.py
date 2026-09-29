@@ -1,4 +1,12 @@
 from datetime import datetime
+from pydantic import BaseModel, Field
+
+
+class MemoryCandidate(BaseModel):
+    customer_id: str
+    key: str
+    value: str
+    confidence: float
 
 
 class ExtractedTicket:
@@ -37,3 +45,7 @@ class CustomerMemory:
         self.confidence = confidence
         self.created_at = created_at
         self.updated_at = updated_at
+
+
+class MemoryExtractionResult(BaseModel):
+    memories: list[MemoryCandidate]
