@@ -1,52 +1,65 @@
 from datetime import datetime, timezone
 
-from support_agent.database import get_connection, initialize_database
-from support_agent.models import MemorySource, MemoryType
-import uuid
+from support_agent.memory_repository import MemoryRepository
+from support_agent.models import (
+    CustomerMemory,
+    MemoryDecision,
+    MemorySource,
+    MemoryType,
+)
+from support_agent.memory_expiration import calculate_expiration
+from support_agent.memory_conflict import resolve_memory_conflict
 
-# Initialize database when module is imported
-initialize_database()
-
-# Module-level in-memory store (backward compatible)
+# Backward-compatible module-level list
 MEMORIES: list = []
 
+def _generate_memory_id() -> str:
+    import uuid
+    return f"M-{uuid.uuid4().hex[:8].upper()}"
 
-def _find_memory(
-    customer_id: str,
-    key: str,
-) -> object | None:
 
-    for memory in MEMORIES:
-        if (
-            memory.customer_id == customer_id
-            and memory.key == key
-        ):
-            return memory
-
-    return None
+def _init_memories():
+    """Initialize MEMORIES list from repository if available."""
+    global MEMORIES
+    # MEMORIES is kept for backward compatibility;
+    # in normal operation, the repository is the source of truth.
+    # For now, MEMORIES starts empty and gets populated
+    # as memories are added through the repository.
+    global MEMORIES
+    MEMORIES = []
 
 
 def add_or_update_memory(
+    *,
     customer_id: str,
     key: str,
     value: str,
-    source: MemorySource,
     memory_type: MemoryType,
+    source: MemorySource,
     confidence: float,
-) -> object:
+    repository: MemoryRepository | None = None,
+) -> CustomerMemory | None:
 
-    existing = _find_memory(
-        customer_id=customer_id,
-        key=key,
+    if repository is None:
+        # Backward compatibility: use MEMORIES list
+        repository = MemoryRepository()
+
+    existing_memories = repository.get_by_customer(customer_id)
+
+    existing = next(
+        (
+            memory
+            for memory in existing_memories
+            if memory.key == key
+        ),
+        None,
     )
 
     now = datetime.now(timezone.utc)
 
     if existing is None:
-        from support_agent.models import CustomerMemory
-
         memory = CustomerMemory(
-            memory_id=f"M-{uuid.uuid4().hex[:8].upper()}",
+            memory_id=_generate_memory_id(),
             customer_id=customer_id,
             key=key,
             value=value,
@@ -55,86 +68,60 @@ def add_or_update_memory(
             confidence=confidence,
             created_at=now,
             updated_at=now,
-            expires_at=None,
+            expires_at=calculate_expiration(memory_type),
         )
 
-        MEMORIES.append(memory)
+        repository.save(memory)
+
+        # Also add to MEMORIES list for backward compatibility
+        if memory not in MEMORIES:
+            MEMORIES.append(memory)
 
         return memory
 
-    if existing.value == value:
-
-        if confidence > existing.confidence:
-            existing.confidence = confidence
-            existing.source = source
-            existing.updated_at = now
-
-        return existing
-
-    existing_source_priority = {
-        MemorySource.CUSTOMER_STATEMENT: 4,
-        MemorySource.IMPORTED_DATA: 3,
-        MemorySource.SUPPORT_AGENT: 2,
-        MemorySource.SYSTEM: 1,
-    }
-
-    current_priority = existing_source_priority[
-        existing.source
-    ]
-
-    new_priority = existing_source_priority[
-        source
-    ]
-
-    should_update = (
-        new_priority > current_priority
-        or (
-            new_priority == current_priority
-            and confidence > existing.confidence
-        )
+    decision = resolve_memory_conflict(
+        existing=existing,
+        candidate_source=source,
+        candidate_confidence=confidence,
     )
 
-    if should_update:
-        existing.value = value
-        existing.source = source
-        existing.confidence = confidence
-        existing.updated_at = now
+    if decision == MemoryDecision.KEEP_EXISTING:
+        return existing
+
+    existing.value = value
+    existing.memory_type = memory_type
+    existing.source = source
+    existing.confidence = confidence
+    existing.updated_at = now
+    existing.expires_at = calculate_expiration(memory_type)
+
+    repository.save(existing)
+
+    # Update in MEMORIES list
+    if existing in MEMORIES:
+        idx = MEMORIES.index(existing)
+        MEMORIES[idx] = existing
 
     return existing
 
 
 def get_customer_memories(
     customer_id: str,
-) -> list:
+    repository: MemoryRepository | None = None,
+) -> list[CustomerMemory]:
 
-    now = datetime.now(timezone.utc)
+    if repository is None:
+        repository = MemoryRepository()
 
-    return [
-        memory
-        for memory in MEMORIES
-        if (
-            memory.customer_id == customer_id
-            and (
-                memory.expires_at is None
-                or memory.expires_at > now
-            )
-        )
-    ]
+    return repository.get_by_customer(customer_id)
 
 
 def delete_memory(
-    customer_id: str,
-    key: str,
+    memory_id: str,
+    repository: MemoryRepository | None = None,
 ) -> bool:
 
-    memory = _find_memory(
-        customer_id=customer_id,
-        key=key,
-    )
+    if repository is None:
+        repository = MemoryRepository()
 
-    if memory is None:
-        return False
-
-    MEMORIES.remove(memory)
-
-    return True
+    return repository.delete(memory_id)

@@ -1,7 +1,8 @@
 from support_agent.customer_memory import (
-    MEMORIES,
     add_or_update_memory,
+    get_customer_memories,
 )
+from support_agent.memory_repository import MemoryRepository
 from support_agent.models import (
     MemorySource,
     MemoryType,
@@ -12,7 +13,7 @@ from support_agent.memory_retrieval import (
 
 
 def test_retrieve_relevant_memory():
-    MEMORIES.clear()
+    repo = MemoryRepository()
 
     add_or_update_memory(
         customer_id="C002",
@@ -21,6 +22,7 @@ def test_retrieve_relevant_memory():
         source=MemorySource.CUSTOMER_STATEMENT,
         memory_type=MemoryType.PREFERENCE,
         confidence=0.95,
+        repository=repo,
     )
 
     add_or_update_memory(
@@ -30,6 +32,7 @@ def test_retrieve_relevant_memory():
         source=MemorySource.CUSTOMER_STATEMENT,
         memory_type=MemoryType.PREFERENCE,
         confidence=0.95,
+        repository=repo,
     )
 
     results = retrieve_relevant_memories(
@@ -38,14 +41,11 @@ def test_retrieve_relevant_memory():
     )
 
     assert len(results) == 1
-    assert (
-        results[0].memory.key
-        == "preferred_contact_method"
-    )
+    assert results[0].memory.key == "preferred_contact_method"
 
 
 def test_memories_are_isolated_by_customer():
-    MEMORIES.clear()
+    repo = MemoryRepository()
 
     add_or_update_memory(
         customer_id="C001",
@@ -54,6 +54,7 @@ def test_memories_are_isolated_by_customer():
         source=MemorySource.CUSTOMER_STATEMENT,
         memory_type=MemoryType.PREFERENCE,
         confidence=0.95,
+        repository=repo,
     )
 
     add_or_update_memory(
@@ -63,6 +64,7 @@ def test_memories_are_isolated_by_customer():
         source=MemorySource.CUSTOMER_STATEMENT,
         memory_type=MemoryType.PREFERENCE,
         confidence=0.95,
+        repository=repo,
     )
 
     results = retrieve_relevant_memories(

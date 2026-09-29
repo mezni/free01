@@ -18,6 +18,11 @@ class MemoryType(str, Enum):
     PRODUCT = "product"
 
 
+class MemoryDecision(str, Enum):
+    KEEP_EXISTING = "keep_existing"
+    UPDATE = "update"
+
+
 class EvaluationStatus(str, Enum):
     PASS = "pass"
     FAIL = "fail"
@@ -27,6 +32,11 @@ class MemoryEvaluationResult(BaseModel):
     name: str
     status: EvaluationStatus
     details: str
+
+
+class BehavioralEvaluation(BaseModel):
+    passed: bool
+    reason: str
 
 
 class MemoryCandidate(BaseModel):

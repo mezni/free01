@@ -14,22 +14,22 @@ All notable changes to this project will be documented in this file.
 
 ## Unreleased
 
-Next release will be **0.1.12**; subsequent releases increment the patch version (0.1.13, 0.1.14, ...).
+Next release will be **0.1.14**; subsequent releases increment the patch version (0.1.15, 0.1.16, ...).
 
-## 0.1.11 - 2026-09-28
+## 0.1.13 - 2026-09-28
 
 ### Added
 
-- `src/support_agent/models.py` with `EvaluationStatus` enum and `MemoryEvaluationResult` BaseModel
-- `data/memory_evaluation_cases.json` with 3 evaluation test cases
-- `src/support_agent/memory_evaluation.py` with `evaluate_memory_case()` function
-- `src/support_agent/run_memory_evaluation.py` CLI for running evaluation suite
+- `data/memory_behavior_cases.json` with 3 behavioral evaluation cases
+- `src/support_agent/memory_behavior_evaluation.py` with `evaluate_memory_behavior()` function and LLM-based behavior judgment
+- `src/support_agent/models.py` with `BehavioralEvaluation` Pydantic model for validated evaluation results
+- `src/support_agent/run_memory_behavior_evaluation.py` CLI for running behavioral evaluation suite
 
 ### Fixed
 
 - N/A
 
-## 0.1.10 - 2026-09-28
+## 0.1.12 - 2026-09-28
 
 ### Added
 
