@@ -14,9 +14,22 @@ All notable changes to this project will be documented in this file.
 
 ## Unreleased
 
-Next release will be **0.1.9**; subsequent releases increment the patch version (0.1.10, 0.1.11, ...).
+Next release will be **0.1.12**; subsequent releases increment the patch version (0.1.13, 0.1.14, ...).
 
-## 0.1.8 - 2026-09-28
+## 0.1.11 - 2026-09-28
+
+### Added
+
+- `src/support_agent/models.py` with `EvaluationStatus` enum and `MemoryEvaluationResult` BaseModel
+- `data/memory_evaluation_cases.json` with 3 evaluation test cases
+- `src/support_agent/memory_evaluation.py` with `evaluate_memory_case()` function
+- `src/support_agent/run_memory_evaluation.py` CLI for running evaluation suite
+
+### Fixed
+
+- N/A
+
+## 0.1.10 - 2026-09-28
 
 ### Added
 
@@ -25,6 +38,23 @@ Next release will be **0.1.9**; subsequent releases increment the patch version 
 - `src/support_agent/agent.py` with updated `SupportAgent` class supporting optional `MemoryService` integration and customer ID-based memory context
 - `src/support_agent/memory_expiration.py` with `remove_expired_memories()` function
 - `tests/test_agent_memory.py` with 4 tests for MemoryService functionality and prompt construction with memory context
+
+### Fixed
+
+- N/A
+
+## 0.1.8 - 2026-09-28
+
+### Added
+
+- `src/support_agent/models.py` with `MemoryType` enum and updated `CustomerMemory` and `MemoryCandidate` models
+- `src/support_agent/memory_expiration.py` with `calculate_expiration()` function and expiration policies per memory type
+- `src/support_agent/memory_retrieval.py` with `retrieve_relevant_memories()` and `format_retrieved_memories()` functions
+- `src/support_agent/memory_policy.py` with `ALLOWED_MEMORY_TYPES` and updated `should_store_memory()` to validate memory types
+- `src/support_agent/customer_memory.py` with expiration-aware `get_customer_memories()`, and `MemoryType` parameter in `add_or_update_memory()`
+- `src/support_agent/memory_manager.py` passes `memory_type` to `add_or_update_memory()` and calculates `expires_at`
+- `tests/test_memory_retrieval.py` with 2 tests for memory retrieval and customer isolation
+- `tests/test_memory.py` with 4 new tests: `test_higher_priority_source_wins`, `test_higher_confidence_same_source_wins`, `test_expired_memory_is_not_retrieved`, and `test_non_expiring_memory_is_retrieved`
 
 ### Fixed
 

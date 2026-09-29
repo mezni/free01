@@ -18,6 +18,17 @@ class MemoryType(str, Enum):
     PRODUCT = "product"
 
 
+class EvaluationStatus(str, Enum):
+    PASS = "pass"
+    FAIL = "fail"
+
+
+class MemoryEvaluationResult(BaseModel):
+    name: str
+    status: EvaluationStatus
+    details: str
+
+
 class MemoryCandidate(BaseModel):
     customer_id: str
     key: str
