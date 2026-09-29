@@ -23,9 +23,12 @@ Next release will be **0.1.5**; subsequent releases increment the patch version 
 - `src/support_agent/memory.py` with `ConversationMemory` dataclass for managing conversation history
 - `src/support_agent/agent.py` with `SupportAgent` class integrating memory with LLM calls and tool use
 - `src/support_agent/state.py` with `AgentState` dataclass and `update_state_from_extraction()` function
-- `src/support_agent/models.py` with `ExtractedTicket` and `CustomerMemory` models
+- `src/support_agent/models.py` with `ExtractedTicket`, `CustomerMemory`, `MemoryCandidate`, and `MemoryExtractionResult` models
+- `src/support_agent/prompts.py` with `MEMORY_EXTRACTION_SYSTEM_PROMPT`
 - `src/support_agent/customer_memory.py` with in-memory customer memory store (`add_or_update_memory()`, `get_customer_memories()`, `delete_memory()`)
+- `src/support_agent/memory_extraction.py` with `extract_memory_candidates()` function for LLM-based memory extraction
 - `tests/test_memory.py` with 8 tests covering user messages, conversation history, clear memory, state extraction, memory creation, duplicate handling, value updates, and memory deletion
+- `tests/test_memory_extraction.py` with 3 tests for `MemoryCandidate` and `MemoryExtractionResult` models
 
 ### Fixed
 
