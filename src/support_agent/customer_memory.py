@@ -1,6 +1,6 @@
 from datetime import datetime, timezone
 
-from support_agent.models import CustomerMemory
+from support_agent.models import CustomerMemory, MemorySource
 
 
 MEMORIES: list[CustomerMemory] = []
@@ -24,7 +24,7 @@ def add_or_update_memory(
     customer_id: str,
     key: str,
     value: str,
-    source: str,
+    source: MemorySource,
     confidence: float,
 ) -> CustomerMemory:
 
@@ -52,6 +52,7 @@ def add_or_update_memory(
         return memory
 
     if existing.value == value:
+
         if confidence > existing.confidence:
             existing.confidence = confidence
             existing.source = source
@@ -59,10 +60,34 @@ def add_or_update_memory(
 
         return existing
 
-    existing.value = value
-    existing.source = source
-    existing.confidence = confidence
-    existing.updated_at = now
+    existing_source_priority = {
+        MemorySource.CUSTOMER_STATEMENT: 4,
+        MemorySource.IMPORTED_DATA: 3,
+        MemorySource.SUPPORT_AGENT: 2,
+        MemorySource.SYSTEM: 1,
+    }
+
+    current_priority = existing_source_priority[
+        existing.source
+    ]
+
+    new_priority = existing_source_priority[
+        source
+    ]
+
+    should_update = (
+        new_priority > current_priority
+        or (
+            new_priority == current_priority
+            and confidence > existing.confidence
+        )
+    )
+
+    if should_update:
+        existing.value = value
+        existing.source = source
+        existing.confidence = confidence
+        existing.updated_at = now
 
     return existing
 

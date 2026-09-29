@@ -25,7 +25,7 @@ def process_message_for_memory(
             customer_id=candidate.customer_id,
             key=candidate.key,
             value=candidate.value,
-            source="llm_extraction",
+            source=candidate.source,
             confidence=candidate.confidence,
         )
 

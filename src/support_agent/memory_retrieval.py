@@ -13,7 +13,7 @@ def retrieve_relevant_memories(
     memories = get_customer_memories(customer_id)
 
     query_words = {
-        word.lower()
+        word.strip(".,!?;:").lower()
         for word in query.split()
     }
 

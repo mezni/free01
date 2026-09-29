@@ -50,6 +50,7 @@ def test_clear_memory():
 
 from support_agent.models import (
     ExtractedTicket,
+    MemorySource,
 )
 from support_agent.state import (
     AgentState,
@@ -94,7 +95,7 @@ def test_create_memory():
         customer_id="C002",
         key="preferred_contact_method",
         value="email",
-        source="customer_statement",
+        source=MemorySource.CUSTOMER_STATEMENT,
         confidence=0.95,
     )
 
@@ -112,7 +113,7 @@ def test_duplicate_memory_does_not_create_new_record():
         customer_id="C002",
         key="preferred_contact_method",
         value="email",
-        source="customer_statement",
+        source=MemorySource.CUSTOMER_STATEMENT,
         confidence=0.90,
     )
 
@@ -120,7 +121,7 @@ def test_duplicate_memory_does_not_create_new_record():
         customer_id="C002",
         key="preferred_contact_method",
         value="email",
-        source="customer_statement",
+        source=MemorySource.CUSTOMER_STATEMENT,
         confidence=0.95,
     )
 
@@ -138,7 +139,7 @@ def test_memory_is_updated_when_value_changes():
         customer_id="C002",
         key="preferred_contact_method",
         value="email",
-        source="customer_statement",
+        source=MemorySource.CUSTOMER_STATEMENT,
         confidence=0.90,
     )
 
@@ -146,7 +147,7 @@ def test_memory_is_updated_when_value_changes():
         customer_id="C002",
         key="preferred_contact_method",
         value="phone",
-        source="customer_statement",
+        source=MemorySource.CUSTOMER_STATEMENT,
         confidence=0.98,
     )
 
@@ -175,3 +176,53 @@ def test_delete_memory():
 
     assert deleted is True
     assert get_customer_memories("C002") == []
+
+
+def test_higher_priority_source_wins():
+    MEMORIES.clear()
+
+    add_or_update_memory(
+        customer_id="C002",
+        key="preferred_contact_method",
+        value="email",
+        source=MemorySource.CUSTOMER_STATEMENT,
+        confidence=0.90,
+    )
+
+    add_or_update_memory(
+        customer_id="C002",
+        key="preferred_contact_method",
+        value="phone",
+        source=MemorySource.SUPPORT_AGENT,
+        confidence=0.99,
+    )
+
+    memories = get_customer_memories("C002")
+
+    assert len(memories) == 1
+    assert memories[0].value == "email"
+
+
+def test_higher_confidence_same_source_wins():
+    MEMORIES.clear()
+
+    add_or_update_memory(
+        customer_id="C002",
+        key="preferred_contact_method",
+        value="email",
+        source=MemorySource.CUSTOMER_STATEMENT,
+        confidence=0.80,
+    )
+
+    add_or_update_memory(
+        customer_id="C002",
+        key="preferred_contact_method",
+        value="phone",
+        source=MemorySource.CUSTOMER_STATEMENT,
+        confidence=0.95,
+    )
+
+    memories = get_customer_memories("C002")
+
+    assert len(memories) == 1
+    assert memories[0].value == "phone"

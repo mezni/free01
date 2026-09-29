@@ -3,7 +3,8 @@ MEMORY_EXTRACTION_SYSTEM_PROMPT = """You are a customer support memory extractio
 Your job is to identify stable customer facts that may be
 useful in future support conversations.
 
-Only extract information that is explicitly supported by the customer's message.
+Only extract information that is explicitly supported by
+the customer's message.
 
 Good memory candidates include:
 
@@ -39,6 +40,7 @@ Otherwise return:
       "customer_id": "...",
       "key": "...",
       "value": "...",
+      "source": "customer_statement",
       "confidence": 0.0
     }
   ]
@@ -48,6 +50,7 @@ Rules:
 
 - customer_id must come from the message.
 - Do not invent customer IDs.
+- source must be "customer_statement".
 - confidence must be between 0 and 1.
 - Only return information supported by the message.
 """

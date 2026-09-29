@@ -1,15 +1,22 @@
-from support_agent.models import MemoryCandidate
+from enum import Enum
+
+from support_agent.models import (
+    CustomerMemory,
+    MemoryCandidate,
+)
 
 
-MIN_MEMORY_CONFIDENCE = 0.80
+class MemoryDecision(str, Enum):
+    CREATE = "create"
+    UPDATE = "update"
+    KEEP_EXISTING = "keep_existing"
 
 
-ALLOWED_MEMORY_KEYS = {
-    "preferred_contact_method",
-    "preferred_language",
-    "preferred_timezone",
-    "product_preference",
-    "communication_preference",
+SOURCE_PRIORITY = {
+    "customer_statement": 4,
+    "imported_data": 3,
+    "support_agent": 2,
+    "system": 1,
 }
 
 
@@ -33,3 +40,30 @@ def should_store_memory(
         return False
 
     return True
+
+
+def resolve_memory_conflict(
+    existing: CustomerMemory,
+    candidate: MemoryCandidate,
+) -> MemoryDecision:
+
+    existing_source_priority = SOURCE_PRIORITY.get(
+        existing.source.value,
+        0,
+    )
+
+    candidate_source_priority = SOURCE_PRIORITY.get(
+        candidate.source.value,
+        0,
+    )
+
+    if candidate_source_priority > existing_source_priority:
+        return MemoryDecision.UPDATE
+
+    if candidate_source_priority < existing_source_priority:
+        return MemoryDecision.KEEP_EXISTING
+
+    if candidate.confidence > existing.confidence:
+        return MemoryDecision.UPDATE
+
+    return MemoryDecision.KEEP_EXISTING

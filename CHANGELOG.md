@@ -14,15 +14,17 @@ All notable changes to this project will be documented in this file.
 
 ## Unreleased
 
-Next release will be **0.1.6**; subsequent releases increment the patch version (0.1.7, 0.1.8, ...).
+Next release will be **0.1.7**; subsequent releases increment the patch version (0.1.8, 0.1.9, ...).
 
 ## 0.1.6 - 2026-09-28
 
 ### Added
 
-- `src/support_agent/models.py` with `RetrievedMemory` model
+- `src/support_agent/models.py` with `RetrievedMemory` model and `MemorySource` enum
 - `src/support_agent/memory_retrieval.py` with `retrieve_relevant_memories()` and `format_retrieved_memories()` functions
+- `src/support_agent/memory_policy.py` with `SOURCE_PRIORITY`, `MemoryDecision`, and `resolve_memory_conflict()` functions
 - `tests/test_memory_retrieval.py` with 2 tests for memory retrieval and customer isolation
+- `tests/test_memory.py` with 2 new tests: `test_higher_priority_source_wins` and `test_higher_confidence_same_source_wins`
 
 ### Fixed
 

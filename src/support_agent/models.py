@@ -1,11 +1,20 @@
 from datetime import datetime
+from enum import Enum
 from pydantic import BaseModel, Field
+
+
+class MemorySource(str, Enum):
+    CUSTOMER_STATEMENT = "customer_statement"
+    SUPPORT_AGENT = "support_agent"
+    SYSTEM = "system"
+    IMPORTED_DATA = "imported_data"
 
 
 class MemoryCandidate(BaseModel):
     customer_id: str
     key: str
     value: str
+    source: MemorySource
     confidence: float
 
 
@@ -32,7 +41,7 @@ class CustomerMemory:
         customer_id: str,
         key: str,
         value: str,
-        source: str,
+        source: MemorySource,
         confidence: float,
         created_at: datetime,
         updated_at: datetime,
@@ -54,3 +63,5 @@ class MemoryExtractionResult(BaseModel):
 class RetrievedMemory(BaseModel):
     memory: CustomerMemory
     relevance_score: int
+
+    model_config = {"arbitrary_types_allowed": True}
