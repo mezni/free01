@@ -38,6 +38,7 @@ def add_or_update_memory(
     key: str,
     value: str,
     source: MemorySource,
+    memory_type: MemoryType,
     confidence: float,
 ) -> object:
 

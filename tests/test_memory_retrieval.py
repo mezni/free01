@@ -2,6 +2,10 @@ from support_agent.customer_memory import (
     MEMORIES,
     add_or_update_memory,
 )
+from support_agent.models import (
+    MemorySource,
+    MemoryType,
+)
 from support_agent.memory_retrieval import (
     retrieve_relevant_memories,
 )
@@ -14,7 +18,8 @@ def test_retrieve_relevant_memory():
         customer_id="C002",
         key="preferred_contact_method",
         value="email",
-        source="customer_statement",
+        source=MemorySource.CUSTOMER_STATEMENT,
+        memory_type=MemoryType.PREFERENCE,
         confidence=0.95,
     )
 
@@ -22,7 +27,8 @@ def test_retrieve_relevant_memory():
         customer_id="C002",
         key="preferred_language",
         value="English",
-        source="customer_statement",
+        source=MemorySource.CUSTOMER_STATEMENT,
+        memory_type=MemoryType.PREFERENCE,
         confidence=0.95,
     )
 
@@ -45,7 +51,8 @@ def test_memories_are_isolated_by_customer():
         customer_id="C001",
         key="preferred_contact_method",
         value="phone",
-        source="customer_statement",
+        source=MemorySource.CUSTOMER_STATEMENT,
+        memory_type=MemoryType.PREFERENCE,
         confidence=0.95,
     )
 
@@ -53,7 +60,8 @@ def test_memories_are_isolated_by_customer():
         customer_id="C002",
         key="preferred_contact_method",
         value="email",
-        source="customer_statement",
+        source=MemorySource.CUSTOMER_STATEMENT,
+        memory_type=MemoryType.PREFERENCE,
         confidence=0.95,
     )
 

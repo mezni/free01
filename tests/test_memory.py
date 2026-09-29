@@ -51,6 +51,7 @@ def test_clear_memory():
 from support_agent.models import (
     ExtractedTicket,
     MemorySource,
+    MemoryType,
 )
 from support_agent.state import (
     AgentState,
