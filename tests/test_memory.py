@@ -81,16 +81,42 @@ def test_update_agent_state():
 
 from support_agent.customer_memory import (
     MEMORIES,
-    add_memory,
+    add_or_update_memory,
     get_customer_memories,
+    delete_memory,
 )
 
 
-def test_customer_memory():
-
+def test_create_memory():
     MEMORIES.clear()
 
-    add_memory(
+    memory = add_or_update_memory(
+        customer_id="C002",
+        key="preferred_contact_method",
+        value="email",
+        source="customer_statement",
+        confidence=0.95,
+    )
+
+    assert memory.customer_id == "C002"
+    assert memory.key == "preferred_contact_method"
+    assert memory.value == "email"
+
+    assert len(MEMORIES) == 1
+
+
+def test_duplicate_memory_does_not_create_new_record():
+    MEMORIES.clear()
+
+    add_or_update_memory(
+        customer_id="C002",
+        key="preferred_contact_method",
+        value="email",
+        source="customer_statement",
+        confidence=0.90,
+    )
+
+    add_or_update_memory(
         customer_id="C002",
         key="preferred_contact_method",
         value="email",
@@ -101,7 +127,51 @@ def test_customer_memory():
     memories = get_customer_memories("C002")
 
     assert len(memories) == 1
-    assert memories[0].key == (
-        "preferred_contact_method"
-    )
     assert memories[0].value == "email"
+    assert memories[0].confidence == 0.95
+
+
+def test_memory_is_updated_when_value_changes():
+    MEMORIES.clear()
+
+    add_or_update_memory(
+        customer_id="C002",
+        key="preferred_contact_method",
+        value="email",
+        source="customer_statement",
+        confidence=0.90,
+    )
+
+    add_or_update_memory(
+        customer_id="C002",
+        key="preferred_contact_method",
+        value="phone",
+        source="customer_statement",
+        confidence=0.98,
+    )
+
+    memories = get_customer_memories("C002")
+
+    assert len(memories) == 1
+    assert memories[0].value == "phone"
+    assert memories[0].confidence == 0.98
+
+
+def test_delete_memory():
+    MEMORIES.clear()
+
+    add_or_update_memory(
+        customer_id="C002",
+        key="preferred_contact_method",
+        value="email",
+        source="customer_statement",
+        confidence=0.95,
+    )
+
+    deleted = delete_memory(
+        customer_id="C002",
+        key="preferred_contact_method",
+    )
+
+    assert deleted is True
+    assert get_customer_memories("C002") == []
