@@ -193,6 +193,7 @@ def test_higher_priority_source_wins():
         key="preferred_contact_method",
         value="email",
         source=MemorySource.CUSTOMER_STATEMENT,
+        memory_type=MemoryType.PREFERENCE,
         confidence=0.90,
     )
 
@@ -201,6 +202,7 @@ def test_higher_priority_source_wins():
         key="preferred_contact_method",
         value="phone",
         source=MemorySource.SUPPORT_AGENT,
+        memory_type=MemoryType.PREFERENCE,
         confidence=0.99,
     )
 
@@ -218,6 +220,7 @@ def test_higher_confidence_same_source_wins():
         key="preferred_contact_method",
         value="email",
         source=MemorySource.CUSTOMER_STATEMENT,
+        memory_type=MemoryType.PREFERENCE,
         confidence=0.80,
     )
 
@@ -226,6 +229,7 @@ def test_higher_confidence_same_source_wins():
         key="preferred_contact_method",
         value="phone",
         source=MemorySource.CUSTOMER_STATEMENT,
+        memory_type=MemoryType.PREFERENCE,
         confidence=0.95,
     )
 
