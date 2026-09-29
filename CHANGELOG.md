@@ -27,8 +27,12 @@ Next release will be **0.1.5**; subsequent releases increment the patch version 
 - `src/support_agent/prompts.py` with `MEMORY_EXTRACTION_SYSTEM_PROMPT`
 - `src/support_agent/customer_memory.py` with in-memory customer memory store (`add_or_update_memory()`, `get_customer_memories()`, `delete_memory()`)
 - `src/support_agent/memory_extraction.py` with `extract_memory_candidates()` function for LLM-based memory extraction
+- `src/support_agent/memory_policy.py` with `should_store_memory()` policy function and constants (`MIN_MEMORY_CONFIDENCE`, `ALLOWED_MEMORY_KEYS`)
+- `src/support_agent/memory_manager.py` with `process_message_for_memory()` to connect extraction, policy, and storage
 - `tests/test_memory.py` with 8 tests covering user messages, conversation history, clear memory, state extraction, memory creation, duplicate handling, value updates, and memory deletion
 - `tests/test_memory_extraction.py` with 3 tests for `MemoryCandidate` and `MemoryExtractionResult` models
+- `tests/test_memory_policy.py` with 5 tests for `should_store_memory()` policy validation
+- `tests/test_memory_manager.py` with 2 integration tests connecting extraction → policy → storage (using monkeypatched LLM)
 
 ### Fixed
 
