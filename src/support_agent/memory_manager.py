@@ -7,6 +7,7 @@ from support_agent.memory_extraction import (
 from support_agent.memory_policy import (
     should_store_memory,
 )
+from support_agent.models import MemoryType
 
 
 def process_message_for_memory(
@@ -26,6 +27,7 @@ def process_message_for_memory(
             key=candidate.key,
             value=candidate.value,
             source=candidate.source,
+            memory_type=candidate.memory_type,
             confidence=candidate.confidence,
         )
 

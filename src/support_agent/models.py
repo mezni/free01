@@ -10,10 +10,18 @@ class MemorySource(str, Enum):
     IMPORTED_DATA = "imported_data"
 
 
+class MemoryType(str, Enum):
+    PREFERENCE = "preference"
+    PROFILE = "profile"
+    ACCOUNT = "account"
+    PRODUCT = "product"
+
+
 class MemoryCandidate(BaseModel):
     customer_id: str
     key: str
     value: str
+    memory_type: MemoryType
     source: MemorySource
     confidence: float
 
@@ -41,19 +49,23 @@ class CustomerMemory:
         customer_id: str,
         key: str,
         value: str,
+        memory_type: MemoryType,
         source: MemorySource,
         confidence: float,
         created_at: datetime,
         updated_at: datetime,
+        expires_at: datetime | None = None,
     ):
         self.memory_id = memory_id
         self.customer_id = customer_id
         self.key = key
         self.value = value
+        self.memory_type = memory_type
         self.source = source
         self.confidence = confidence
         self.created_at = created_at
         self.updated_at = updated_at
+        self.expires_at = expires_at
 
 
 class MemoryExtractionResult(BaseModel):

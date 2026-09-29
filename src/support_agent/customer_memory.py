@@ -1,6 +1,7 @@
 from datetime import datetime, timezone
 
-from support_agent.models import CustomerMemory, MemorySource
+from support_agent.models import CustomerMemory, MemorySource, MemoryType
+from support_agent.memory_expiration import calculate_expiration
 
 
 MEMORIES: list[CustomerMemory] = []
@@ -25,6 +26,7 @@ def add_or_update_memory(
     key: str,
     value: str,
     source: MemorySource,
+    memory_type: MemoryType,
     confidence: float,
 ) -> CustomerMemory:
 
@@ -35,16 +37,20 @@ def add_or_update_memory(
 
     now = datetime.now(timezone.utc)
 
+    expires_at = calculate_expiration(memory_type)
+
     if existing is None:
         memory = CustomerMemory(
             memory_id=f"M-{len(MEMORIES) + 1}",
             customer_id=customer_id,
             key=key,
             value=value,
+            memory_type=memory_type,
             source=source,
             confidence=confidence,
             created_at=now,
             updated_at=now,
+            expires_at=expires_at,
         )
 
         MEMORIES.append(memory)
@@ -96,11 +102,38 @@ def get_customer_memories(
     customer_id: str,
 ) -> list[CustomerMemory]:
 
+    now = datetime.now(timezone.utc)
+
     return [
         memory
         for memory in MEMORIES
-        if memory.customer_id == customer_id
+        if (
+            memory.customer_id == customer_id
+            and (
+                memory.expires_at is None
+                or memory.expires_at > now
+            )
+        )
     ]
+
+
+def remove_expired_memories() -> int:
+
+    now = datetime.now(timezone.utc)
+
+    expired = [
+        memory
+        for memory in MEMORIES
+        if (
+            memory.expires_at is not None
+            and memory.expires_at <= now
+        )
+    ]
+
+    for memory in expired:
+        MEMORIES.remove(memory)
+
+    return len(expired)
 
 
 def delete_memory(
