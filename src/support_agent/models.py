@@ -49,3 +49,8 @@ class CustomerMemory:
 
 class MemoryExtractionResult(BaseModel):
     memories: list[MemoryCandidate]
+
+
+class RetrievedMemory(BaseModel):
+    memory: CustomerMemory
+    relevance_score: int

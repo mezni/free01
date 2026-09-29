@@ -14,7 +14,19 @@ All notable changes to this project will be documented in this file.
 
 ## Unreleased
 
-Next release will be **0.1.5**; subsequent releases increment the patch version (0.1.6, 0.1.7, ...).
+Next release will be **0.1.6**; subsequent releases increment the patch version (0.1.7, 0.1.8, ...).
+
+## 0.1.6 - 2026-09-28
+
+### Added
+
+- `src/support_agent/models.py` with `RetrievedMemory` model
+- `src/support_agent/memory_retrieval.py` with `retrieve_relevant_memories()` and `format_retrieved_memories()` functions
+- `tests/test_memory_retrieval.py` with 2 tests for memory retrieval and customer isolation
+
+### Fixed
+
+- N/A
 
 ## 0.1.5 - 2026-09-28
 
