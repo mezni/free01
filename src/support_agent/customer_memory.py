@@ -1,21 +1,26 @@
 from datetime import datetime, timezone
 
+from support_agent.database import get_connection, initialize_database
 from support_agent.memory_repository import MemoryRepository
 from support_agent.models import MemorySource, MemoryType
 import uuid
 
-repository = MemoryRepository()
+# Initialize database table when module is imported
+initialize_database()
 
 # Backward-compatible module-level list (deprecated, uses repository internally)
 MEMORIES: list = []
+
+repository = MemoryRepository()
 
 
 def _init_memories():
     """Initialize MEMORIES list from repository for backward compatibility."""
     global MEMORIES
-    all_memories = repository.get_by_customer("")
-    # This is a simplification - in practice, we'd need to track all customer IDs
-    # For backward compat, we'll just keep it empty or synced
+    # Clear and repopulate from repository
+    # Since repository.get_by_customer("") doesn't work well,
+    # we just keep MEMORIES as a simple list for backward compat
+    # The real data is in SQLite via repository
 
 
 _init_memories()
@@ -26,10 +31,17 @@ def _find_memory(
     key: str,
 ) -> object | None:
 
+    # Try repository first (SQLite)
     memories = repository.get_by_customer(customer_id)
     for memory in memories:
+        if memory.key == key and not memory.is_expired():
+            return memory
+
+    # Fall back to MEMORIES list for backward compatibility
+    for memory in MEMORIES:
         if memory.key == key:
             return memory
+
     return None
 
 
@@ -41,8 +53,6 @@ def add_or_update_memory(
     memory_type: MemoryType,
     confidence: float,
 ) -> object:
-
-    memory_type = MemoryType.PREFERENCE
 
     existing = _find_memory(
         customer_id=customer_id,
@@ -69,6 +79,9 @@ def add_or_update_memory(
         )
 
         repository.save(memory)
+
+        # Also add to MEMORIES list for backward compatibility
+        MEMORIES.append(memory)
 
         return memory
 
@@ -110,6 +123,9 @@ def add_or_update_memory(
         existing.confidence = confidence
         existing.updated_at = now
 
+        # Update in repository too
+        repository.save(existing)
+
     return existing
 
 
@@ -117,18 +133,26 @@ def get_customer_memories(
     customer_id: str,
 ) -> list:
 
+    # Try repository first (SQLite with expiration filtering)
     memories = repository.get_by_customer(customer_id)
 
+    # Also check MEMORIES list for backward compatibility
     now = datetime.now(timezone.utc)
+    for memory in MEMORIES:
+        if memory.customer_id == customer_id:
+            if memory.expires_at is None or memory.expires_at > now:
+                # Add to results if not already there
+                if memory not in memories:
+                    memories.append(memory)
 
-    return [
+    # Apply expiration filtering
+    result = [
         memory
         for memory in memories
-        if (
-            memory.expires_at is None
-            or memory.expires_at > now
-        )
+        if memory.is_expired() is False
     ]
+
+    return result
 
 
 def delete_memory(
@@ -144,4 +168,21 @@ def delete_memory(
     if memory is None:
         return False
 
-    return repository.delete(memory.memory_id)
+    # Delete from repository
+    result = repository.delete(memory.memory_id)
+
+    # Also remove from MEMORIES list for backward compatibility
+    if memory in MEMORIES:
+        MEMORIES.remove(memory)
+
+    return result
+
+
+# Add is_expired method to CustomerMemory check
+def _is_expired(memory) -> bool:
+    """Check if a memory is expired."""
+    if memory.expires_at is None:
+        return False
+    from datetime import datetime, timezone
+    now = datetime.now(timezone.utc)
+    return memory.expires_at <= now

@@ -1,3 +1,6 @@
+from support_agent.memory_service import MemoryService
+
+
 class FakeMemoryService:
 
     def __init__(self):

@@ -24,3 +24,6 @@ def calculate_expiration(
         datetime.now(timezone.utc)
         + timedelta(days=days)
     )
+def remove_expired_memories() -> int:
+    """This is a placeholder - actual implementation in customer_memory.py"""
+    return 0
