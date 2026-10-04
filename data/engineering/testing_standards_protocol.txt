@@ -1,0 +1,272 @@
+TESTING STANDARDS PROTOCOL
+==========================
+
+Nexus Communications · Engineering
+
+------------------------------------------------------------------------------------------------
+Document Name:        Testing Standards Protocol
+Company:              Nexus Communications
+Company ID:           nexuscomms
+Department:           Engineering
+Industry:             telco
+Version:              2.5
+Audience:             External auditors and regulators
+Privacy Level:        Internal
+Date of Creation:     2026-10-04
+Date of Update:       2026-10-04
+Format:               TEXT
+Estimated Pages:      7
+------------------------------------------------------------------------------------------------
+
+Roles and Responsibilities
+--------------------------
+Departments that consume cost per unit are notified before the figures are restated. Where
+supplier engagement cannot be completed as described, the fallback path is recorded in the
+process record. The standing target for cost per unit is agreed with the Process Manager and
+reported each year. Exceptions require written approval from the Process Manager and are logged
+with a review date. Access is granted on a least-privilege basis and recertified every year.
+
+The Process Manager reviews first-time-right rate alongside financial results to confirm the
+approval workflow assumptions hold. Reconciliation of first-time-right rate is performed before
+the year reporting cycle is closed. Personnel joining Engineering complete this training before
+receiving production credentials. The Process Manager is accountable for confirming that this
+document is followed in practice. Ownership rests with the Engineering head, who may delegate
+day-to-day operation to a named owner. Business continuity plans assume the Testing capability
+can be restored within year. The Process Manager may suspend the operational register entries
+without notice where risk warrants it.
+
+
+Definitions and Abbreviations
+-----------------------------
+Where this document conflicts with legislation, the stricter requirement always prevails.
+Capacity to absorb throughput is reassessed every year and signed off by the Process Manager. A
+change request raised outside Engineering is handed to the Process Manager rather than handled
+locally. Commercial terms relating to change request may not be varied without written sign-off.
+Training is mandatory before production access is granted to the Testing environment. Applies to
+all staff, contractors and automated systems that support the Testing lifecycle. New starters
+shadow an experienced owner until they can process a change request unaided.
+
+Third parties are bound by these terms through contractual clauses in their statement of work.
+Teams outside Engineering consume the process record read-only; changes are requested through
+the Process Manager. Controls are mapped to the wider assurance framework to avoid duplicated
+effort. Material changes to telco regulation are assessed for impact within year. Templates for
+operational task are versioned centrally so that Engineering does not maintain local copies.
+Clauses covering operational task are reviewed by Engineering before any renewal is negotiated.
+
+Systems that process Testing data must enforce encryption at rest and in transit. Historical
+records remain queryable for audit purposes for the full retention window. Where service request
+is urgent, the shortened route is used and logged for review afterwards. Failures exceeding the
+critical impact threshold trigger a formal incident record. Escalation proceeds to the Process
+Manager when the critical threshold is not restored in time. Disputes about service request are
+settled by reference to the operational register and the recorded decision. Each service request
+must be recorded in the operational register before it is presented to a customer.
+
+
+Policy Statement
+----------------
+Metrics covering availability and error rate are published to stakeholders each year.
+Customer-facing commitments made about supplier engagement are traceable to a clause in the
+control log. Performance against the commitments in this document is reported to the Process
+Manager each year. Changes to telco practice are evaluated by the Engineering change advisory
+board. Approval for any change to the control log is granted by the Process Manager and logged
+with a reference. Any correction to the control log is versioned, with the superseded version
+retained for audit.
+
+Automated checks run continuously and alert the on-call engineer when thresholds are breached.
+Evidence of testing is captured automatically and attached to the control record. Any deviation
+must be raised within one business day through the Testing intake channel. Engineering maintains
+this standard on behalf of Nexus Communications to keep telco operations defensible. Every
+control described here is reviewed at least once per year by an independent reviewer.
+Corrections to throughput are explained in the commentary that accompanies the control log.
+
+Reconciliation of cost per unit is performed before the year reporting cycle is closed. Access
+is granted on a least-privilege basis and recertified every year. Controls are mapped to the
+wider assurance framework to avoid duplicated effort. The Process Manager may suspend the
+operational register entries without notice where risk warrants it.
+
+Control                           Owner                             Frequency
+----------------------------------------------------------------------------------------------------
+Access recertification            Service Owner                     Each year
+Change approval                   Process Manager                   Per change
+Backup restore test               Control Owner                     Each year
+Log retention review              Compliance Officer                Each year
+----------------------------------------------------------------------------------------------------
+
+
+Scope and Applicability
+-----------------------
+Each approval workflow must be recorded in the control log before it is presented to a customer.
+The Process Manager is accountable for confirming that this document is followed in practice.
+Changes to telco practice are evaluated by the Engineering change advisory board. Personnel
+joining Engineering complete this training before receiving production credentials. Performance
+against the commitments in this document is reported to the Process Manager each year. Business
+continuity plans assume the Testing capability can be restored within year. Training is
+mandatory before production access is granted to the Testing environment.
+
+Ownership rests with the Engineering head, who may delegate day-to-day operation to a named
+owner. A service request raised outside Engineering is handed to the Process Manager rather than
+handled locally. Disputes about service request are settled by reference to the operational
+register and the recorded decision. Failures exceeding the critical impact threshold trigger a
+formal incident record. Customer-facing commitments made about service request are traceable to
+a clause in the operational register. Every control described here is reviewed at least once per
+year by an independent reviewer.
+
+Metric                            Target                            Escalation if missed
+----------------------------------------------------------------------------------------------------
+Availability                      99.5%                             Two consecutive year
+Change lead time                  Five business days                Any P1 change
+Evidence completeness             100%                              Any gap at audit
+Training completion               100%                              Before access grant
+----------------------------------------------------------------------------------------------------
+
+
+Review and Revision History
+---------------------------
+Approval for any change to the operational register is granted by the Process Manager and logged
+with a reference. Where this document conflicts with legislation, the stricter requirement
+always prevails. Metrics covering availability and error rate are published to stakeholders each
+year. Corrections to first-time-right rate are explained in the commentary that accompanies the
+operational register. New starters shadow an experienced owner until they can process a supplier
+engagement unaided.
+
+Evidence of testing is captured automatically and attached to the control record. The standing
+target for cost per unit is agreed with the Process Manager and reported each year. Commercial
+terms relating to change request may not be varied without written sign-off. Exceptions require
+written approval from the Process Manager and are logged with a review date. Escalation proceeds
+to the Process Manager when the critical threshold is not restored in time.
+
+Third parties are bound by these terms through contractual clauses in their statement of work.
+Automated checks run continuously and alert the on-call engineer when thresholds are breached.
+Material changes to telco regulation are assessed for impact within year. Clauses covering
+approval workflow are reviewed by Engineering before any renewal is negotiated. Engineering
+maintains this standard on behalf of Nexus Communications to keep telco operations defensible.
+Departments that consume cost per unit are notified before the figures are restated.
+
+
+Records and Retention
+---------------------
+Systems that process Testing data must enforce encryption at rest and in transit. Applies to all
+staff, contractors and automated systems that support the Testing lifecycle. Where change
+request is urgent, the shortened route is used and logged for review afterwards. Where change
+request cannot be completed as described, the fallback path is recorded in the operational
+register. Any correction to the operational register is versioned, with the superseded version
+retained for audit.
+
+The Process Manager reviews backlog age alongside financial results to confirm the customer
+commitment assumptions hold. Teams outside Engineering consume the control log read-only;
+changes are requested through the Process Manager. Data used to calculate backlog age is sourced
+from the ticketing platform and is not adjusted without approval. Templates for customer
+commitment are versioned centrally so that Engineering does not maintain local copies. Any
+deviation must be raised within one business day through the Testing intake channel. Historical
+records remain queryable for audit purposes for the full retention window. Capacity to absorb
+backlog age is reassessed every year and signed off by the Process Manager.
+
+Systems that process Testing data must enforce encryption at rest and in transit. Controls are
+mapped to the wider assurance framework to avoid duplicated effort. Templates for approval
+workflow are versioned centrally so that Engineering does not maintain local copies. Evidence of
+compliance is retained for a minimum of seven years in the central records system. Departments
+that consume cost per unit are notified before the figures are restated.
+
+
+Training and Awareness
+----------------------
+Where this document conflicts with legislation, the stricter requirement always prevails. Data
+used to calculate cost per unit is sourced from the ticketing platform and is not adjusted
+without approval. Each approval workflow must be recorded in the control log before it is
+presented to a customer. Capacity to absorb cost per unit is reassessed every year and signed
+off by the Process Manager. The Process Manager reviews cost per unit alongside financial
+results to confirm the approval workflow assumptions hold. Any correction to the control log is
+versioned, with the superseded version retained for audit. Changes to telco practice are
+evaluated by the Engineering change advisory board.
+
+Commercial terms relating to supplier engagement may not be varied without written sign-off.
+Corrections to cost per unit are explained in the commentary that accompanies the control log.
+Material changes to telco regulation are assessed for impact within year. Training is mandatory
+before production access is granted to the Testing environment.
+
+Approval for any change to the control log is granted by the Process Manager and logged with a
+reference. Third parties are bound by these terms through contractual clauses in their statement
+of work. Automated checks run continuously and alert the on-call engineer when thresholds are
+breached. Escalation proceeds to the Process Manager when the critical threshold is not restored
+in time.
+
+Metric                            Target                            Escalation if missed
+----------------------------------------------------------------------------------------------------
+Availability                      99.5%                             Two consecutive year
+Change lead time                  Five business days                Any P1 change
+Evidence completeness             100%                              Any gap at audit
+Training completion               100%                              Before access grant
+----------------------------------------------------------------------------------------------------
+
+
+Controls and Requirements
+-------------------------
+New starters shadow an experienced owner until they can process a approval workflow unaided.
+Exceptions require written approval from the Process Manager and are logged with a review date.
+Business continuity plans assume the Testing capability can be restored within year. Historical
+records remain queryable for audit purposes for the full retention window.
+
+Clauses covering change request are reviewed by Engineering before any renewal is negotiated.
+Personnel joining Engineering complete this training before receiving production credentials.
+Failures exceeding the critical impact threshold trigger a formal incident record. Evidence of
+testing is captured automatically and attached to the control record.
+
+The Process Manager may suspend the process record entries without notice where risk warrants
+it. Any deviation must be raised within one business day through the Testing intake channel.
+Teams outside Engineering consume the process record read-only; changes are requested through
+the Process Manager. Engineering maintains this standard on behalf of Nexus Communications to
+keep telco operations defensible. Customer-facing commitments made about service request are
+traceable to a clause in the process record. Reconciliation of first-time-right rate is
+performed before the year reporting cycle is closed. Where service request cannot be completed
+as described, the fallback path is recorded in the process record.
+
+Control                           Owner                             Frequency
+----------------------------------------------------------------------------------------------------
+Access recertification            Service Owner                     Each year
+Change approval                   Process Manager                   Per change
+Backup restore test               Control Owner                     Each year
+Log retention review              Compliance Officer                Each year
+----------------------------------------------------------------------------------------------------
+
+
+Exceptions and Waivers
+----------------------
+Performance against the commitments in this document is reported to the Process Manager each
+year. The standing target for cost per unit is agreed with the Process Manager and reported each
+year. Where supplier engagement is urgent, the shortened route is used and logged for review
+afterwards. A supplier engagement raised outside Engineering is handed to the Process Manager
+rather than handled locally. Disputes about supplier engagement are settled by reference to the
+process record and the recorded decision. Every control described here is reviewed at least once
+per year by an independent reviewer. Access is granted on a least-privilege basis and
+recertified every year.
+
+Every control described here is reviewed at least once per year by an independent reviewer.
+Where service request is urgent, the shortened route is used and logged for review afterwards.
+Each service request must be recorded in the operational register before it is presented to a
+customer. Approval for any change to the operational register is granted by the Process Manager
+and logged with a reference. Evidence of compliance is retained for a minimum of seven years in
+the central records system. Customer-facing commitments made about service request are traceable
+to a clause in the operational register. Changes to telco practice are evaluated by the
+Engineering change advisory board.
+
+The Process Manager is accountable for confirming that this document is followed in practice.
+Historical records remain queryable for audit purposes for the full retention window. Any
+deviation must be raised within one business day through the Testing intake channel.
+Reconciliation of first-time-right rate is performed before the year reporting cycle is closed.
+
+
+Monitoring and Reporting
+------------------------
+Metrics covering availability and error rate are published to stakeholders each year. The
+Process Manager may suspend the process record entries without notice where risk warrants it.
+Training is mandatory before production access is granted to the Testing environment. Systems
+that process Testing data must enforce encryption at rest and in transit. Disputes about
+supplier engagement are settled by reference to the process record and the recorded decision.
+Departments that consume cost per unit are notified before the figures are restated. The
+standing target for cost per unit is agreed with the Process Manager and reported each year.
+
+Corrections to cost per unit are explained in the commentary that accompanies the operational
+register. Data used to calculate cost per unit is sourced from the ticketing platform and is not
+adjusted without approval. Material changes to telco regulation are assessed for impact within
+year. Teams outside Engineering consume the operational register read-only; changes are
+requested through the Process Manager.

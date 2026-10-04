@@ -1,0 +1,238 @@
+SERVICE DELIVERY CHARTER
+========================
+
+Nexus Communications · Network Operations
+
+------------------------------------------------------------------------------------------------
+Document Name:        Service Delivery Charter
+Company:              Nexus Communications
+Company ID:           nexuscomms
+Department:           Network Operations
+Industry:             telco
+Version:              1.2
+Audience:             External auditors and regulators
+Privacy Level:        Restricted
+Date of Creation:     2026-10-04
+Date of Update:       2026-10-04
+Format:               TEXT
+Estimated Pages:      6
+------------------------------------------------------------------------------------------------
+
+Purpose and Objectives
+----------------------
+Applies to all staff, contractors and automated systems that support the Service Delivery
+lifecycle. Systems that process Service Delivery data must enforce encryption at rest and in
+transit. Templates for supplier engagement are versioned centrally so that Network Operations
+does not maintain local copies. Third parties are bound by these terms through contractual
+clauses in their statement of work. Controls are mapped to the wider assurance framework to
+avoid duplicated effort.
+
+Disputes about operational task are settled by reference to the process record and the recorded
+decision. Reconciliation of throughput is performed before the month reporting cycle is closed.
+Access is granted on a least-privilege basis and recertified every month. Personnel joining
+Network Operations complete this training before receiving production credentials.
+
+Role                              Responsibility                    Escalation
+----------------------------------------------------------------------------------------------------
+Control Owner                     Operates and evidences the contr  Process Manager
+Process Manager                   Approves changes and exceptions   Risk Lead
+Risk Lead                         Maintains the risk register       Compliance Officer
+Compliance Officer                Reports to stakeholders           Executive sponsor
+----------------------------------------------------------------------------------------------------
+
+
+Standard Operating Procedure
+----------------------------
+The standing target for first-time-right rate is agreed with the Process Manager and reported
+each month. Capacity to absorb first-time-right rate is reassessed every month and signed off by
+the Process Manager. A approval workflow raised outside Network Operations is handed to the
+Process Manager rather than handled locally. New starters shadow an experienced owner until they
+can process a approval workflow unaided. Training is mandatory before production access is
+granted to the Service Delivery environment. Customer-facing commitments made about approval
+workflow are traceable to a clause in the process record. Network Operations maintains this
+standard on behalf of Nexus Communications to keep telco operations defensible.
+
+Corrections to cost per unit are explained in the commentary that accompanies the operational
+register. Changes to telco practice are evaluated by the Network Operations change advisory
+board. Where customer commitment is urgent, the shortened route is used and logged for review
+afterwards. Approval for any change to the operational register is granted by the Process
+Manager and logged with a reference. Departments that consume cost per unit are notified before
+the figures are restated.
+
+Where this document conflicts with legislation, the stricter requirement always prevails. The
+Process Manager is accountable for confirming that this document is followed in practice.
+Ownership rests with the Network Operations head, who may delegate day-to-day operation to a
+named owner. Data used to calculate first-time-right rate is sourced from the change management
+log and is not adjusted without approval. Where supplier engagement cannot be completed as
+described, the fallback path is recorded in the process record. Business continuity plans assume
+the Service Delivery capability can be restored within month.
+
+Control                           Owner                             Frequency
+----------------------------------------------------------------------------------------------------
+Access recertification            Service Owner                     Each month
+Change approval                   Process Manager                   Per change
+Backup restore test               Control Owner                     Each month
+Log retention review              Compliance Officer                Each month
+----------------------------------------------------------------------------------------------------
+
+
+Definitions and Abbreviations
+-----------------------------
+Metrics covering availability and error rate are published to stakeholders each month. Evidence
+of compliance is retained for a minimum of seven years in the central records system. Clauses
+covering approval workflow are reviewed by Network Operations before any renewal is negotiated.
+Every control described here is reviewed at least once per month by an independent reviewer.
+Escalation proceeds to the Process Manager when the critical threshold is not restored in time.
+Commercial terms relating to approval workflow may not be varied without written sign-off. The
+Process Manager reviews backlog age alongside financial results to confirm the approval workflow
+assumptions hold.
+
+Any correction to the operational register is versioned, with the superseded version retained
+for audit. Teams outside Network Operations consume the operational register read-only; changes
+are requested through the Process Manager. Performance against the commitments in this document
+is reported to the Process Manager each month. Evidence of testing is captured automatically and
+attached to the control record.
+
+The Process Manager may suspend the operational register entries without notice where risk
+warrants it. Any deviation must be raised within one business day through the Service Delivery
+intake channel. Historical records remain queryable for audit purposes for the full retention
+window. Exceptions require written approval from the Process Manager and are logged with a
+review date. Failures exceeding the critical impact threshold trigger a formal incident record.
+
+
+Risk Assessment
+---------------
+Escalation proceeds to the Process Manager when the critical threshold is not restored in time.
+Capacity to absorb cost per unit is reassessed every month and signed off by the Process
+Manager. Systems that process Service Delivery data must enforce encryption at rest and in
+transit. Teams outside Network Operations consume the operational register read-only; changes
+are requested through the Process Manager. Applies to all staff, contractors and automated
+systems that support the Service Delivery lifecycle. Metrics covering availability and error
+rate are published to stakeholders each month.
+
+Customer-facing commitments made about service request are traceable to a clause in the process
+record. Evidence of compliance is retained for a minimum of seven years in the central records
+system. Changes to telco practice are evaluated by the Network Operations change advisory board.
+Ownership rests with the Network Operations head, who may delegate day-to-day operation to a
+named owner. A service request raised outside Network Operations is handed to the Process
+Manager rather than handled locally. Exceptions require written approval from the Process
+Manager and are logged with a review date.
+
+Performance against the commitments in this document is reported to the Process Manager each
+month. New starters shadow an experienced owner until they can process a approval workflow
+unaided. Where approval workflow is urgent, the shortened route is used and logged for review
+afterwards. Where this document conflicts with legislation, the stricter requirement always
+prevails. Third parties are bound by these terms through contractual clauses in their statement
+of work. Any deviation must be raised within one business day through the Service Delivery
+intake channel. Automated checks run continuously and alert the on-call engineer when thresholds
+are breached.
+
+Stage                             Trigger                           Target
+----------------------------------------------------------------------------------------------------
+Detection                         Automated alert or report         month review
+Triage                            Initial impact assessment         One business day
+Containment                       critical impact confirmed         Immediate
+Review                            Service restored                  Within month
+----------------------------------------------------------------------------------------------------
+
+
+Controls and Requirements
+-------------------------
+The Process Manager reviews first-time-right rate alongside financial results to confirm the
+operational task assumptions hold. Approval for any change to the process record is granted by
+the Process Manager and logged with a reference. Data used to calculate first-time-right rate is
+sourced from the change management log and is not adjusted without approval. Templates for
+operational task are versioned centrally so that Network Operations does not maintain local
+copies. Network Operations maintains this standard on behalf of Nexus Communications to keep
+telco operations defensible.
+
+Personnel joining Network Operations complete this training before receiving production
+credentials. Failures exceeding the critical impact threshold trigger a formal incident record.
+Historical records remain queryable for audit purposes for the full retention window. Material
+changes to telco regulation are assessed for impact within month.
+
+Metric                            Target                            Escalation if missed
+----------------------------------------------------------------------------------------------------
+Availability                      99.5%                             Two consecutive month
+Change lead time                  Five business days                Any P1 change
+Evidence completeness             100%                              Any gap at audit
+Training completion               100%                              Before access grant
+----------------------------------------------------------------------------------------------------
+
+
+Training and Awareness
+----------------------
+Any correction to the operational register is versioned, with the superseded version retained
+for audit. Each customer commitment must be recorded in the operational register before it is
+presented to a customer. Reconciliation of cost per unit is performed before the month reporting
+cycle is closed. Clauses covering customer commitment are reviewed by Network Operations before
+any renewal is negotiated. Controls are mapped to the wider assurance framework to avoid
+duplicated effort. Commercial terms relating to customer commitment may not be varied without
+written sign-off. Training is mandatory before production access is granted to the Service
+Delivery environment.
+
+The standing target for cost per unit is agreed with the Process Manager and reported each
+month. Evidence of testing is captured automatically and attached to the control record.
+Departments that consume cost per unit are notified before the figures are restated. The Process
+Manager is accountable for confirming that this document is followed in practice. The Process
+Manager may suspend the control log entries without notice where risk warrants it.
+
+Metric                            Target                            Escalation if missed
+----------------------------------------------------------------------------------------------------
+Availability                      99.5%                             Two consecutive month
+Change lead time                  Five business days                Any P1 change
+Evidence completeness             100%                              Any gap at audit
+Training completion               100%                              Before access grant
+----------------------------------------------------------------------------------------------------
+
+
+Supporting Notes
+----------------
+Disputes about service request are settled by reference to the operational register and the
+recorded decision. Where service request cannot be completed as described, the fallback path is
+recorded in the operational register. Corrections to backlog age are explained in the commentary
+that accompanies the operational register. Every control described here is reviewed at least
+once per month by an independent reviewer. Business continuity plans assume the Service Delivery
+capability can be restored within month.
+
+Business continuity plans assume the Service Delivery capability can be restored within month.
+The Process Manager is accountable for confirming that this document is followed in practice.
+Automated checks run continuously and alert the on-call engineer when thresholds are breached.
+Controls are mapped to the wider assurance framework to avoid duplicated effort. Teams outside
+Network Operations consume the operational register read-only; changes are requested through the
+Process Manager. Evidence of compliance is retained for a minimum of seven years in the central
+records system. Exceptions require written approval from the Process Manager and are logged with
+a review date.
+
+Changes to telco practice are evaluated by the Network Operations change advisory board.
+Escalation proceeds to the Process Manager when the critical threshold is not restored in time.
+Any deviation must be raised within one business day through the Service Delivery intake
+channel. Disputes about approval workflow are settled by reference to the operational register
+and the recorded decision.
+
+
+Policy Statement
+----------------
+Data used to calculate throughput is sourced from the change management log and is not adjusted
+without approval. Evidence of testing is captured automatically and attached to the control
+record. Every control described here is reviewed at least once per month by an independent
+reviewer. Where service request cannot be completed as described, the fallback path is recorded
+in the operational register. Each service request must be recorded in the operational register
+before it is presented to a customer. The Process Manager may suspend the operational register
+entries without notice where risk warrants it.
+
+Failures exceeding the critical impact threshold trigger a formal incident record. The Process
+Manager reviews cost per unit alongside financial results to confirm the operational task
+assumptions hold. Network Operations maintains this standard on behalf of Nexus Communications
+to keep telco operations defensible. Customer-facing commitments made about operational task are
+traceable to a clause in the control log. Access is granted on a least-privilege basis and
+recertified every month. Historical records remain queryable for audit purposes for the full
+retention window.
+
+Role                              Responsibility                    Escalation
+----------------------------------------------------------------------------------------------------
+Control Owner                     Operates and evidences the contr  Process Manager
+Process Manager                   Approves changes and exceptions   Risk Lead
+Risk Lead                         Maintains the risk register       Compliance Officer
+Compliance Officer                Reports to stakeholders           Executive sponsor
+----------------------------------------------------------------------------------------------------

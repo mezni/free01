@@ -1,0 +1,235 @@
+PERFORMANCE MONITORING CHARTER
+==============================
+
+Nexus Communications · Network Operations
+
+------------------------------------------------------------------------------------------------
+Document Name:        Performance Monitoring Charter
+Company:              Nexus Communications
+Company ID:           nexuscomms
+Department:           Network Operations
+Industry:             telco
+Version:              3.2
+Audience:             New joiners during onboarding
+Privacy Level:        Internal
+Date of Creation:     2026-10-04
+Date of Update:       2026-10-04
+Format:               TEXT
+Estimated Pages:      6
+------------------------------------------------------------------------------------------------
+
+Purpose and Objectives
+----------------------
+Approval for any change to the control log is granted by the Compliance Officer and logged with
+a reference. Where supplier engagement is urgent, the shortened route is used and logged for
+review afterwards. Where supplier engagement cannot be completed as described, the fallback path
+is recorded in the control log. Capacity to absorb first-time-right rate is reassessed every
+year and signed off by the Compliance Officer. Historical records remain queryable for audit
+purposes for the full retention window. Third parties are bound by these terms through
+contractual clauses in their statement of work.
+
+Access is granted on a least-privilege basis and recertified every year. Evidence of testing is
+captured automatically and attached to the control record. Reconciliation of backlog age is
+performed before the year reporting cycle is closed. The standing target for backlog age is
+agreed with the Compliance Officer and reported each year. The Compliance Officer reviews
+backlog age alongside financial results to confirm the supplier engagement assumptions hold. The
+Compliance Officer is accountable for confirming that this document is followed in practice.
+
+
+Monitoring and Reporting
+------------------------
+Escalation proceeds to the Compliance Officer when the P1 threshold is not restored in time.
+Clauses covering operational task are reviewed by Network Operations before any renewal is
+negotiated. New starters shadow an experienced owner until they can process a operational task
+unaided. Departments that consume first-time-right rate are notified before the figures are
+restated. Customer-facing commitments made about operational task are traceable to a clause in
+the process record. Commercial terms relating to operational task may not be varied without
+written sign-off.
+
+Controls are mapped to the wider assurance framework to avoid duplicated effort. Each supplier
+engagement must be recorded in the operational register before it is presented to a customer.
+Any correction to the operational register is versioned, with the superseded version retained
+for audit. The Compliance Officer may suspend the operational register entries without notice
+where risk warrants it.
+
+Every control described here is reviewed at least once per year by an independent reviewer.
+Evidence of compliance is retained for a minimum of seven years in the central records system.
+Exceptions require written approval from the Compliance Officer and are logged with a review
+date. Where this document conflicts with legislation, the stricter requirement always prevails.
+Data used to calculate first-time-right rate is sourced from the ticketing platform and is not
+adjusted without approval.
+
+
+Escalation and Incident Handling
+--------------------------------
+Business continuity plans assume the Performance Monitoring capability can be restored within
+year. Personnel joining Network Operations complete this training before receiving production
+credentials. Disputes about service request are settled by reference to the control log and the
+recorded decision. Training is mandatory before production access is granted to the Performance
+Monitoring environment. Network Operations maintains this standard on behalf of Nexus
+Communications to keep telco operations defensible. Templates for service request are versioned
+centrally so that Network Operations does not maintain local copies. Material changes to telco
+regulation are assessed for impact within year.
+
+Systems that process Performance Monitoring data must enforce encryption at rest and in transit.
+A approval workflow raised outside Network Operations is handed to the Compliance Officer rather
+than handled locally. Any deviation must be raised within one business day through the
+Performance Monitoring intake channel. Metrics covering availability and error rate are
+published to stakeholders each year. Teams outside Network Operations consume the process record
+read-only; changes are requested through the Compliance Officer. Applies to all staff,
+contractors and automated systems that support the Performance Monitoring lifecycle. Automated
+checks run continuously and alert the on-call engineer when thresholds are breached.
+
+Control                           Owner                             Frequency
+----------------------------------------------------------------------------------------------------
+Access recertification            Service Owner                     Each year
+Change approval                   Process Manager                   Per change
+Backup restore test               Control Owner                     Each year
+Log retention review              Compliance Officer                Each year
+----------------------------------------------------------------------------------------------------
+
+
+Controls and Requirements
+-------------------------
+Network Operations maintains this standard on behalf of Nexus Communications to keep telco
+operations defensible. Approval for any change to the control log is granted by the Compliance
+Officer and logged with a reference. Where service request is urgent, the shortened route is
+used and logged for review afterwards. Reconciliation of first-time-right rate is performed
+before the year reporting cycle is closed. Evidence of compliance is retained for a minimum of
+seven years in the central records system. New starters shadow an experienced owner until they
+can process a service request unaided. Clauses covering service request are reviewed by Network
+Operations before any renewal is negotiated.
+
+Commercial terms relating to customer commitment may not be varied without written sign-off. The
+standing target for throughput is agreed with the Compliance Officer and reported each year.
+Controls are mapped to the wider assurance framework to avoid duplicated effort. Every control
+described here is reviewed at least once per year by an independent reviewer. Performance
+against the commitments in this document is reported to the Compliance Officer each year.
+
+Control                           Owner                             Frequency
+----------------------------------------------------------------------------------------------------
+Access recertification            Service Owner                     Each year
+Change approval                   Process Manager                   Per change
+Backup restore test               Control Owner                     Each year
+Log retention review              Compliance Officer                Each year
+----------------------------------------------------------------------------------------------------
+
+
+Standard Operating Procedure
+----------------------------
+Each service request must be recorded in the process record before it is presented to a
+customer. Capacity to absorb cost per unit is reassessed every year and signed off by the
+Compliance Officer. Data used to calculate cost per unit is sourced from the ticketing platform
+and is not adjusted without approval. The Compliance Officer is accountable for confirming that
+this document is followed in practice. Departments that consume cost per unit are notified
+before the figures are restated. The Compliance Officer may suspend the process record entries
+without notice where risk warrants it.
+
+Business continuity plans assume the Performance Monitoring capability can be restored within
+year. Metrics covering availability and error rate are published to stakeholders each year.
+Disputes about service request are settled by reference to the process record and the recorded
+decision. Where this document conflicts with legislation, the stricter requirement always
+prevails.
+
+Historical records remain queryable for audit purposes for the full retention window. Any
+deviation must be raised within one business day through the Performance Monitoring intake
+channel. Systems that process Performance Monitoring data must enforce encryption at rest and in
+transit. The Compliance Officer reviews cost per unit alongside financial results to confirm the
+approval workflow assumptions hold. A approval workflow raised outside Network Operations is
+handed to the Compliance Officer rather than handled locally.
+
+Metric                            Target                            Escalation if missed
+----------------------------------------------------------------------------------------------------
+Availability                      99.5%                             Two consecutive year
+Change lead time                  Five business days                Any P1 change
+Evidence completeness             100%                              Any gap at audit
+Training completion               100%                              Before access grant
+----------------------------------------------------------------------------------------------------
+
+
+Risk Assessment
+---------------
+Access is granted on a least-privilege basis and recertified every year. Changes to telco
+practice are evaluated by the Network Operations change advisory board. Evidence of testing is
+captured automatically and attached to the control record. Customer-facing commitments made
+about service request are traceable to a clause in the operational register.
+
+Corrections to cost per unit are explained in the commentary that accompanies the process
+record. Personnel joining Network Operations complete this training before receiving production
+credentials. Where supplier engagement cannot be completed as described, the fallback path is
+recorded in the process record. Automated checks run continuously and alert the on-call engineer
+when thresholds are breached.
+
+Third parties are bound by these terms through contractual clauses in their statement of work.
+Failures exceeding the P1 impact threshold trigger a formal incident record. Training is
+mandatory before production access is granted to the Performance Monitoring environment. Teams
+outside Network Operations consume the operational register read-only; changes are requested
+through the Compliance Officer. Exceptions require written approval from the Compliance Officer
+and are logged with a review date.
+
+
+Roles and Responsibilities
+--------------------------
+Any correction to the control log is versioned, with the superseded version retained for audit.
+Applies to all staff, contractors and automated systems that support the Performance Monitoring
+lifecycle. Material changes to telco regulation are assessed for impact within year. Templates
+for customer commitment are versioned centrally so that Network Operations does not maintain
+local copies. Escalation proceeds to the Compliance Officer when the P1 threshold is not
+restored in time.
+
+Templates for service request are versioned centrally so that Network Operations does not
+maintain local copies. Capacity to absorb throughput is reassessed every year and signed off by
+the Compliance Officer. Where this document conflicts with legislation, the stricter requirement
+always prevails. Network Operations maintains this standard on behalf of Nexus Communications to
+keep telco operations defensible. Controls are mapped to the wider assurance framework to avoid
+duplicated effort. Ownership rests with the Network Operations head, who may delegate day-to-day
+operation to a named owner.
+
+
+Definitions and Abbreviations
+-----------------------------
+Metrics covering availability and error rate are published to stakeholders each year. The
+Compliance Officer reviews throughput alongside financial results to confirm the operational
+task assumptions hold. Personnel joining Network Operations complete this training before
+receiving production credentials. Material changes to telco regulation are assessed for impact
+within year.
+
+Each operational task must be recorded in the operational register before it is presented to a
+customer. Corrections to backlog age are explained in the commentary that accompanies the
+operational register. Data used to calculate backlog age is sourced from the ticketing platform
+and is not adjusted without approval. A operational task raised outside Network Operations is
+handed to the Compliance Officer rather than handled locally.
+
+The Compliance Officer may suspend the process record entries without notice where risk warrants
+it. Exceptions require written approval from the Compliance Officer and are logged with a review
+date. Access is granted on a least-privilege basis and recertified every year. Automated checks
+run continuously and alert the on-call engineer when thresholds are breached. Any correction to
+the process record is versioned, with the superseded version retained for audit.
+
+Role                              Responsibility                    Escalation
+----------------------------------------------------------------------------------------------------
+Control Owner                     Operates and evidences the contr  Process Manager
+Process Manager                   Approves changes and exceptions   Risk Lead
+Risk Lead                         Maintains the risk register       Compliance Officer
+Compliance Officer                Reports to stakeholders           Executive sponsor
+----------------------------------------------------------------------------------------------------
+
+
+Records and Retention
+---------------------
+Performance against the commitments in this document is reported to the Compliance Officer each
+year. Training is mandatory before production access is granted to the Performance Monitoring
+environment. Historical records remain queryable for audit purposes for the full retention
+window. Approval for any change to the process record is granted by the Compliance Officer and
+logged with a reference. The Compliance Officer is accountable for confirming that this document
+is followed in practice. The standing target for first-time-right rate is agreed with the
+Compliance Officer and reported each year. Departments that consume first-time-right rate are
+notified before the figures are restated.
+
+Metric                            Target                            Escalation if missed
+----------------------------------------------------------------------------------------------------
+Availability                      99.5%                             Two consecutive year
+Change lead time                  Five business days                Any P1 change
+Evidence completeness             100%                              Any gap at audit
+Training completion               100%                              Before access grant
+----------------------------------------------------------------------------------------------------

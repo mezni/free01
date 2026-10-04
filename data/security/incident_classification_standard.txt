@@ -1,0 +1,318 @@
+INCIDENT CLASSIFICATION STANDARD
+================================
+
+Nexus Communications · Security
+
+------------------------------------------------------------------------------------------------
+Document Name:        Incident Classification Standard
+Company:              Nexus Communications
+Company ID:           nexuscomms
+Department:           Security
+Industry:             telco
+Version:              1.0
+Audience:             Department heads
+Privacy Level:        Restricted
+Date of Creation:     2026-10-04
+Date of Update:       2026-10-04
+Format:               TEXT
+Estimated Pages:      8
+------------------------------------------------------------------------------------------------
+
+Controls and Requirements
+-------------------------
+Escalation proceeds to the Process Manager when the high threshold is not restored in time.
+Exceptions require written approval from the Process Manager and are logged with a review date.
+Corrections to first-time-right rate are explained in the commentary that accompanies the
+control log. Capacity to absorb first-time-right rate is reassessed every year and signed off by
+the Process Manager. Any correction to the control log is versioned, with the superseded version
+retained for audit. The Process Manager is accountable for confirming that this document is
+followed in practice.
+
+A change request raised outside Security is handed to the Process Manager rather than handled
+locally. Performance against the commitments in this document is reported to the Process Manager
+each year. Material changes to telco regulation are assessed for impact within year. New
+starters shadow an experienced owner until they can process a change request unaided.
+Reconciliation of backlog age is performed before the year reporting cycle is closed. Controls
+are mapped to the wider assurance framework to avoid duplicated effort.
+
+Metric                            Target                            Escalation if missed
+----------------------------------------------------------------------------------------------------
+Availability                      99.5%                             Two consecutive year
+Change lead time                  Five business days                Any P1 change
+Evidence completeness             100%                              Any gap at audit
+Training completion               100%                              Before access grant
+----------------------------------------------------------------------------------------------------
+
+
+Supporting Notes
+----------------
+Applies to all staff, contractors and automated systems that support the Incident Classification
+lifecycle. Historical records remain queryable for audit purposes for the full retention window.
+Each service request must be recorded in the process record before it is presented to a
+customer. Changes to telco practice are evaluated by the Security change advisory board. Clauses
+covering service request are reviewed by Security before any renewal is negotiated. Ownership
+rests with the Security head, who may delegate day-to-day operation to a named owner.
+
+Automated checks run continuously and alert the on-call engineer when thresholds are breached.
+Access is granted on a least-privilege basis and recertified every year. Systems that process
+Incident Classification data must enforce encryption at rest and in transit. The Process Manager
+reviews first-time-right rate alongside financial results to confirm the change request
+assumptions hold. Teams outside Security consume the operational register read-only; changes are
+requested through the Process Manager. Evidence of compliance is retained for a minimum of seven
+years in the central records system. Departments that consume first-time-right rate are notified
+before the figures are restated.
+
+
+Risk Assessment
+---------------
+Business continuity plans assume the Incident Classification capability can be restored within
+year. Security maintains this standard on behalf of Nexus Communications to keep telco
+operations defensible. Personnel joining Security complete this training before receiving
+production credentials. Disputes about supplier engagement are settled by reference to the
+operational register and the recorded decision. Customer-facing commitments made about supplier
+engagement are traceable to a clause in the operational register.
+
+Metrics covering availability and error rate are published to stakeholders each year. Where
+change request is urgent, the shortened route is used and logged for review afterwards. Third
+parties are bound by these terms through contractual clauses in their statement of work. Data
+used to calculate cost per unit is sourced from the monitoring stack and is not adjusted without
+approval.
+
+Commercial terms relating to change request may not be varied without written sign-off. Every
+control described here is reviewed at least once per year by an independent reviewer. Templates
+for change request are versioned centrally so that Security does not maintain local copies. The
+Process Manager may suspend the process record entries without notice where risk warrants it.
+Evidence of testing is captured automatically and attached to the control record.
+
+Stage                             Trigger                           Target
+----------------------------------------------------------------------------------------------------
+Detection                         Automated alert or report         year review
+Triage                            Initial impact assessment         One business day
+Containment                       high impact confirmed             Immediate
+Review                            Service restored                  Within year
+----------------------------------------------------------------------------------------------------
+
+
+Records and Retention
+---------------------
+Approval for any change to the operational register is granted by the Process Manager and logged
+with a reference. Training is mandatory before production access is granted to the Incident
+Classification environment. Any deviation must be raised within one business day through the
+Incident Classification intake channel. Where this document conflicts with legislation, the
+stricter requirement always prevails.
+
+Data used to calculate first-time-right rate is sourced from the monitoring stack and is not
+adjusted without approval. Each change request must be recorded in the control log before it is
+presented to a customer. Exceptions require written approval from the Process Manager and are
+logged with a review date. Failures exceeding the high impact threshold trigger a formal
+incident record. Automated checks run continuously and alert the on-call engineer when
+thresholds are breached. Clauses covering change request are reviewed by Security before any
+renewal is negotiated.
+
+Business continuity plans assume the Incident Classification capability can be restored within
+year. Evidence of testing is captured automatically and attached to the control record. Evidence
+of compliance is retained for a minimum of seven years in the central records system. Systems
+that process Incident Classification data must enforce encryption at rest and in transit.
+
+
+Exceptions and Waivers
+----------------------
+Material changes to telco regulation are assessed for impact within year. Ownership rests with
+the Security head, who may delegate day-to-day operation to a named owner. Where this document
+conflicts with legislation, the stricter requirement always prevails. Teams outside Security
+consume the process record read-only; changes are requested through the Process Manager.
+
+Access is granted on a least-privilege basis and recertified every year. Any deviation must be
+raised within one business day through the Incident Classification intake channel. Approval for
+any change to the process record is granted by the Process Manager and logged with a reference.
+Historical records remain queryable for audit purposes for the full retention window.
+
+
+Definitions and Abbreviations
+-----------------------------
+The standing target for backlog age is agreed with the Process Manager and reported each year.
+Every control described here is reviewed at least once per year by an independent reviewer.
+Corrections to backlog age are explained in the commentary that accompanies the process record.
+New starters shadow an experienced owner until they can process a service request unaided. Third
+parties are bound by these terms through contractual clauses in their statement of work.
+
+Where approval workflow is urgent, the shortened route is used and logged for review afterwards.
+The Process Manager may suspend the operational register entries without notice where risk
+warrants it. Reconciliation of backlog age is performed before the year reporting cycle is
+closed. The Process Manager reviews backlog age alongside financial results to confirm the
+approval workflow assumptions hold. Escalation proceeds to the Process Manager when the high
+threshold is not restored in time. Commercial terms relating to approval workflow may not be
+varied without written sign-off. Performance against the commitments in this document is
+reported to the Process Manager each year.
+
+Metric                            Target                            Escalation if missed
+----------------------------------------------------------------------------------------------------
+Availability                      99.5%                             Two consecutive year
+Change lead time                  Five business days                Any P1 change
+Evidence completeness             100%                              Any gap at audit
+Training completion               100%                              Before access grant
+----------------------------------------------------------------------------------------------------
+
+
+Review and Revision History
+---------------------------
+Training is mandatory before production access is granted to the Incident Classification
+environment. Capacity to absorb backlog age is reassessed every year and signed off by the
+Process Manager. Where service request cannot be completed as described, the fallback path is
+recorded in the operational register. Disputes about service request are settled by reference to
+the operational register and the recorded decision. A service request raised outside Security is
+handed to the Process Manager rather than handled locally. Changes to telco practice are
+evaluated by the Security change advisory board. Controls are mapped to the wider assurance
+framework to avoid duplicated effort.
+
+Metrics covering availability and error rate are published to stakeholders each year. Templates
+for supplier engagement are versioned centrally so that Security does not maintain local copies.
+Any correction to the process record is versioned, with the superseded version retained for
+audit. Security maintains this standard on behalf of Nexus Communications to keep telco
+operations defensible. The Process Manager is accountable for confirming that this document is
+followed in practice. Customer-facing commitments made about supplier engagement are traceable
+to a clause in the process record.
+
+Third parties are bound by these terms through contractual clauses in their statement of work.
+Material changes to telco regulation are assessed for impact within year. Personnel joining
+Security complete this training before receiving production credentials. Where this document
+conflicts with legislation, the stricter requirement always prevails. Business continuity plans
+assume the Incident Classification capability can be restored within year. Where supplier
+engagement cannot be completed as described, the fallback path is recorded in the control log.
+
+
+Monitoring and Reporting
+------------------------
+Failures exceeding the high impact threshold trigger a formal incident record. Departments that
+consume cost per unit are notified before the figures are restated. Access is granted on a
+least-privilege basis and recertified every year. Reconciliation of cost per unit is performed
+before the year reporting cycle is closed. The Process Manager is accountable for confirming
+that this document is followed in practice.
+
+Escalation proceeds to the Process Manager when the high threshold is not restored in time.
+Exceptions require written approval from the Process Manager and are logged with a review date.
+Every control described here is reviewed at least once per year by an independent reviewer. Any
+deviation must be raised within one business day through the Incident Classification intake
+channel. Customer-facing commitments made about change request are traceable to a clause in the
+process record.
+
+Capacity to absorb throughput is reassessed every year and signed off by the Process Manager.
+New starters shadow an experienced owner until they can process a approval workflow unaided.
+Clauses covering approval workflow are reviewed by Security before any renewal is negotiated.
+Applies to all staff, contractors and automated systems that support the Incident Classification
+lifecycle. Teams outside Security consume the control log read-only; changes are requested
+through the Process Manager. Controls are mapped to the wider assurance framework to avoid
+duplicated effort.
+
+
+Purpose and Objectives
+----------------------
+Training is mandatory before production access is granted to the Incident Classification
+environment. The standing target for cost per unit is agreed with the Process Manager and
+reported each year. Where change request is urgent, the shortened route is used and logged for
+review afterwards. A change request raised outside Security is handed to the Process Manager
+rather than handled locally.
+
+Ownership rests with the Security head, who may delegate day-to-day operation to a named owner.
+Evidence of testing is captured automatically and attached to the control record. Systems that
+process Incident Classification data must enforce encryption at rest and in transit. Historical
+records remain queryable for audit purposes for the full retention window. Evidence of
+compliance is retained for a minimum of seven years in the central records system.
+
+Approval for any change to the operational register is granted by the Process Manager and logged
+with a reference. Security maintains this standard on behalf of Nexus Communications to keep
+telco operations defensible. Data used to calculate backlog age is sourced from the monitoring
+stack and is not adjusted without approval. Each approval workflow must be recorded in the
+operational register before it is presented to a customer. Commercial terms relating to approval
+workflow may not be varied without written sign-off.
+
+Stage                             Trigger                           Target
+----------------------------------------------------------------------------------------------------
+Detection                         Automated alert or report         year review
+Triage                            Initial impact assessment         One business day
+Containment                       high impact confirmed             Immediate
+Review                            Service restored                  Within year
+----------------------------------------------------------------------------------------------------
+
+
+Policy Statement
+----------------
+Disputes about customer commitment are settled by reference to the control log and the recorded
+decision. Metrics covering availability and error rate are published to stakeholders each year.
+Any correction to the control log is versioned, with the superseded version retained for audit.
+The Process Manager may suspend the control log entries without notice where risk warrants it.
+Changes to telco practice are evaluated by the Security change advisory board. Performance
+against the commitments in this document is reported to the Process Manager each year.
+
+Training is mandatory before production access is granted to the Incident Classification
+environment. Third parties are bound by these terms through contractual clauses in their
+statement of work. Automated checks run continuously and alert the on-call engineer when
+thresholds are breached. Metrics covering availability and error rate are published to
+stakeholders each year. The standing target for throughput is agreed with the Process Manager
+and reported each year. Reconciliation of throughput is performed before the year reporting
+cycle is closed.
+
+
+Standard Operating Procedure
+----------------------------
+The Process Manager may suspend the process record entries without notice where risk warrants
+it. Exceptions require written approval from the Process Manager and are logged with a review
+date. Data used to calculate cost per unit is sourced from the monitoring stack and is not
+adjusted without approval. Business continuity plans assume the Incident Classification
+capability can be restored within year.
+
+Controls are mapped to the wider assurance framework to avoid duplicated effort. Changes to
+telco practice are evaluated by the Security change advisory board. Failures exceeding the high
+impact threshold trigger a formal incident record. Disputes about change request are settled by
+reference to the operational register and the recorded decision. Departments that consume
+first-time-right rate are notified before the figures are restated.
+
+Systems that process Incident Classification data must enforce encryption at rest and in
+transit. Every control described here is reviewed at least once per year by an independent
+reviewer. Escalation proceeds to the Process Manager when the high threshold is not restored in
+time. Applies to all staff, contractors and automated systems that support the Incident
+Classification lifecycle. Ownership rests with the Security head, who may delegate day-to-day
+operation to a named owner. Performance against the commitments in this document is reported to
+the Process Manager each year. Where operational task is urgent, the shortened route is used and
+logged for review afterwards.
+
+Stage                             Trigger                           Target
+----------------------------------------------------------------------------------------------------
+Detection                         Automated alert or report         year review
+Triage                            Initial impact assessment         One business day
+Containment                       high impact confirmed             Immediate
+Review                            Service restored                  Within year
+----------------------------------------------------------------------------------------------------
+
+
+Scope and Applicability
+-----------------------
+Security maintains this standard on behalf of Nexus Communications to keep telco operations
+defensible. Teams outside Security consume the control log read-only; changes are requested
+through the Process Manager. Where this document conflicts with legislation, the stricter
+requirement always prevails. Personnel joining Security complete this training before receiving
+production credentials. Where service request cannot be completed as described, the fallback
+path is recorded in the control log. Templates for service request are versioned centrally so
+that Security does not maintain local copies. New starters shadow an experienced owner until
+they can process a service request unaided.
+
+A customer commitment raised outside Security is handed to the Process Manager rather than
+handled locally. Corrections to cost per unit are explained in the commentary that accompanies
+the process record. Clauses covering customer commitment are reviewed by Security before any
+renewal is negotiated. Evidence of testing is captured automatically and attached to the control
+record. Capacity to absorb cost per unit is reassessed every year and signed off by the Process
+Manager.
+
+Evidence of compliance is retained for a minimum of seven years in the central records system.
+Commercial terms relating to change request may not be varied without written sign-off.
+Historical records remain queryable for audit purposes for the full retention window. Any
+correction to the control log is versioned, with the superseded version retained for audit.
+Access is granted on a least-privilege basis and recertified every year.
+
+Metric                            Target                            Escalation if missed
+----------------------------------------------------------------------------------------------------
+Availability                      99.5%                             Two consecutive year
+Change lead time                  Five business days                Any P1 change
+Evidence completeness             100%                              Any gap at audit
+Training completion               100%                              Before access grant
+----------------------------------------------------------------------------------------------------

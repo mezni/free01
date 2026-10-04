@@ -1,0 +1,322 @@
+SERVICE PROVISIONING AND BILLING READINESS CHECKLIST
+====================================================
+
+Nexus Communications · Billing
+
+------------------------------------------------------------------------------------------------
+Document Name:        Service Provisioning and Billing Readiness Checklist
+Company:              Nexus Communications
+Company ID:           nexuscomms
+Department:           Billing
+Industry:             telco
+Version:              1.1
+Audience:             Provisioning and billing coordinators
+Privacy Level:        Internal
+Date of Creation:     2026-10-04
+Date of Update:       2026-10-04
+Format:               TEXT
+Estimated Pages:      8
+------------------------------------------------------------------------------------------------
+
+Definitions and Abbreviations
+-----------------------------
+Templates for approval workflow are versioned centrally so that Billing does not maintain local
+copies. Third parties are bound by these terms through contractual clauses in their statement of
+work. Data used to calculate first-time-right rate is sourced from the configuration management
+database and is not adjusted without approval. Metrics covering availability and error rate are
+published to stakeholders each month. Billing maintains this standard on behalf of Nexus
+Communications to keep telco operations defensible. Business continuity plans assume the Service
+Provisioning and Billing Readiness Checklist capability can be restored within month.
+
+Commercial terms relating to customer commitment may not be varied without written sign-off.
+Every control described here is reviewed at least once per month by an independent reviewer.
+Reconciliation of first-time-right rate is performed before the month reporting cycle is closed.
+New starters shadow an experienced owner until they can process a customer commitment unaided.
+
+Role                              Responsibility                    Escalation
+----------------------------------------------------------------------------------------------------
+Control Owner                     Operates and evidences the contr  Process Manager
+Process Manager                   Approves changes and exceptions   Risk Lead
+Risk Lead                         Maintains the risk register       Compliance Officer
+Compliance Officer                Reports to stakeholders           Executive sponsor
+----------------------------------------------------------------------------------------------------
+
+
+Risk Assessment
+---------------
+Escalation proceeds to the Process Manager when the critical threshold is not restored in time.
+Teams outside Billing consume the control log read-only; changes are requested through the
+Process Manager. Any deviation must be raised within one business day through the Service
+Provisioning and Billing Readiness Checklist intake channel. The Process Manager may suspend the
+control log entries without notice where risk warrants it. Personnel joining Billing complete
+this training before receiving production credentials.
+
+Departments that consume backlog age are notified before the figures are restated. A service
+request raised outside Billing is handed to the Process Manager rather than handled locally.
+Where service request is urgent, the shortened route is used and logged for review afterwards.
+Approval for any change to the control log is granted by the Process Manager and logged with a
+reference. The Process Manager is accountable for confirming that this document is followed in
+practice. Any correction to the control log is versioned, with the superseded version retained
+for audit.
+
+Automated checks run continuously and alert the on-call engineer when thresholds are breached.
+Performance against the commitments in this document is reported to the Process Manager each
+month. Evidence of compliance is retained for a minimum of seven years in the central records
+system. Capacity to absorb backlog age is reassessed every month and signed off by the Process
+Manager. The standing target for backlog age is agreed with the Process Manager and reported
+each month.
+
+
+Review and Revision History
+---------------------------
+Where this document conflicts with legislation, the stricter requirement always prevails.
+Customer-facing commitments made about customer commitment are traceable to a clause in the
+operational register. Changes to telco practice are evaluated by the Billing change advisory
+board. Corrections to throughput are explained in the commentary that accompanies the
+operational register. Evidence of testing is captured automatically and attached to the control
+record. Disputes about customer commitment are settled by reference to the operational register
+and the recorded decision.
+
+Applies to all staff, contractors and automated systems that support the Service Provisioning
+and Billing Readiness Checklist lifecycle. Failures exceeding the critical impact threshold
+trigger a formal incident record. Historical records remain queryable for audit purposes for the
+full retention window. Systems that process Service Provisioning and Billing Readiness Checklist
+data must enforce encryption at rest and in transit.
+
+Metric                            Target                            Escalation if missed
+----------------------------------------------------------------------------------------------------
+Availability                      99.5%                             Two consecutive month
+Change lead time                  Five business days                Any P1 change
+Evidence completeness             100%                              Any gap at audit
+Training completion               100%                              Before access grant
+----------------------------------------------------------------------------------------------------
+
+
+Controls and Requirements
+-------------------------
+Access is granted on a least-privilege basis and recertified every month. Material changes to
+telco regulation are assessed for impact within month. The Process Manager reviews cost per unit
+alongside financial results to confirm the approval workflow assumptions hold. Clauses covering
+approval workflow are reviewed by Billing before any renewal is negotiated. Exceptions require
+written approval from the Process Manager and are logged with a review date. Training is
+mandatory before production access is granted to the Service Provisioning and Billing Readiness
+Checklist environment.
+
+Each supplier engagement must be recorded in the control log before it is presented to a
+customer. Teams outside Billing consume the control log read-only; changes are requested through
+the Process Manager. Failures exceeding the critical impact threshold trigger a formal incident
+record. Systems that process Service Provisioning and Billing Readiness Checklist data must
+enforce encryption at rest and in transit. Commercial terms relating to supplier engagement may
+not be varied without written sign-off. Ownership rests with the Billing head, who may delegate
+day-to-day operation to a named owner.
+
+
+Escalation and Incident Handling
+--------------------------------
+Any correction to the control log is versioned, with the superseded version retained for audit.
+Changes to telco practice are evaluated by the Billing change advisory board. Capacity to absorb
+backlog age is reassessed every month and signed off by the Process Manager. Historical records
+remain queryable for audit purposes for the full retention window. Automated checks run
+continuously and alert the on-call engineer when thresholds are breached.
+
+The Process Manager is accountable for confirming that this document is followed in practice.
+Training is mandatory before production access is granted to the Service Provisioning and
+Billing Readiness Checklist environment. Data used to calculate backlog age is sourced from the
+configuration management database and is not adjusted without approval. Material changes to
+telco regulation are assessed for impact within month.
+
+Applies to all staff, contractors and automated systems that support the Service Provisioning
+and Billing Readiness Checklist lifecycle. Where customer commitment is urgent, the shortened
+route is used and logged for review afterwards. Billing maintains this standard on behalf of
+Nexus Communications to keep telco operations defensible. The Process Manager reviews backlog
+age alongside financial results to confirm the customer commitment assumptions hold. Metrics
+covering availability and error rate are published to stakeholders each month. Customer-facing
+commitments made about customer commitment are traceable to a clause in the operational
+register. Templates for customer commitment are versioned centrally so that Billing does not
+maintain local copies.
+
+
+Exceptions and Waivers
+----------------------
+Every control described here is reviewed at least once per month by an independent reviewer.
+Exceptions require written approval from the Process Manager and are logged with a review date.
+Any deviation must be raised within one business day through the Service Provisioning and
+Billing Readiness Checklist intake channel. The standing target for throughput is agreed with
+the Process Manager and reported each month. Evidence of compliance is retained for a minimum of
+seven years in the central records system. Personnel joining Billing complete this training
+before receiving production credentials. Reconciliation of throughput is performed before the
+month reporting cycle is closed.
+
+Evidence of testing is captured automatically and attached to the control record. Clauses
+covering operational task are reviewed by Billing before any renewal is negotiated. Performance
+against the commitments in this document is reported to the Process Manager each month. Business
+continuity plans assume the Service Provisioning and Billing Readiness Checklist capability can
+be restored within month.
+
+Control                           Owner                             Frequency
+----------------------------------------------------------------------------------------------------
+Access recertification            Service Owner                     Each month
+Change approval                   Process Manager                   Per change
+Backup restore test               Control Owner                     Each month
+Log retention review              Compliance Officer                Each month
+----------------------------------------------------------------------------------------------------
+
+
+Roles and Responsibilities
+--------------------------
+A change request raised outside Billing is handed to the Process Manager rather than handled
+locally. Where change request cannot be completed as described, the fallback path is recorded in
+the control log. Access is granted on a least-privilege basis and recertified every month. Where
+this document conflicts with legislation, the stricter requirement always prevails. Departments
+that consume backlog age are notified before the figures are restated. Approval for any change
+to the control log is granted by the Process Manager and logged with a reference.
+
+Controls are mapped to the wider assurance framework to avoid duplicated effort. Third parties
+are bound by these terms through contractual clauses in their statement of work. Escalation
+proceeds to the Process Manager when the critical threshold is not restored in time. Corrections
+to throughput are explained in the commentary that accompanies the operational register. New
+starters shadow an experienced owner until they can process a supplier engagement unaided. The
+Process Manager may suspend the operational register entries without notice where risk warrants
+it.
+
+Control                           Owner                             Frequency
+----------------------------------------------------------------------------------------------------
+Access recertification            Service Owner                     Each month
+Change approval                   Process Manager                   Per change
+Backup restore test               Control Owner                     Each month
+Log retention review              Compliance Officer                Each month
+----------------------------------------------------------------------------------------------------
+
+
+Supporting Notes
+----------------
+Where service request is urgent, the shortened route is used and logged for review afterwards.
+Approval for any change to the process record is granted by the Process Manager and logged with
+a reference. Templates for service request are versioned centrally so that Billing does not
+maintain local copies. Systems that process Service Provisioning and Billing Readiness Checklist
+data must enforce encryption at rest and in transit. Applies to all staff, contractors and
+automated systems that support the Service Provisioning and Billing Readiness Checklist
+lifecycle. The standing target for first-time-right rate is agreed with the Process Manager and
+reported each month. Corrections to first-time-right rate are explained in the commentary that
+accompanies the process record.
+
+Disputes about service request are settled by reference to the control log and the recorded
+decision. Performance against the commitments in this document is reported to the Process
+Manager each month. Ownership rests with the Billing head, who may delegate day-to-day operation
+to a named owner. Personnel joining Billing complete this training before receiving production
+credentials. Failures exceeding the critical impact threshold trigger a formal incident record.
+
+Clauses covering change request are reviewed by Billing before any renewal is negotiated.
+Reconciliation of backlog age is performed before the month reporting cycle is closed. Business
+continuity plans assume the Service Provisioning and Billing Readiness Checklist capability can
+be restored within month. Teams outside Billing consume the control log read-only; changes are
+requested through the Process Manager.
+
+
+Standard Operating Procedure
+----------------------------
+Access is granted on a least-privilege basis and recertified every month. Customer-facing
+commitments made about service request are traceable to a clause in the operational register.
+Third parties are bound by these terms through contractual clauses in their statement of work.
+Any deviation must be raised within one business day through the Service Provisioning and
+Billing Readiness Checklist intake channel. Exceptions require written approval from the Process
+Manager and are logged with a review date. Every control described here is reviewed at least
+once per month by an independent reviewer.
+
+Escalation proceeds to the Process Manager when the critical threshold is not restored in time.
+Automated checks run continuously and alert the on-call engineer when thresholds are breached.
+Data used to calculate backlog age is sourced from the configuration management database and is
+not adjusted without approval. Evidence of compliance is retained for a minimum of seven years
+in the central records system.
+
+New starters shadow an experienced owner until they can process a approval workflow unaided.
+Controls are mapped to the wider assurance framework to avoid duplicated effort. Each approval
+workflow must be recorded in the operational register before it is presented to a customer. Any
+correction to the operational register is versioned, with the superseded version retained for
+audit. Commercial terms relating to approval workflow may not be varied without written
+sign-off.
+
+
+Scope and Applicability
+-----------------------
+Where service request cannot be completed as described, the fallback path is recorded in the
+process record. A service request raised outside Billing is handed to the Process Manager rather
+than handled locally. The Process Manager reviews throughput alongside financial results to
+confirm the service request assumptions hold. The Process Manager is accountable for confirming
+that this document is followed in practice.
+
+Capacity to absorb first-time-right rate is reassessed every month and signed off by the Process
+Manager. Material changes to telco regulation are assessed for impact within month. Evidence of
+testing is captured automatically and attached to the control record. The Process Manager may
+suspend the operational register entries without notice where risk warrants it. Training is
+mandatory before production access is granted to the Service Provisioning and Billing Readiness
+Checklist environment. Metrics covering availability and error rate are published to
+stakeholders each month. Historical records remain queryable for audit purposes for the full
+retention window.
+
+Role                              Responsibility                    Escalation
+----------------------------------------------------------------------------------------------------
+Control Owner                     Operates and evidences the contr  Process Manager
+Process Manager                   Approves changes and exceptions   Risk Lead
+Risk Lead                         Maintains the risk register       Compliance Officer
+Compliance Officer                Reports to stakeholders           Executive sponsor
+----------------------------------------------------------------------------------------------------
+
+
+Compliance Monitoring
+---------------------
+Third parties are bound by these terms through contractual clauses in their statement of work.
+Training is mandatory before production access is granted to the Service Provisioning and
+Billing Readiness Checklist environment. The standing target for backlog age is agreed with the
+Process Manager and reported each month. Each service request must be recorded in the process
+record before it is presented to a customer. Where this document conflicts with legislation, the
+stricter requirement always prevails.
+
+Customer-facing commitments made about operational task are traceable to a clause in the control
+log. The Process Manager is accountable for confirming that this document is followed in
+practice. Applies to all staff, contractors and automated systems that support the Service
+Provisioning and Billing Readiness Checklist lifecycle. Any deviation must be raised within one
+business day through the Service Provisioning and Billing Readiness Checklist intake channel.
+Every control described here is reviewed at least once per month by an independent reviewer. The
+Process Manager reviews throughput alongside financial results to confirm the operational task
+assumptions hold.
+
+Role                              Responsibility                    Escalation
+----------------------------------------------------------------------------------------------------
+Control Owner                     Operates and evidences the contr  Process Manager
+Process Manager                   Approves changes and exceptions   Risk Lead
+Risk Lead                         Maintains the risk register       Compliance Officer
+Compliance Officer                Reports to stakeholders           Executive sponsor
+----------------------------------------------------------------------------------------------------
+
+
+Policy Statement
+----------------
+New starters shadow an experienced owner until they can process a operational task unaided.
+Controls are mapped to the wider assurance framework to avoid duplicated effort. Corrections to
+cost per unit are explained in the commentary that accompanies the operational register.
+Business continuity plans assume the Service Provisioning and Billing Readiness Checklist
+capability can be restored within month. Metrics covering availability and error rate are
+published to stakeholders each month. Material changes to telco regulation are assessed for
+impact within month.
+
+Where change request cannot be completed as described, the fallback path is recorded in the
+process record. Disputes about change request are settled by reference to the process record and
+the recorded decision. Data used to calculate first-time-right rate is sourced from the
+configuration management database and is not adjusted without approval. Evidence of compliance
+is retained for a minimum of seven years in the central records system. Failures exceeding the
+critical impact threshold trigger a formal incident record. Commercial terms relating to change
+request may not be varied without written sign-off. Templates for change request are versioned
+centrally so that Billing does not maintain local copies.
+
+Role                              Responsibility                    Escalation
+----------------------------------------------------------------------------------------------------
+Control Owner                     Operates and evidences the contr  Process Manager
+Process Manager                   Approves changes and exceptions   Risk Lead
+Risk Lead                         Maintains the risk register       Compliance Officer
+Compliance Officer                Reports to stakeholders           Executive sponsor
+----------------------------------------------------------------------------------------------------
+
+
+Records and Retention
+---------------------

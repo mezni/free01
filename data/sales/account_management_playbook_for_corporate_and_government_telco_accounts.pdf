@@ -1,0 +1,245 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R 5 0 R 7 0 R 9 0 R 11 0 R] /Count 5 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 13 0 R /F2 14 0 R >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 3825 >>
+stream
+BT /F2 18 Tf 1 0 0 1 54 720.0 Tm (Account Management Playbook for Corporate and Government Telco Accounts) Tj ET
+0.82 G 0.5 w 54 714.0 m 558 714.0 l S
+BT /F1 12 Tf 1 0 0 1 54 676.0 Tm (Nexus Communications · Sales) Tj ET
+BT /F1 10 Tf 1 0 0 1 54 648.0 Tm (Document Name: Account Management Playbook for Corporate and Government Telco Accounts) Tj ET
+BT /F1 10 Tf 1 0 0 1 54 634.0 Tm (Company: Nexus Communications) Tj ET
+BT /F1 10 Tf 1 0 0 1 54 620.0 Tm (Company ID: nexuscomms) Tj ET
+BT /F1 10 Tf 1 0 0 1 54 606.0 Tm (Department: Sales) Tj ET
+BT /F1 10 Tf 1 0 0 1 54 592.0 Tm (Industry: telco) Tj ET
+BT /F1 10 Tf 1 0 0 1 54 578.0 Tm (Version: 1.4) Tj ET
+BT /F1 10 Tf 1 0 0 1 54 564.0 Tm (Audience: Enterprise sales teams and customer success managers) Tj ET
+BT /F1 10 Tf 1 0 0 1 54 550.0 Tm (Privacy Level: Internal) Tj ET
+BT /F1 10 Tf 1 0 0 1 54 536.0 Tm (Date of Creation: 2026-10-04) Tj ET
+BT /F1 10 Tf 1 0 0 1 54 522.0 Tm (Date of Update: 2026-10-04) Tj ET
+BT /F1 10 Tf 1 0 0 1 54 508.0 Tm (Format: PDF) Tj ET
+BT /F1 10 Tf 1 0 0 1 54 494.0 Tm (Estimated Pages: 5) Tj ET
+0.82 G 0.5 w 54 488.0 m 558 488.0 l S
+BT /F2 13 Tf 1 0 0 1 54 436.0 Tm (Standard Operating Procedure) Tj ET
+0.82 G 0.5 w 54 430.0 m 558 430.0 l S
+BT /F1 11 Tf 1 0 0 1 54 410.0 Tm (Applies to all staff, contractors and automated systems that support the Account) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 396.0 Tm (Management Playbook for Corporate and Government Telco Accounts lifecycle. Training is) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 382.0 Tm (mandatory before production access is granted to the Account Management Playbook for) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 368.0 Tm (Corporate and Government Telco Accounts environment. Data used to calculate) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 354.0 Tm (first-time-right rate is sourced from the change management log and is not adjusted) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 340.0 Tm (without approval. Controls are mapped to the wider assurance framework to avoid) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 326.0 Tm (duplicated effort. The Process Manager may suspend the process record entries without) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 312.0 Tm (notice where risk warrants it.) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 284.0 Tm (Commercial terms relating to service request may not be varied without written sign-off.) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 270.0 Tm (Customer-facing commitments made about service request are traceable to a clause in the) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 256.0 Tm (operational register. Where this document conflicts with legislation, the stricter) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 242.0 Tm (requirement always prevails. Automated checks run continuously and alert the on-call) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 228.0 Tm (engineer when thresholds are breached. Each service request must be recorded in the) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 214.0 Tm (operational register before it is presented to a customer. The Process Manager is) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 200.0 Tm (accountable for confirming that this document is followed in practice. Performance) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 186.0 Tm (against the commitments in this document is reported to the Process Manager each six) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 172.0 Tm (months.) Tj ET
+BT /F2 13 Tf 1 0 0 1 54 126.0 Tm (Roles and Responsibilities) Tj ET
+0.82 G 0.5 w 54 120.0 m 558 120.0 l S
+BT /F1 11 Tf 1 0 0 1 54 100.0 Tm (The standing target for cost per unit is agreed with the Process Manager and reported) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 86.0 Tm (each six months. Where approval workflow cannot be completed as described, the fallback) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 72.0 Tm (path is recorded in the operational register. Metrics covering availability and error) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 58.0 Tm (rate are published to stakeholders each six months. Corrections to cost per unit are) Tj ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 13 0 R /F2 14 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 4529 >>
+stream
+BT /F1 11 Tf 1 0 0 1 54 724.0 Tm (explained in the commentary that accompanies the operational register. Where approval) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 710.0 Tm (workflow is urgent, the shortened route is used and logged for review afterwards.) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 696.0 Tm (Approval for any change to the operational register is granted by the Process Manager) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 682.0 Tm (and logged with a reference.) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 654.0 Tm (Ownership rests with the Sales head, who may delegate day-to-day operation to a named) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 640.0 Tm (owner. The Process Manager reviews first-time-right rate alongside financial results to) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 626.0 Tm (confirm the approval workflow assumptions hold. Material changes to telco regulation are) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 612.0 Tm (assessed for impact within six months. Exceptions require written approval from the) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 598.0 Tm (Process Manager and are logged with a review date. Historical records remain queryable) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 584.0 Tm (for audit purposes for the full retention window.) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 556.0 Tm (Evidence of testing is captured automatically and attached to the control record.) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 542.0 Tm (Escalation proceeds to the Process Manager when the high threshold is not restored in) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 528.0 Tm (time. Systems that process Account Management Playbook for Corporate and Government) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 514.0 Tm (Telco Accounts data must enforce encryption at rest and in transit. Clauses covering) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 500.0 Tm (operational task are reviewed by Sales before any renewal is negotiated.) Tj ET
+BT /F1 9 Tf 1 0 0 1 54 458.0 Tm (Control                        Owner                          Frequency) Tj ET
+BT /F1 9 Tf 1 0 0 1 54 444.0 Tm (-------------------------------------------------------------------------------------------) Tj ET
+BT /F1 9 Tf 1 0 0 1 54 430.0 Tm (Access recertification         Service Owner                  Each six months) Tj ET
+BT /F1 9 Tf 1 0 0 1 54 416.0 Tm (Change approval                Process Manager                Per change) Tj ET
+BT /F1 9 Tf 1 0 0 1 54 402.0 Tm (Backup restore test            Control Owner                  Each six months) Tj ET
+BT /F1 9 Tf 1 0 0 1 54 388.0 Tm (Log retention review           Compliance Officer             Each six months) Tj ET
+BT /F1 9 Tf 1 0 0 1 54 374.0 Tm (-------------------------------------------------------------------------------------------) Tj ET
+BT /F2 13 Tf 1 0 0 1 54 328.0 Tm (Supporting Notes) Tj ET
+0.82 G 0.5 w 54 322.0 m 558 322.0 l S
+BT /F1 11 Tf 1 0 0 1 54 302.0 Tm (Capacity to absorb first-time-right rate is reassessed every six months and signed off) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 288.0 Tm (by the Process Manager. Third parties are bound by these terms through contractual) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 274.0 Tm (clauses in their statement of work. A operational task raised outside Sales is handed to) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 260.0 Tm (the Process Manager rather than handled locally. New starters shadow an experienced) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 246.0 Tm (owner until they can process a operational task unaided. Reconciliation of) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 232.0 Tm (first-time-right rate is performed before the six months reporting cycle is closed.) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 204.0 Tm (Personnel joining Sales complete this training before receiving production credentials.) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 190.0 Tm (Departments that consume cost per unit are notified before the figures are restated. Any) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 176.0 Tm (deviation must be raised within one business day through the Account Management Playbook) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 162.0 Tm (for Corporate and Government Telco Accounts intake channel. Changes to telco practice) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 148.0 Tm (are evaluated by the Sales change advisory board. Business continuity plans assume the) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 134.0 Tm (Account Management Playbook for Corporate and Government Telco Accounts capability can) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 120.0 Tm (be restored within six months. Templates for supplier engagement are versioned centrally) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 106.0 Tm (so that Sales does not maintain local copies.) Tj ET
+BT /F2 13 Tf 1 0 0 1 54 60.0 Tm (Records and Retention) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 13 0 R /F2 14 0 R >> >> /Contents 8 0 R >>
+endobj
+8 0 obj
+<< /Length 4861 >>
+stream
+0.82 G 0.5 w 54 732.0 m 558 732.0 l S
+BT /F1 11 Tf 1 0 0 1 54 712.0 Tm (Access is granted on a least-privilege basis and recertified every six months. Evidence) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 698.0 Tm (of compliance is retained for a minimum of seven years in the central records system.) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 684.0 Tm (Failures exceeding the high impact threshold trigger a formal incident record. Sales) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 670.0 Tm (maintains this standard on behalf of Nexus Communications to keep telco operations) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 656.0 Tm (defensible. Every control described here is reviewed at least once per six months by an) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 642.0 Tm (independent reviewer. Teams outside Sales consume the control log read-only; changes are) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 628.0 Tm (requested through the Process Manager. Any correction to the control log is versioned,) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 614.0 Tm (with the superseded version retained for audit.) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 586.0 Tm (Any correction to the operational register is versioned, with the superseded version) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 572.0 Tm (retained for audit. Disputes about customer commitment are settled by reference to the) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 558.0 Tm (operational register and the recorded decision. Escalation proceeds to the Process) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 544.0 Tm (Manager when the high threshold is not restored in time. Where customer commitment is) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 530.0 Tm (urgent, the shortened route is used and logged for review afterwards. Each customer) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 516.0 Tm (commitment must be recorded in the operational register before it is presented to a) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 502.0 Tm (customer. The Process Manager reviews first-time-right rate alongside financial results) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 488.0 Tm (to confirm the customer commitment assumptions hold. The Process Manager is accountable) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 474.0 Tm (for confirming that this document is followed in practice.) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 446.0 Tm (Systems that process Account Management Playbook for Corporate and Government Telco) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 432.0 Tm (Accounts data must enforce encryption at rest and in transit. New starters shadow an) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 418.0 Tm (experienced owner until they can process a approval workflow unaided. Capacity to absorb) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 404.0 Tm (cost per unit is reassessed every six months and signed off by the Process Manager.) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 390.0 Tm (Customer-facing commitments made about approval workflow are traceable to a clause in) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 376.0 Tm (the operational register. Where this document conflicts with legislation, the stricter) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 362.0 Tm (requirement always prevails. Reconciliation of cost per unit is performed before the six) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 348.0 Tm (months reporting cycle is closed. Any deviation must be raised within one business day) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 334.0 Tm (through the Account Management Playbook for Corporate and Government Telco Accounts) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 320.0 Tm (intake channel.) Tj ET
+BT /F2 13 Tf 1 0 0 1 54 274.0 Tm (Exceptions and Waivers) Tj ET
+0.82 G 0.5 w 54 268.0 m 558 268.0 l S
+BT /F1 11 Tf 1 0 0 1 54 248.0 Tm (Automated checks run continuously and alert the on-call engineer when thresholds are) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 234.0 Tm (breached. Historical records remain queryable for audit purposes for the full retention) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 220.0 Tm (window. Changes to telco practice are evaluated by the Sales change advisory board.) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 206.0 Tm (Applies to all staff, contractors and automated systems that support the Account) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 192.0 Tm (Management Playbook for Corporate and Government Telco Accounts lifecycle. Where) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 178.0 Tm (customer commitment cannot be completed as described, the fallback path is recorded in) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 164.0 Tm (the control log.) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 136.0 Tm (The Process Manager may suspend the control log entries without notice where risk) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 122.0 Tm (warrants it. Data used to calculate backlog age is sourced from the change management) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 108.0 Tm (log and is not adjusted without approval. Every control described here is reviewed at) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 94.0 Tm (least once per six months by an independent reviewer. A supplier engagement raised) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 80.0 Tm (outside Sales is handed to the Process Manager rather than handled locally.) Tj ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 13 0 R /F2 14 0 R >> >> /Contents 10 0 R >>
+endobj
+10 0 obj
+<< /Length 4709 >>
+stream
+BT /F2 13 Tf 1 0 0 1 54 720.0 Tm (Controls and Requirements) Tj ET
+0.82 G 0.5 w 54 714.0 m 558 714.0 l S
+BT /F1 11 Tf 1 0 0 1 54 694.0 Tm (Approval for any change to the operational register is granted by the Process Manager) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 680.0 Tm (and logged with a reference. Failures exceeding the high impact threshold trigger a) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 666.0 Tm (formal incident record. Exceptions require written approval from the Process Manager and) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 652.0 Tm (are logged with a review date. Templates for approval workflow are versioned centrally) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 638.0 Tm (so that Sales does not maintain local copies. Access is granted on a least-privilege) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 624.0 Tm (basis and recertified every six months.) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 596.0 Tm (Clauses covering customer commitment are reviewed by Sales before any renewal is) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 582.0 Tm (negotiated. Evidence of testing is captured automatically and attached to the control) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 568.0 Tm (record. Teams outside Sales consume the process record read-only; changes are requested) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 554.0 Tm (through the Process Manager. Departments that consume throughput are notified before the) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 540.0 Tm (figures are restated. Sales maintains this standard on behalf of Nexus Communications to) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 526.0 Tm (keep telco operations defensible. The standing target for throughput is agreed with the) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 512.0 Tm (Process Manager and reported each six months. Third parties are bound by these terms) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 498.0 Tm (through contractual clauses in their statement of work.) Tj ET
+BT /F1 9 Tf 1 0 0 1 54 456.0 Tm (Metric                         Target                         Escalation if missed) Tj ET
+BT /F1 9 Tf 1 0 0 1 54 442.0 Tm (-------------------------------------------------------------------------------------------) Tj ET
+BT /F1 9 Tf 1 0 0 1 54 428.0 Tm (Availability                   99.5%                          Two consecutive six months) Tj ET
+BT /F1 9 Tf 1 0 0 1 54 414.0 Tm (Change lead time               Five business days             Any P1 change) Tj ET
+BT /F1 9 Tf 1 0 0 1 54 400.0 Tm (Evidence completeness          100%                           Any gap at audit) Tj ET
+BT /F1 9 Tf 1 0 0 1 54 386.0 Tm (Training completion            100%                           Before access grant) Tj ET
+BT /F1 9 Tf 1 0 0 1 54 372.0 Tm (-------------------------------------------------------------------------------------------) Tj ET
+BT /F2 13 Tf 1 0 0 1 54 326.0 Tm (Monitoring and Reporting) Tj ET
+0.82 G 0.5 w 54 320.0 m 558 320.0 l S
+BT /F1 11 Tf 1 0 0 1 54 300.0 Tm (Performance against the commitments in this document is reported to the Process Manager) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 286.0 Tm (each six months. Corrections to first-time-right rate are explained in the commentary) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 272.0 Tm (that accompanies the operational register. Ownership rests with the Sales head, who may) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 258.0 Tm (delegate day-to-day operation to a named owner. Commercial terms relating to supplier) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 244.0 Tm (engagement may not be varied without written sign-off. Training is mandatory before) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 230.0 Tm (production access is granted to the Account Management Playbook for Corporate and) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 216.0 Tm (Government Telco Accounts environment. Controls are mapped to the wider assurance) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 202.0 Tm (framework to avoid duplicated effort.) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 174.0 Tm (Material changes to telco regulation are assessed for impact within six months. Sales) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 160.0 Tm (maintains this standard on behalf of Nexus Communications to keep telco operations) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 146.0 Tm (defensible. Clauses covering approval workflow are reviewed by Sales before any renewal) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 132.0 Tm (is negotiated. Evidence of testing is captured automatically and attached to the control) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 118.0 Tm (record. Historical records remain queryable for audit purposes for the full retention) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 104.0 Tm (window. Automated checks run continuously and alert the on-call engineer when thresholds) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 90.0 Tm (are breached. The Process Manager may suspend the process record entries without notice) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 76.0 Tm (where risk warrants it.) Tj ET
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 13 0 R /F2 14 0 R >> >> /Contents 12 0 R >>
+endobj
+12 0 obj
+<< /Length 842 >>
+stream
+BT /F1 9 Tf 1 0 0 1 54 724.0 Tm (Control                        Owner                          Frequency) Tj ET
+BT /F1 9 Tf 1 0 0 1 54 710.0 Tm (-------------------------------------------------------------------------------------------) Tj ET
+BT /F1 9 Tf 1 0 0 1 54 696.0 Tm (Access recertification         Service Owner                  Each six months) Tj ET
+BT /F1 9 Tf 1 0 0 1 54 682.0 Tm (Change approval                Process Manager                Per change) Tj ET
+BT /F1 9 Tf 1 0 0 1 54 668.0 Tm (Backup restore test            Control Owner                  Each six months) Tj ET
+BT /F1 9 Tf 1 0 0 1 54 654.0 Tm (Log retention review           Compliance Officer             Each six months) Tj ET
+BT /F1 9 Tf 1 0 0 1 54 640.0 Tm (-------------------------------------------------------------------------------------------) Tj ET
+endstream
+endobj
+13 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+14 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+xref
+0 15
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000140 00000 n 
+0000000278 00000 n 
+0000004155 00000 n 
+0000004293 00000 n 
+0000008874 00000 n 
+0000009012 00000 n 
+0000013925 00000 n 
+0000014064 00000 n 
+0000018826 00000 n 
+0000018966 00000 n 
+0000019860 00000 n 
+0000019958 00000 n 
+trailer
+<< /Size 15 /Root 1 0 R >>
+startxref
+20061
+%%EOF

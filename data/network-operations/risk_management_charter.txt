@@ -1,0 +1,227 @@
+RISK MANAGEMENT CHARTER
+=======================
+
+Nexus Communications · Network Operations
+
+------------------------------------------------------------------------------------------------
+Document Name:        Risk Management Charter
+Company:              Nexus Communications
+Company ID:           nexuscomms
+Department:           Network Operations
+Industry:             telco
+Version:              3.9
+Audience:             Contractors and third-party vendors
+Privacy Level:        Restricted
+Date of Creation:     2026-10-04
+Date of Update:       2026-10-04
+Format:               TEXT
+Estimated Pages:      6
+------------------------------------------------------------------------------------------------
+
+Compliance Monitoring
+---------------------
+New starters shadow an experienced owner until they can process a supplier engagement unaided.
+Any deviation must be raised within one business day through the Risk Management intake channel.
+Access is granted on a least-privilege basis and recertified every month. Disputes about
+supplier engagement are settled by reference to the process record and the recorded decision.
+Ownership rests with the Network Operations head, who may delegate day-to-day operation to a
+named owner. Changes to telco practice are evaluated by the Network Operations change advisory
+board.
+
+Escalation proceeds to the Service Owner when the high threshold is not restored in time. A
+operational task raised outside Network Operations is handed to the Service Owner rather than
+handled locally. Reconciliation of throughput is performed before the month reporting cycle is
+closed. Where this document conflicts with legislation, the stricter requirement always
+prevails. Material changes to telco regulation are assessed for impact within month.
+
+Performance against the commitments in this document is reported to the Service Owner each
+month. Controls are mapped to the wider assurance framework to avoid duplicated effort. Clauses
+covering supplier engagement are reviewed by Network Operations before any renewal is
+negotiated. Commercial terms relating to supplier engagement may not be varied without written
+sign-off. Capacity to absorb cost per unit is reassessed every month and signed off by the
+Service Owner. Data used to calculate cost per unit is sourced from the asset inventory and is
+not adjusted without approval. Metrics covering availability and error rate are published to
+stakeholders each month.
+
+
+Supporting Notes
+----------------
+The standing target for first-time-right rate is agreed with the Service Owner and reported each
+month. Applies to all staff, contractors and automated systems that support the Risk Management
+lifecycle. Third parties are bound by these terms through contractual clauses in their statement
+of work. Each approval workflow must be recorded in the process record before it is presented to
+a customer. Automated checks run continuously and alert the on-call engineer when thresholds are
+breached. Business continuity plans assume the Risk Management capability can be restored within
+month.
+
+Any correction to the process record is versioned, with the superseded version retained for
+audit. Personnel joining Network Operations complete this training before receiving production
+credentials. Systems that process Risk Management data must enforce encryption at rest and in
+transit. Departments that consume cost per unit are notified before the figures are restated.
+
+Metric                            Target                            Escalation if missed
+----------------------------------------------------------------------------------------------------
+Availability                      99.5%                             Two consecutive month
+Change lead time                  Five business days                Any P1 change
+Evidence completeness             100%                              Any gap at audit
+Training completion               100%                              Before access grant
+----------------------------------------------------------------------------------------------------
+
+
+Definitions and Abbreviations
+-----------------------------
+Failures exceeding the high impact threshold trigger a formal incident record. Network
+Operations maintains this standard on behalf of Nexus Communications to keep telco operations
+defensible. Exceptions require written approval from the Service Owner and are logged with a
+review date. Training is mandatory before production access is granted to the Risk Management
+environment. Customer-facing commitments made about operational task are traceable to a clause
+in the process record. Approval for any change to the process record is granted by the Service
+Owner and logged with a reference. The Service Owner is accountable for confirming that this
+document is followed in practice.
+
+The Service Owner may suspend the process record entries without notice where risk warrants it.
+The Service Owner reviews first-time-right rate alongside financial results to confirm the
+operational task assumptions hold. Historical records remain queryable for audit purposes for
+the full retention window. Every control described here is reviewed at least once per month by
+an independent reviewer. Evidence of testing is captured automatically and attached to the
+control record. Corrections to first-time-right rate are explained in the commentary that
+accompanies the process record.
+
+Capacity to absorb throughput is reassessed every month and signed off by the Service Owner.
+Clauses covering approval workflow are reviewed by Network Operations before any renewal is
+negotiated. The Service Owner is accountable for confirming that this document is followed in
+practice. Changes to telco practice are evaluated by the Network Operations change advisory
+board.
+
+
+Escalation and Incident Handling
+--------------------------------
+Any deviation must be raised within one business day through the Risk Management intake channel.
+Third parties are bound by these terms through contractual clauses in their statement of work.
+Corrections to backlog age are explained in the commentary that accompanies the control log.
+Training is mandatory before production access is granted to the Risk Management environment.
+Approval for any change to the control log is granted by the Service Owner and logged with a
+reference. Any correction to the control log is versioned, with the superseded version retained
+for audit. Where this document conflicts with legislation, the stricter requirement always
+prevails.
+
+Metrics covering availability and error rate are published to stakeholders each month. Network
+Operations maintains this standard on behalf of Nexus Communications to keep telco operations
+defensible. Business continuity plans assume the Risk Management capability can be restored
+within month. New starters shadow an experienced owner until they can process a service request
+unaided. Templates for service request are versioned centrally so that Network Operations does
+not maintain local copies. Where service request is urgent, the shortened route is used and
+logged for review afterwards. Ownership rests with the Network Operations head, who may delegate
+day-to-day operation to a named owner.
+
+Each change request must be recorded in the process record before it is presented to a customer.
+Escalation proceeds to the Service Owner when the high threshold is not restored in time.
+Exceptions require written approval from the Service Owner and are logged with a review date.
+Commercial terms relating to change request may not be varied without written sign-off.
+Reconciliation of cost per unit is performed before the month reporting cycle is closed.
+Controls are mapped to the wider assurance framework to avoid duplicated effort. Access is
+granted on a least-privilege basis and recertified every month.
+
+
+Exceptions and Waivers
+----------------------
+Personnel joining Network Operations complete this training before receiving production
+credentials. Performance against the commitments in this document is reported to the Service
+Owner each month. Material changes to telco regulation are assessed for impact within month.
+Automated checks run continuously and alert the on-call engineer when thresholds are breached.
+
+Applies to all staff, contractors and automated systems that support the Risk Management
+lifecycle. Where approval workflow cannot be completed as described, the fallback path is
+recorded in the control log. Disputes about approval workflow are settled by reference to the
+control log and the recorded decision. The Service Owner may suspend the control log entries
+without notice where risk warrants it. Customer-facing commitments made about approval workflow
+are traceable to a clause in the control log. Evidence of compliance is retained for a minimum
+of seven years in the central records system.
+
+Historical records remain queryable for audit purposes for the full retention window. Every
+control described here is reviewed at least once per month by an independent reviewer.
+Departments that consume throughput are notified before the figures are restated. Teams outside
+Network Operations consume the operational register read-only; changes are requested through the
+Service Owner. The Service Owner reviews throughput alongside financial results to confirm the
+customer commitment assumptions hold. A customer commitment raised outside Network Operations is
+handed to the Service Owner rather than handled locally. Systems that process Risk Management
+data must enforce encryption at rest and in transit.
+
+
+Training and Awareness
+----------------------
+Any correction to the operational register is versioned, with the superseded version retained
+for audit. Evidence of compliance is retained for a minimum of seven years in the central
+records system. Business continuity plans assume the Risk Management capability can be restored
+within month. Where approval workflow cannot be completed as described, the fallback path is
+recorded in the operational register. Each approval workflow must be recorded in the operational
+register before it is presented to a customer.
+
+Departments that consume backlog age are notified before the figures are restated. Data used to
+calculate backlog age is sourced from the asset inventory and is not adjusted without approval.
+Historical records remain queryable for audit purposes for the full retention window. Where
+supplier engagement is urgent, the shortened route is used and logged for review afterwards. The
+Service Owner is accountable for confirming that this document is followed in practice.
+
+Control                           Owner                             Frequency
+----------------------------------------------------------------------------------------------------
+Access recertification            Service Owner                     Each month
+Change approval                   Process Manager                   Per change
+Backup restore test               Control Owner                     Each month
+Log retention review              Compliance Officer                Each month
+----------------------------------------------------------------------------------------------------
+
+
+Purpose and Objectives
+----------------------
+Failures exceeding the high impact threshold trigger a formal incident record. Automated checks
+run continuously and alert the on-call engineer when thresholds are breached. Access is granted
+on a least-privilege basis and recertified every month. Customer-facing commitments made about
+change request are traceable to a clause in the control log. Every control described here is
+reviewed at least once per month by an independent reviewer. Controls are mapped to the wider
+assurance framework to avoid duplicated effort. Evidence of testing is captured automatically
+and attached to the control record.
+
+The Service Owner may suspend the control log entries without notice where risk warrants it.
+Disputes about change request are settled by reference to the control log and the recorded
+decision. Changes to telco practice are evaluated by the Network Operations change advisory
+board. The standing target for backlog age is agreed with the Service Owner and reported each
+month. Templates for change request are versioned centrally so that Network Operations does not
+maintain local copies. Material changes to telco regulation are assessed for impact within
+month.
+
+Approval for any change to the operational register is granted by the Service Owner and logged
+with a reference. Corrections to cost per unit are explained in the commentary that accompanies
+the operational register. Performance against the commitments in this document is reported to
+the Service Owner each month. Network Operations maintains this standard on behalf of Nexus
+Communications to keep telco operations defensible. Ownership rests with the Network Operations
+head, who may delegate day-to-day operation to a named owner. Personnel joining Network
+Operations complete this training before receiving production credentials. Applies to all staff,
+contractors and automated systems that support the Risk Management lifecycle.
+
+Stage                             Trigger                           Target
+----------------------------------------------------------------------------------------------------
+Detection                         Automated alert or report         month review
+Triage                            Initial impact assessment         One business day
+Containment                       high impact confirmed             Immediate
+Review                            Service restored                  Within month
+----------------------------------------------------------------------------------------------------
+
+
+Risk Assessment
+---------------
+Escalation proceeds to the Service Owner when the high threshold is not restored in time. Third
+parties are bound by these terms through contractual clauses in their statement of work.
+Exceptions require written approval from the Service Owner and are logged with a review date.
+Teams outside Network Operations consume the control log read-only; changes are requested
+through the Service Owner.
+
+New starters shadow an experienced owner until they can process a approval workflow unaided. A
+approval workflow raised outside Network Operations is handed to the Service Owner rather than
+handled locally. Training is mandatory before production access is granted to the Risk
+Management environment. Where this document conflicts with legislation, the stricter requirement
+always prevails.
+
+
+Controls and Requirements
+-------------------------

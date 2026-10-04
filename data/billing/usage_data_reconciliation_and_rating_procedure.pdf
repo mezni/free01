@@ -1,0 +1,290 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R 5 0 R 7 0 R 9 0 R 11 0 R 13 0 R] /Count 6 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R /F2 16 0 R >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 3800 >>
+stream
+BT /F2 18 Tf 1 0 0 1 54 720.0 Tm (Usage Data Reconciliation and Rating Procedure) Tj ET
+0.82 G 0.5 w 54 714.0 m 558 714.0 l S
+BT /F1 12 Tf 1 0 0 1 54 676.0 Tm (Nexus Communications · Billing) Tj ET
+BT /F1 10 Tf 1 0 0 1 54 648.0 Tm (Document Name: Usage Data Reconciliation and Rating Procedure) Tj ET
+BT /F1 10 Tf 1 0 0 1 54 634.0 Tm (Company: Nexus Communications) Tj ET
+BT /F1 10 Tf 1 0 0 1 54 620.0 Tm (Company ID: nexuscomms) Tj ET
+BT /F1 10 Tf 1 0 0 1 54 606.0 Tm (Department: Billing) Tj ET
+BT /F1 10 Tf 1 0 0 1 54 592.0 Tm (Industry: telco) Tj ET
+BT /F1 10 Tf 1 0 0 1 54 578.0 Tm (Version: 2.0) Tj ET
+BT /F1 10 Tf 1 0 0 1 54 564.0 Tm (Audience: Billing engineers and data operations staff) Tj ET
+BT /F1 10 Tf 1 0 0 1 54 550.0 Tm (Privacy Level: Internal) Tj ET
+BT /F1 10 Tf 1 0 0 1 54 536.0 Tm (Date of Creation: 2026-10-04) Tj ET
+BT /F1 10 Tf 1 0 0 1 54 522.0 Tm (Date of Update: 2026-10-04) Tj ET
+BT /F1 10 Tf 1 0 0 1 54 508.0 Tm (Format: PDF) Tj ET
+BT /F1 10 Tf 1 0 0 1 54 494.0 Tm (Estimated Pages: 6) Tj ET
+0.82 G 0.5 w 54 488.0 m 558 488.0 l S
+BT /F2 13 Tf 1 0 0 1 54 436.0 Tm (Monitoring and Reporting) Tj ET
+0.82 G 0.5 w 54 430.0 m 558 430.0 l S
+BT /F1 11 Tf 1 0 0 1 54 410.0 Tm (Clauses covering change request are reviewed by Billing before any renewal is) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 396.0 Tm (negotiated. The standing target for backlog age is agreed with the Service Owner and) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 382.0 Tm (reported each six months. Evidence of compliance is retained for a minimum of seven) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 368.0 Tm (years in the central records system. Disputes about change request are settled by) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 354.0 Tm (reference to the operational register and the recorded decision. Templates for change) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 340.0 Tm (request are versioned centrally so that Billing does not maintain local copies.) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 312.0 Tm (New starters shadow an experienced owner until they can process a approval workflow) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 298.0 Tm (unaided. Any correction to the operational register is versioned, with the superseded) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 284.0 Tm (version retained for audit. The Service Owner may suspend the operational register) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 270.0 Tm (entries without notice where risk warrants it. Changes to telco practice are evaluated) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 256.0 Tm (by the Billing change advisory board. Business continuity plans assume the Usage Data) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 242.0 Tm (Reconciliation and Rating capability can be restored within six months. Each approval) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 228.0 Tm (workflow must be recorded in the operational register before it is presented to a) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 214.0 Tm (customer.) Tj ET
+BT /F2 13 Tf 1 0 0 1 54 168.0 Tm (Roles and Responsibilities) Tj ET
+0.82 G 0.5 w 54 162.0 m 558 162.0 l S
+BT /F1 11 Tf 1 0 0 1 54 142.0 Tm (Any deviation must be raised within one business day through the Usage Data) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 128.0 Tm (Reconciliation and Rating intake channel. Metrics covering availability and error rate) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 114.0 Tm (are published to stakeholders each six months. Departments that consume backlog age are) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 100.0 Tm (notified before the figures are restated. The Service Owner reviews backlog age) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 86.0 Tm (alongside financial results to confirm the approval workflow assumptions hold.) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 72.0 Tm (Historical records remain queryable for audit purposes for the full retention window.) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 58.0 Tm (Controls are mapped to the wider assurance framework to avoid duplicated effort.) Tj ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R /F2 16 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 4652 >>
+stream
+BT /F1 11 Tf 1 0 0 1 54 724.0 Tm (Applies to all staff, contractors and automated systems that support the Usage Data) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 710.0 Tm (Reconciliation and Rating lifecycle. Capacity to absorb backlog age is reassessed every) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 696.0 Tm (six months and signed off by the Service Owner. Evidence of testing is captured) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 682.0 Tm (automatically and attached to the control record. Exceptions require written approval) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 668.0 Tm (from the Service Owner and are logged with a review date.) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 640.0 Tm (Where customer commitment cannot be completed as described, the fallback path is) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 626.0 Tm (recorded in the operational register. Teams outside Billing consume the operational) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 612.0 Tm (register read-only; changes are requested through the Service Owner. Where customer) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 598.0 Tm (commitment is urgent, the shortened route is used and logged for review afterwards. The) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 584.0 Tm (Service Owner is accountable for confirming that this document is followed in practice.) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 570.0 Tm (Data used to calculate cost per unit is sourced from the asset inventory and is not) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 556.0 Tm (adjusted without approval. Customer-facing commitments made about customer commitment) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 542.0 Tm (are traceable to a clause in the operational register. Approval for any change to the) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 528.0 Tm (operational register is granted by the Service Owner and logged with a reference.) Tj ET
+BT /F2 13 Tf 1 0 0 1 54 482.0 Tm (Records and Retention) Tj ET
+0.82 G 0.5 w 54 476.0 m 558 476.0 l S
+BT /F1 11 Tf 1 0 0 1 54 456.0 Tm (Corrections to throughput are explained in the commentary that accompanies the control) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 442.0 Tm (log. Billing maintains this standard on behalf of Nexus Communications to keep telco) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 428.0 Tm (operations defensible. Escalation proceeds to the Service Owner when the red threshold) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 414.0 Tm (is not restored in time. Failures exceeding the red impact threshold trigger a formal) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 400.0 Tm (incident record. A change request raised outside Billing is handed to the Service Owner) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 386.0 Tm (rather than handled locally.) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 358.0 Tm (Performance against the commitments in this document is reported to the Service Owner) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 344.0 Tm (each six months. Training is mandatory before production access is granted to the Usage) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 330.0 Tm (Data Reconciliation and Rating environment. Systems that process Usage Data) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 316.0 Tm (Reconciliation and Rating data must enforce encryption at rest and in transit. Personnel) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 302.0 Tm (joining Billing complete this training before receiving production credentials.) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 288.0 Tm (Automated checks run continuously and alert the on-call engineer when thresholds are) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 274.0 Tm (breached. Commercial terms relating to supplier engagement may not be varied without) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 260.0 Tm (written sign-off.) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 232.0 Tm (Where this document conflicts with legislation, the stricter requirement always) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 218.0 Tm (prevails. Material changes to telco regulation are assessed for impact within six) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 204.0 Tm (months. Every control described here is reviewed at least once per six months by an) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 190.0 Tm (independent reviewer. Ownership rests with the Billing head, who may delegate day-to-day) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 176.0 Tm (operation to a named owner.) Tj ET
+BT /F2 13 Tf 1 0 0 1 54 130.0 Tm (Standard Operating Procedure) Tj ET
+0.82 G 0.5 w 54 124.0 m 558 124.0 l S
+BT /F1 11 Tf 1 0 0 1 54 104.0 Tm (Billing maintains this standard on behalf of Nexus Communications to keep telco) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 90.0 Tm (operations defensible. Access is granted on a least-privilege basis and recertified) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 76.0 Tm (every six months. Applies to all staff, contractors and automated systems that support) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 62.0 Tm (the Usage Data Reconciliation and Rating lifecycle. Performance against the commitments) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R /F2 16 0 R >> >> /Contents 8 0 R >>
+endobj
+8 0 obj
+<< /Length 4572 >>
+stream
+BT /F1 11 Tf 1 0 0 1 54 724.0 Tm (in this document is reported to the Service Owner each six months. Evidence of testing) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 710.0 Tm (is captured automatically and attached to the control record. Teams outside Billing) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 696.0 Tm (consume the process record read-only; changes are requested through the Service Owner.) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 682.0 Tm (Any deviation must be raised within one business day through the Usage Data) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 668.0 Tm (Reconciliation and Rating intake channel.) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 640.0 Tm (Where customer commitment is urgent, the shortened route is used and logged for review) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 626.0 Tm (afterwards. Every control described here is reviewed at least once per six months by an) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 612.0 Tm (independent reviewer. Training is mandatory before production access is granted to the) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 598.0 Tm (Usage Data Reconciliation and Rating environment. Evidence of compliance is retained for) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 584.0 Tm (a minimum of seven years in the central records system. Third parties are bound by these) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 570.0 Tm (terms through contractual clauses in their statement of work.) Tj ET
+BT /F2 13 Tf 1 0 0 1 54 524.0 Tm (Controls and Requirements) Tj ET
+0.82 G 0.5 w 54 518.0 m 558 518.0 l S
+BT /F1 11 Tf 1 0 0 1 54 498.0 Tm (Approval for any change to the process record is granted by the Service Owner and logged) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 484.0 Tm (with a reference. New starters shadow an experienced owner until they can process a) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 470.0 Tm (supplier engagement unaided. Where supplier engagement cannot be completed as described,) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 456.0 Tm (the fallback path is recorded in the process record. Ownership rests with the Billing) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 442.0 Tm (head, who may delegate day-to-day operation to a named owner. Changes to telco practice) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 428.0 Tm (are evaluated by the Billing change advisory board.) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 400.0 Tm (The Service Owner reviews first-time-right rate alongside financial results to confirm) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 386.0 Tm (the operational task assumptions hold. Clauses covering operational task are reviewed by) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 372.0 Tm (Billing before any renewal is negotiated. Data used to calculate first-time-right rate) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 358.0 Tm (is sourced from the asset inventory and is not adjusted without approval. A operational) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 344.0 Tm (task raised outside Billing is handed to the Service Owner rather than handled locally.) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 330.0 Tm (Reconciliation of first-time-right rate is performed before the six months reporting) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 316.0 Tm (cycle is closed. Where this document conflicts with legislation, the stricter) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 302.0 Tm (requirement always prevails.) Tj ET
+BT /F1 9 Tf 1 0 0 1 54 260.0 Tm (Role                           Responsibility                 Escalation) Tj ET
+BT /F1 9 Tf 1 0 0 1 54 246.0 Tm (-------------------------------------------------------------------------------------------) Tj ET
+BT /F1 9 Tf 1 0 0 1 54 232.0 Tm (Control Owner                  Operates and evidences the co  Process Manager) Tj ET
+BT /F1 9 Tf 1 0 0 1 54 218.0 Tm (Process Manager                Approves changes and exceptio  Risk Lead) Tj ET
+BT /F1 9 Tf 1 0 0 1 54 204.0 Tm (Risk Lead                      Maintains the risk register    Compliance Officer) Tj ET
+BT /F1 9 Tf 1 0 0 1 54 190.0 Tm (Compliance Officer             Reports to stakeholders        Executive sponsor) Tj ET
+BT /F1 9 Tf 1 0 0 1 54 176.0 Tm (-------------------------------------------------------------------------------------------) Tj ET
+BT /F2 13 Tf 1 0 0 1 54 130.0 Tm (Training and Awareness) Tj ET
+0.82 G 0.5 w 54 124.0 m 558 124.0 l S
+BT /F1 11 Tf 1 0 0 1 54 104.0 Tm (Disputes about customer commitment are settled by reference to the control log and the) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 90.0 Tm (recorded decision. Corrections to backlog age are explained in the commentary that) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 76.0 Tm (accompanies the control log. The standing target for backlog age is agreed with the) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 62.0 Tm (Service Owner and reported each six months. Any correction to the control log is) Tj ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R /F2 16 0 R >> >> /Contents 10 0 R >>
+endobj
+10 0 obj
+<< /Length 4766 >>
+stream
+BT /F1 11 Tf 1 0 0 1 54 724.0 Tm (versioned, with the superseded version retained for audit. Metrics covering availability) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 710.0 Tm (and error rate are published to stakeholders each six months. Departments that consume) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 696.0 Tm (backlog age are notified before the figures are restated. Historical records remain) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 682.0 Tm (queryable for audit purposes for the full retention window.) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 654.0 Tm (The Service Owner may suspend the control log entries without notice where risk warrants) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 640.0 Tm (it. Automated checks run continuously and alert the on-call engineer when thresholds are) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 626.0 Tm (breached. Business continuity plans assume the Usage Data Reconciliation and Rating) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 612.0 Tm (capability can be restored within six months. Customer-facing commitments made about) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 598.0 Tm (supplier engagement are traceable to a clause in the control log. Systems that process) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 584.0 Tm (Usage Data Reconciliation and Rating data must enforce encryption at rest and in) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 570.0 Tm (transit. Material changes to telco regulation are assessed for impact within six months.) Tj ET
+BT /F1 9 Tf 1 0 0 1 54 528.0 Tm (Metric                         Target                         Escalation if missed) Tj ET
+BT /F1 9 Tf 1 0 0 1 54 514.0 Tm (-------------------------------------------------------------------------------------------) Tj ET
+BT /F1 9 Tf 1 0 0 1 54 500.0 Tm (Availability                   99.5%                          Two consecutive six months) Tj ET
+BT /F1 9 Tf 1 0 0 1 54 486.0 Tm (Change lead time               Five business days             Any P1 change) Tj ET
+BT /F1 9 Tf 1 0 0 1 54 472.0 Tm (Evidence completeness          100%                           Any gap at audit) Tj ET
+BT /F1 9 Tf 1 0 0 1 54 458.0 Tm (Training completion            100%                           Before access grant) Tj ET
+BT /F1 9 Tf 1 0 0 1 54 444.0 Tm (-------------------------------------------------------------------------------------------) Tj ET
+BT /F2 13 Tf 1 0 0 1 54 398.0 Tm (Definitions and Abbreviations) Tj ET
+0.82 G 0.5 w 54 392.0 m 558 392.0 l S
+BT /F1 11 Tf 1 0 0 1 54 372.0 Tm (The Service Owner is accountable for confirming that this document is followed in) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 358.0 Tm (practice. Personnel joining Billing complete this training before receiving production) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 344.0 Tm (credentials. Failures exceeding the red impact threshold trigger a formal incident) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 330.0 Tm (record. Capacity to absorb cost per unit is reassessed every six months and signed off) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 316.0 Tm (by the Service Owner. Commercial terms relating to change request may not be varied) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 302.0 Tm (without written sign-off.) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 274.0 Tm (Historical records remain queryable for audit purposes for the full retention window.) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 260.0 Tm (Training is mandatory before production access is granted to the Usage Data) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 246.0 Tm (Reconciliation and Rating environment. Customer-facing commitments made about supplier) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 232.0 Tm (engagement are traceable to a clause in the control log. Third parties are bound by) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 218.0 Tm (these terms through contractual clauses in their statement of work. Escalation proceeds) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 204.0 Tm (to the Service Owner when the red threshold is not restored in time. The Service Owner) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 190.0 Tm (may suspend the control log entries without notice where risk warrants it.) Tj ET
+BT /F1 9 Tf 1 0 0 1 54 148.0 Tm (Role                           Responsibility                 Escalation) Tj ET
+BT /F1 9 Tf 1 0 0 1 54 134.0 Tm (-------------------------------------------------------------------------------------------) Tj ET
+BT /F1 9 Tf 1 0 0 1 54 120.0 Tm (Control Owner                  Operates and evidences the co  Process Manager) Tj ET
+BT /F1 9 Tf 1 0 0 1 54 106.0 Tm (Process Manager                Approves changes and exceptio  Risk Lead) Tj ET
+BT /F1 9 Tf 1 0 0 1 54 92.0 Tm (Risk Lead                      Maintains the risk register    Compliance Officer) Tj ET
+BT /F1 9 Tf 1 0 0 1 54 78.0 Tm (Compliance Officer             Reports to stakeholders        Executive sponsor) Tj ET
+BT /F1 9 Tf 1 0 0 1 54 64.0 Tm (-------------------------------------------------------------------------------------------) Tj ET
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R /F2 16 0 R >> >> /Contents 12 0 R >>
+endobj
+12 0 obj
+<< /Length 4616 >>
+stream
+BT /F2 13 Tf 1 0 0 1 54 720.0 Tm (Exceptions and Waivers) Tj ET
+0.82 G 0.5 w 54 714.0 m 558 714.0 l S
+BT /F1 11 Tf 1 0 0 1 54 694.0 Tm (Corrections to backlog age are explained in the commentary that accompanies the process) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 680.0 Tm (record. Billing maintains this standard on behalf of Nexus Communications to keep telco) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 666.0 Tm (operations defensible. Every control described here is reviewed at least once per six) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 652.0 Tm (months by an independent reviewer. Any deviation must be raised within one business day) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 638.0 Tm (through the Usage Data Reconciliation and Rating intake channel. Templates for approval) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 624.0 Tm (workflow are versioned centrally so that Billing does not maintain local copies.) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 610.0 Tm (Material changes to telco regulation are assessed for impact within six months.) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 582.0 Tm (Disputes about supplier engagement are settled by reference to the operational register) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 568.0 Tm (and the recorded decision. Changes to telco practice are evaluated by the Billing change) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 554.0 Tm (advisory board. The Service Owner is accountable for confirming that this document is) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 540.0 Tm (followed in practice. Performance against the commitments in this document is reported) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 526.0 Tm (to the Service Owner each six months. Systems that process Usage Data Reconciliation and) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 512.0 Tm (Rating data must enforce encryption at rest and in transit. The standing target for) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 498.0 Tm (backlog age is agreed with the Service Owner and reported each six months.) Tj ET
+BT /F1 9 Tf 1 0 0 1 54 456.0 Tm (Role                           Responsibility                 Escalation) Tj ET
+BT /F1 9 Tf 1 0 0 1 54 442.0 Tm (-------------------------------------------------------------------------------------------) Tj ET
+BT /F1 9 Tf 1 0 0 1 54 428.0 Tm (Control Owner                  Operates and evidences the co  Process Manager) Tj ET
+BT /F1 9 Tf 1 0 0 1 54 414.0 Tm (Process Manager                Approves changes and exceptio  Risk Lead) Tj ET
+BT /F1 9 Tf 1 0 0 1 54 400.0 Tm (Risk Lead                      Maintains the risk register    Compliance Officer) Tj ET
+BT /F1 9 Tf 1 0 0 1 54 386.0 Tm (Compliance Officer             Reports to stakeholders        Executive sponsor) Tj ET
+BT /F1 9 Tf 1 0 0 1 54 372.0 Tm (-------------------------------------------------------------------------------------------) Tj ET
+BT /F2 13 Tf 1 0 0 1 54 326.0 Tm (Scope and Applicability) Tj ET
+0.82 G 0.5 w 54 320.0 m 558 320.0 l S
+BT /F1 11 Tf 1 0 0 1 54 300.0 Tm (Metrics covering availability and error rate are published to stakeholders each six) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 286.0 Tm (months. Where approval workflow cannot be completed as described, the fallback path is) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 272.0 Tm (recorded in the process record. Where approval workflow is urgent, the shortened route) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 258.0 Tm (is used and logged for review afterwards. Departments that consume throughput are) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 244.0 Tm (notified before the figures are restated.) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 216.0 Tm (Data used to calculate cost per unit is sourced from the asset inventory and is not) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 202.0 Tm (adjusted without approval. Failures exceeding the red impact threshold trigger a formal) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 188.0 Tm (incident record. New starters shadow an experienced owner until they can process a) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 174.0 Tm (change request unaided. Exceptions require written approval from the Service Owner and) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 160.0 Tm (are logged with a review date. Clauses covering change request are reviewed by Billing) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 146.0 Tm (before any renewal is negotiated.) Tj ET
+BT /F1 9 Tf 1 0 0 1 54 104.0 Tm (Metric                         Target                         Escalation if missed) Tj ET
+BT /F1 9 Tf 1 0 0 1 54 90.0 Tm (-------------------------------------------------------------------------------------------) Tj ET
+BT /F1 9 Tf 1 0 0 1 54 76.0 Tm (Availability                   99.5%                          Two consecutive six months) Tj ET
+BT /F1 9 Tf 1 0 0 1 54 62.0 Tm (Change lead time               Five business days             Any P1 change) Tj ET
+endstream
+endobj
+13 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R /F2 16 0 R >> >> /Contents 14 0 R >>
+endobj
+14 0 obj
+<< /Length 372 >>
+stream
+BT /F1 9 Tf 1 0 0 1 54 724.0 Tm (Evidence completeness          100%                           Any gap at audit) Tj ET
+BT /F1 9 Tf 1 0 0 1 54 710.0 Tm (Training completion            100%                           Before access grant) Tj ET
+BT /F1 9 Tf 1 0 0 1 54 696.0 Tm (-------------------------------------------------------------------------------------------) Tj ET
+endstream
+endobj
+15 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+16 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+xref
+0 17
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000147 00000 n 
+0000000285 00000 n 
+0000004137 00000 n 
+0000004275 00000 n 
+0000008979 00000 n 
+0000009117 00000 n 
+0000013741 00000 n 
+0000013880 00000 n 
+0000018699 00000 n 
+0000018839 00000 n 
+0000023508 00000 n 
+0000023648 00000 n 
+0000024072 00000 n 
+0000024170 00000 n 
+trailer
+<< /Size 17 /Root 1 0 R >>
+startxref
+24273
+%%EOF

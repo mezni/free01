@@ -1,0 +1,326 @@
+TECHNICAL DEBT GUIDELINE
+========================
+
+Nexus Communications · Engineering
+
+------------------------------------------------------------------------------------------------
+Document Name:        Technical Debt Guideline
+Company:              Nexus Communications
+Company ID:           nexuscomms
+Department:           Engineering
+Industry:             telco
+Version:              1.6
+Audience:             Managers and team leads
+Privacy Level:        Public
+Date of Creation:     2026-10-04
+Date of Update:       2026-10-04
+Format:               TEXT
+Estimated Pages:      8
+------------------------------------------------------------------------------------------------
+
+Controls and Requirements
+-------------------------
+Any deviation must be raised within one business day through the Technical Debt intake channel.
+Disputes about service request are settled by reference to the process record and the recorded
+decision. Approval for any change to the process record is granted by the Service Owner and
+logged with a reference. Where service request cannot be completed as described, the fallback
+path is recorded in the process record. Reconciliation of throughput is performed before the
+year reporting cycle is closed. Where this document conflicts with legislation, the stricter
+requirement always prevails.
+
+Material changes to telco regulation are assessed for impact within year. The Service Owner
+reviews backlog age alongside financial results to confirm the approval workflow assumptions
+hold. Engineering maintains this standard on behalf of Nexus Communications to keep telco
+operations defensible. Clauses covering approval workflow are reviewed by Engineering before any
+renewal is negotiated. Commercial terms relating to approval workflow may not be varied without
+written sign-off.
+
+Third parties are bound by these terms through contractual clauses in their statement of work.
+Each operational task must be recorded in the control log before it is presented to a customer.
+A operational task raised outside Engineering is handed to the Service Owner rather than handled
+locally. The Service Owner is accountable for confirming that this document is followed in
+practice. Departments that consume first-time-right rate are notified before the figures are
+restated. Training is mandatory before production access is granted to the Technical Debt
+environment. The Service Owner may suspend the control log entries without notice where risk
+warrants it.
+
+Role                              Responsibility                    Escalation
+----------------------------------------------------------------------------------------------------
+Control Owner                     Operates and evidences the contr  Process Manager
+Process Manager                   Approves changes and exceptions   Risk Lead
+Risk Lead                         Maintains the risk register       Compliance Officer
+Compliance Officer                Reports to stakeholders           Executive sponsor
+----------------------------------------------------------------------------------------------------
+
+
+Standard Operating Procedure
+----------------------------
+Evidence of testing is captured automatically and attached to the control record. Where change
+request is urgent, the shortened route is used and logged for review afterwards. Escalation
+proceeds to the Service Owner when the red threshold is not restored in time. Data used to
+calculate throughput is sourced from the monitoring stack and is not adjusted without approval.
+Performance against the commitments in this document is reported to the Service Owner each year.
+Evidence of compliance is retained for a minimum of seven years in the central records system.
+Exceptions require written approval from the Service Owner and are logged with a review date.
+
+Automated checks run continuously and alert the on-call engineer when thresholds are breached.
+Applies to all staff, contractors and automated systems that support the Technical Debt
+lifecycle. Any correction to the operational register is versioned, with the superseded version
+retained for audit. Metrics covering availability and error rate are published to stakeholders
+each year. Capacity to absorb cost per unit is reassessed every year and signed off by the
+Service Owner. Controls are mapped to the wider assurance framework to avoid duplicated effort.
+
+Customer-facing commitments made about operational task are traceable to a clause in the control
+log. Personnel joining Engineering complete this training before receiving production
+credentials. Changes to telco practice are evaluated by the Engineering change advisory board.
+Business continuity plans assume the Technical Debt capability can be restored within year.
+
+
+Compliance Monitoring
+---------------------
+New starters shadow an experienced owner until they can process a supplier engagement unaided.
+Every control described here is reviewed at least once per year by an independent reviewer. The
+standing target for backlog age is agreed with the Service Owner and reported each year.
+Ownership rests with the Engineering head, who may delegate day-to-day operation to a named
+owner.
+
+Access is granted on a least-privilege basis and recertified every year. Corrections to cost per
+unit are explained in the commentary that accompanies the control log. Templates for approval
+workflow are versioned centrally so that Engineering does not maintain local copies. Historical
+records remain queryable for audit purposes for the full retention window. Systems that process
+Technical Debt data must enforce encryption at rest and in transit. Failures exceeding the red
+impact threshold trigger a formal incident record. Teams outside Engineering consume the control
+log read-only; changes are requested through the Service Owner.
+
+Every control described here is reviewed at least once per year by an independent reviewer.
+Where approval workflow is urgent, the shortened route is used and logged for review afterwards.
+Applies to all staff, contractors and automated systems that support the Technical Debt
+lifecycle. Performance against the commitments in this document is reported to the Service Owner
+each year.
+
+
+Definitions and Abbreviations
+-----------------------------
+Disputes about change request are settled by reference to the process record and the recorded
+decision. Changes to telco practice are evaluated by the Engineering change advisory board.
+Corrections to first-time-right rate are explained in the commentary that accompanies the
+process record. Systems that process Technical Debt data must enforce encryption at rest and in
+transit. Exceptions require written approval from the Service Owner and are logged with a review
+date.
+
+Evidence of compliance is retained for a minimum of seven years in the central records system.
+Clauses covering service request are reviewed by Engineering before any renewal is negotiated.
+Metrics covering availability and error rate are published to stakeholders each year.
+Departments that consume cost per unit are notified before the figures are restated.
+
+A service request raised outside Engineering is handed to the Service Owner rather than handled
+locally. The Service Owner reviews first-time-right rate alongside financial results to confirm
+the service request assumptions hold. Teams outside Engineering consume the process record
+read-only; changes are requested through the Service Owner. Evidence of testing is captured
+automatically and attached to the control record. Each service request must be recorded in the
+process record before it is presented to a customer. Ownership rests with the Engineering head,
+who may delegate day-to-day operation to a named owner. Personnel joining Engineering complete
+this training before receiving production credentials.
+
+
+Scope and Applicability
+-----------------------
+Data used to calculate backlog age is sourced from the monitoring stack and is not adjusted
+without approval. Templates for customer commitment are versioned centrally so that Engineering
+does not maintain local copies. Customer-facing commitments made about customer commitment are
+traceable to a clause in the process record. Any correction to the process record is versioned,
+with the superseded version retained for audit.
+
+Capacity to absorb cost per unit is reassessed every year and signed off by the Service Owner.
+Business continuity plans assume the Technical Debt capability can be restored within year.
+Escalation proceeds to the Service Owner when the red threshold is not restored in time.
+Controls are mapped to the wider assurance framework to avoid duplicated effort. Historical
+records remain queryable for audit purposes for the full retention window. Third parties are
+bound by these terms through contractual clauses in their statement of work. Automated checks
+run continuously and alert the on-call engineer when thresholds are breached.
+
+
+Roles and Responsibilities
+--------------------------
+Where operational task cannot be completed as described, the fallback path is recorded in the
+operational register. The Service Owner may suspend the operational register entries without
+notice where risk warrants it. Engineering maintains this standard on behalf of Nexus
+Communications to keep telco operations defensible. The standing target for throughput is agreed
+with the Service Owner and reported each year. Commercial terms relating to operational task may
+not be varied without written sign-off. Approval for any change to the operational register is
+granted by the Service Owner and logged with a reference.
+
+Training is mandatory before production access is granted to the Technical Debt environment. New
+starters shadow an experienced owner until they can process a change request unaided.
+Reconciliation of cost per unit is performed before the year reporting cycle is closed. Any
+deviation must be raised within one business day through the Technical Debt intake channel.
+
+Capacity to absorb backlog age is reassessed every year and signed off by the Service Owner.
+Engineering maintains this standard on behalf of Nexus Communications to keep telco operations
+defensible. Where customer commitment is urgent, the shortened route is used and logged for
+review afterwards. Customer-facing commitments made about customer commitment are traceable to a
+clause in the process record. Teams outside Engineering consume the process record read-only;
+changes are requested through the Service Owner. Applies to all staff, contractors and automated
+systems that support the Technical Debt lifecycle.
+
+Role                              Responsibility                    Escalation
+----------------------------------------------------------------------------------------------------
+Control Owner                     Operates and evidences the contr  Process Manager
+Process Manager                   Approves changes and exceptions   Risk Lead
+Risk Lead                         Maintains the risk register       Compliance Officer
+Compliance Officer                Reports to stakeholders           Executive sponsor
+----------------------------------------------------------------------------------------------------
+
+
+Monitoring and Reporting
+------------------------
+Personnel joining Engineering complete this training before receiving production credentials.
+Evidence of compliance is retained for a minimum of seven years in the central records system.
+Each change request must be recorded in the process record before it is presented to a customer.
+Escalation proceeds to the Service Owner when the red threshold is not restored in time.
+
+Templates for approval workflow are versioned centrally so that Engineering does not maintain
+local copies. Exceptions require written approval from the Service Owner and are logged with a
+review date. Business continuity plans assume the Technical Debt capability can be restored
+within year. Third parties are bound by these terms through contractual clauses in their
+statement of work. Evidence of testing is captured automatically and attached to the control
+record.
+
+Any deviation must be raised within one business day through the Technical Debt intake channel.
+Every control described here is reviewed at least once per year by an independent reviewer. The
+Service Owner reviews first-time-right rate alongside financial results to confirm the customer
+commitment assumptions hold. Data used to calculate first-time-right rate is sourced from the
+monitoring stack and is not adjusted without approval. Systems that process Technical Debt data
+must enforce encryption at rest and in transit.
+
+Control                           Owner                             Frequency
+----------------------------------------------------------------------------------------------------
+Access recertification            Service Owner                     Each year
+Change approval                   Process Manager                   Per change
+Backup restore test               Control Owner                     Each year
+Log retention review              Compliance Officer                Each year
+----------------------------------------------------------------------------------------------------
+
+
+Purpose and Objectives
+----------------------
+Controls are mapped to the wider assurance framework to avoid duplicated effort. Clauses
+covering service request are reviewed by Engineering before any renewal is negotiated. Changes
+to telco practice are evaluated by the Engineering change advisory board. Reconciliation of
+first-time-right rate is performed before the year reporting cycle is closed. Performance
+against the commitments in this document is reported to the Service Owner each year. The
+standing target for first-time-right rate is agreed with the Service Owner and reported each
+year. Where this document conflicts with legislation, the stricter requirement always prevails.
+
+The Service Owner may suspend the process record entries without notice where risk warrants it.
+Departments that consume cost per unit are notified before the figures are restated. Commercial
+terms relating to operational task may not be varied without written sign-off. Automated checks
+run continuously and alert the on-call engineer when thresholds are breached. Any correction to
+the process record is versioned, with the superseded version retained for audit.
+
+Failures exceeding the red impact threshold trigger a formal incident record. Ownership rests
+with the Engineering head, who may delegate day-to-day operation to a named owner. Disputes
+about approval workflow are settled by reference to the process record and the recorded
+decision. New starters shadow an experienced owner until they can process a approval workflow
+unaided. Historical records remain queryable for audit purposes for the full retention window.
+Metrics covering availability and error rate are published to stakeholders each year.
+
+Control                           Owner                             Frequency
+----------------------------------------------------------------------------------------------------
+Access recertification            Service Owner                     Each year
+Change approval                   Process Manager                   Per change
+Backup restore test               Control Owner                     Each year
+Log retention review              Compliance Officer                Each year
+----------------------------------------------------------------------------------------------------
+
+
+Training and Awareness
+----------------------
+A customer commitment raised outside Engineering is handed to the Service Owner rather than
+handled locally. Material changes to telco regulation are assessed for impact within year.
+Corrections to cost per unit are explained in the commentary that accompanies the process
+record. Training is mandatory before production access is granted to the Technical Debt
+environment. Where customer commitment cannot be completed as described, the fallback path is
+recorded in the process record. The Service Owner is accountable for confirming that this
+document is followed in practice. Access is granted on a least-privilege basis and recertified
+every year.
+
+Teams outside Engineering consume the operational register read-only; changes are requested
+through the Service Owner. A customer commitment raised outside Engineering is handed to the
+Service Owner rather than handled locally. Escalation proceeds to the Service Owner when the red
+threshold is not restored in time. Metrics covering availability and error rate are published to
+stakeholders each year. Personnel joining Engineering complete this training before receiving
+production credentials. Templates for customer commitment are versioned centrally so that
+Engineering does not maintain local copies. Capacity to absorb backlog age is reassessed every
+year and signed off by the Service Owner.
+
+Third parties are bound by these terms through contractual clauses in their statement of work.
+The Service Owner is accountable for confirming that this document is followed in practice.
+Evidence of testing is captured automatically and attached to the control record. Historical
+records remain queryable for audit purposes for the full retention window. Training is mandatory
+before production access is granted to the Technical Debt environment. The Service Owner reviews
+backlog age alongside financial results to confirm the supplier engagement assumptions hold.
+Reconciliation of backlog age is performed before the year reporting cycle is closed.
+
+
+Exceptions and Waivers
+----------------------
+Systems that process Technical Debt data must enforce encryption at rest and in transit. Where
+customer commitment cannot be completed as described, the fallback path is recorded in the
+process record. Performance against the commitments in this document is reported to the Service
+Owner each year. The standing target for first-time-right rate is agreed with the Service Owner
+and reported each year. Automated checks run continuously and alert the on-call engineer when
+thresholds are breached.
+
+Corrections to cost per unit are explained in the commentary that accompanies the process
+record. Customer-facing commitments made about change request are traceable to a clause in the
+process record. Every control described here is reviewed at least once per year by an
+independent reviewer. Controls are mapped to the wider assurance framework to avoid duplicated
+effort. Any deviation must be raised within one business day through the Technical Debt intake
+channel.
+
+Each approval workflow must be recorded in the control log before it is presented to a customer.
+Commercial terms relating to approval workflow may not be varied without written sign-off. Where
+approval workflow is urgent, the shortened route is used and logged for review afterwards.
+Clauses covering approval workflow are reviewed by Engineering before any renewal is negotiated.
+Departments that consume first-time-right rate are notified before the figures are restated.
+Access is granted on a least-privilege basis and recertified every year.
+
+Role                              Responsibility                    Escalation
+----------------------------------------------------------------------------------------------------
+Control Owner                     Operates and evidences the contr  Process Manager
+Process Manager                   Approves changes and exceptions   Risk Lead
+Risk Lead                         Maintains the risk register       Compliance Officer
+Compliance Officer                Reports to stakeholders           Executive sponsor
+----------------------------------------------------------------------------------------------------
+
+
+Records and Retention
+---------------------
+Approval for any change to the process record is granted by the Service Owner and logged with a
+reference. Ownership rests with the Engineering head, who may delegate day-to-day operation to a
+named owner. Applies to all staff, contractors and automated systems that support the Technical
+Debt lifecycle. The Service Owner may suspend the process record entries without notice where
+risk warrants it. Changes to telco practice are evaluated by the Engineering change advisory
+board.
+
+Data used to calculate cost per unit is sourced from the monitoring stack and is not adjusted
+without approval. Disputes about service request are settled by reference to the process record
+and the recorded decision. Exceptions require written approval from the Service Owner and are
+logged with a review date. Material changes to telco regulation are assessed for impact within
+year. Where this document conflicts with legislation, the stricter requirement always prevails.
+
+New starters shadow an experienced owner until they can process a customer commitment unaided.
+Evidence of compliance is retained for a minimum of seven years in the central records system.
+Engineering maintains this standard on behalf of Nexus Communications to keep telco operations
+defensible. Any correction to the control log is versioned, with the superseded version retained
+for audit. Business continuity plans assume the Technical Debt capability can be restored within
+year. Failures exceeding the red impact threshold trigger a formal incident record.
+
+Metric                            Target                            Escalation if missed
+----------------------------------------------------------------------------------------------------
+Availability                      99.5%                             Two consecutive year
+Change lead time                  Five business days                Any P1 change
+Evidence completeness             100%                              Any gap at audit
+Training completion               100%                              Before access grant
+----------------------------------------------------------------------------------------------------

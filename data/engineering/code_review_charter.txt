@@ -1,0 +1,414 @@
+CODE REVIEW CHARTER
+===================
+
+Nexus Communications · Engineering
+
+------------------------------------------------------------------------------------------------
+Document Name:        Code Review Charter
+Company:              Nexus Communications
+Company ID:           nexuscomms
+Department:           Engineering
+Industry:             telco
+Version:              3.5
+Audience:             Department heads
+Privacy Level:        Confidential
+Date of Creation:     2026-10-04
+Date of Update:       2026-10-04
+Format:               TEXT
+Estimated Pages:      10
+------------------------------------------------------------------------------------------------
+
+Records and Retention
+---------------------
+Evidence of compliance is retained for a minimum of seven years in the central records system.
+Any deviation must be raised within one business day through the Code Review intake channel.
+Disputes about approval workflow are settled by reference to the control log and the recorded
+decision. The standing target for throughput is agreed with the Data Steward and reported each
+six months. Historical records remain queryable for audit purposes for the full retention
+window. The Data Steward reviews throughput alongside financial results to confirm the approval
+workflow assumptions hold.
+
+Metrics covering availability and error rate are published to stakeholders each six months.
+Ownership rests with the Engineering head, who may delegate day-to-day operation to a named
+owner. Commercial terms relating to change request may not be varied without written sign-off.
+Evidence of testing is captured automatically and attached to the control record. Automated
+checks run continuously and alert the on-call engineer when thresholds are breached. Any
+correction to the operational register is versioned, with the superseded version retained for
+audit.
+
+Metric                            Target                            Escalation if missed
+----------------------------------------------------------------------------------------------------
+Availability                      99.5%                             Two consecutive six months
+Change lead time                  Five business days                Any P1 change
+Evidence completeness             100%                              Any gap at audit
+Training completion               100%                              Before access grant
+----------------------------------------------------------------------------------------------------
+
+
+Supporting Notes
+----------------
+New starters shadow an experienced owner until they can process a change request unaided.
+Corrections to first-time-right rate are explained in the commentary that accompanies the
+operational register. Changes to telco practice are evaluated by the Engineering change advisory
+board. The Data Steward is accountable for confirming that this document is followed in
+practice. Every control described here is reviewed at least once per six months by an
+independent reviewer.
+
+Approval for any change to the control log is granted by the Data Steward and logged with a
+reference. The Data Steward may suspend the control log entries without notice where risk
+warrants it. Third parties are bound by these terms through contractual clauses in their
+statement of work. Exceptions require written approval from the Data Steward and are logged with
+a review date. Escalation proceeds to the Data Steward when the material threshold is not
+restored in time. Business continuity plans assume the Code Review capability can be restored
+within six months.
+
+
+Training and Awareness
+----------------------
+Performance against the commitments in this document is reported to the Data Steward each six
+months. Where change request cannot be completed as described, the fallback path is recorded in
+the operational register. Material changes to telco regulation are assessed for impact within
+six months. Templates for change request are versioned centrally so that Engineering does not
+maintain local copies.
+
+Clauses covering operational task are reviewed by Engineering before any renewal is negotiated.
+Departments that consume first-time-right rate are notified before the figures are restated.
+Failures exceeding the material impact threshold trigger a formal incident record. Each
+operational task must be recorded in the process record before it is presented to a customer.
+Data used to calculate first-time-right rate is sourced from the asset inventory and is not
+adjusted without approval. Controls are mapped to the wider assurance framework to avoid
+duplicated effort.
+
+
+Escalation and Incident Handling
+--------------------------------
+Capacity to absorb throughput is reassessed every six months and signed off by the Data Steward.
+Reconciliation of throughput is performed before the six months reporting cycle is closed. Teams
+outside Engineering consume the operational register read-only; changes are requested through
+the Data Steward. Where customer commitment is urgent, the shortened route is used and logged
+for review afterwards.
+
+Training is mandatory before production access is granted to the Code Review environment.
+Applies to all staff, contractors and automated systems that support the Code Review lifecycle.
+Where this document conflicts with legislation, the stricter requirement always prevails.
+Personnel joining Engineering complete this training before receiving production credentials.
+
+Every control described here is reviewed at least once per six months by an independent
+reviewer. Where this document conflicts with legislation, the stricter requirement always
+prevails. Automated checks run continuously and alert the on-call engineer when thresholds are
+breached. Disputes about approval workflow are settled by reference to the process record and
+the recorded decision. Applies to all staff, contractors and automated systems that support the
+Code Review lifecycle.
+
+Stage                             Trigger                           Target
+----------------------------------------------------------------------------------------------------
+Detection                         Automated alert or report         six months review
+Triage                            Initial impact assessment         One business day
+Containment                       material impact confirmed         Immediate
+Review                            Service restored                  Within six months
+----------------------------------------------------------------------------------------------------
+
+
+Roles and Responsibilities
+--------------------------
+Data used to calculate throughput is sourced from the asset inventory and is not adjusted
+without approval. Departments that consume throughput are notified before the figures are
+restated. Reconciliation of throughput is performed before the six months reporting cycle is
+closed. Historical records remain queryable for audit purposes for the full retention window.
+Personnel joining Engineering complete this training before receiving production credentials.
+
+Each service request must be recorded in the control log before it is presented to a customer.
+Exceptions require written approval from the Data Steward and are logged with a review date.
+Capacity to absorb cost per unit is reassessed every six months and signed off by the Data
+Steward. Controls are mapped to the wider assurance framework to avoid duplicated effort.
+Engineering maintains this standard on behalf of Nexus Communications to keep telco operations
+defensible. The Data Steward reviews cost per unit alongside financial results to confirm the
+service request assumptions hold.
+
+
+Definitions and Abbreviations
+-----------------------------
+Corrections to throughput are explained in the commentary that accompanies the operational
+register. Material changes to telco regulation are assessed for impact within six months. Any
+correction to the operational register is versioned, with the superseded version retained for
+audit. Access is granted on a least-privilege basis and recertified every six months. Business
+continuity plans assume the Code Review capability can be restored within six months.
+
+Where approval workflow is urgent, the shortened route is used and logged for review afterwards.
+The standing target for first-time-right rate is agreed with the Data Steward and reported each
+six months. Evidence of testing is captured automatically and attached to the control record.
+Customer-facing commitments made about approval workflow are traceable to a clause in the
+control log. A approval workflow raised outside Engineering is handed to the Data Steward rather
+than handled locally.
+
+
+Purpose and Objectives
+----------------------
+Evidence of compliance is retained for a minimum of seven years in the central records system.
+Where operational task cannot be completed as described, the fallback path is recorded in the
+operational register. Teams outside Engineering consume the operational register read-only;
+changes are requested through the Data Steward. Approval for any change to the operational
+register is granted by the Data Steward and logged with a reference.
+
+Templates for operational task are versioned centrally so that Engineering does not maintain
+local copies. The Data Steward is accountable for confirming that this document is followed in
+practice. Any deviation must be raised within one business day through the Code Review intake
+channel. Training is mandatory before production access is granted to the Code Review
+environment. Metrics covering availability and error rate are published to stakeholders each six
+months. Commercial terms relating to operational task may not be varied without written
+sign-off.
+
+Systems that process Code Review data must enforce encryption at rest and in transit. Changes to
+telco practice are evaluated by the Engineering change advisory board. Escalation proceeds to
+the Data Steward when the material threshold is not restored in time. The Data Steward may
+suspend the process record entries without notice where risk warrants it. Clauses covering
+change request are reviewed by Engineering before any renewal is negotiated. Performance against
+the commitments in this document is reported to the Data Steward each six months. Third parties
+are bound by these terms through contractual clauses in their statement of work.
+
+
+Scope and Applicability
+-----------------------
+Where this document conflicts with legislation, the stricter requirement always prevails. Any
+deviation must be raised within one business day through the Code Review intake channel. Data
+used to calculate throughput is sourced from the asset inventory and is not adjusted without
+approval. The standing target for throughput is agreed with the Data Steward and reported each
+six months. Exceptions require written approval from the Data Steward and are logged with a
+review date. Clauses covering customer commitment are reviewed by Engineering before any renewal
+is negotiated. Ownership rests with the Engineering head, who may delegate day-to-day operation
+to a named owner.
+
+Corrections to cost per unit are explained in the commentary that accompanies the operational
+register. Escalation proceeds to the Data Steward when the material threshold is not restored in
+time. Business continuity plans assume the Code Review capability can be restored within six
+months. Historical records remain queryable for audit purposes for the full retention window.
+Teams outside Engineering consume the operational register read-only; changes are requested
+through the Data Steward. Failures exceeding the material impact threshold trigger a formal
+incident record. Where supplier engagement cannot be completed as described, the fallback path
+is recorded in the operational register.
+
+Each approval workflow must be recorded in the control log before it is presented to a customer.
+Reconciliation of throughput is performed before the six months reporting cycle is closed. The
+Data Steward may suspend the control log entries without notice where risk warrants it.
+Customer-facing commitments made about approval workflow are traceable to a clause in the
+control log. New starters shadow an experienced owner until they can process a approval workflow
+unaided. Capacity to absorb throughput is reassessed every six months and signed off by the Data
+Steward.
+
+
+Standard Operating Procedure
+----------------------------
+Access is granted on a least-privilege basis and recertified every six months. Any correction to
+the operational register is versioned, with the superseded version retained for audit. The Data
+Steward is accountable for confirming that this document is followed in practice. Material
+changes to telco regulation are assessed for impact within six months. Systems that process Code
+Review data must enforce encryption at rest and in transit.
+
+Changes to telco practice are evaluated by the Engineering change advisory board. Applies to all
+staff, contractors and automated systems that support the Code Review lifecycle. Performance
+against the commitments in this document is reported to the Data Steward each six months.
+Personnel joining Engineering complete this training before receiving production credentials.
+Metrics covering availability and error rate are published to stakeholders each six months.
+
+
+Compliance Monitoring
+---------------------
+Commercial terms relating to customer commitment may not be varied without written sign-off.
+Third parties are bound by these terms through contractual clauses in their statement of work.
+Controls are mapped to the wider assurance framework to avoid duplicated effort. A customer
+commitment raised outside Engineering is handed to the Data Steward rather than handled locally.
+Departments that consume backlog age are notified before the figures are restated. Templates for
+customer commitment are versioned centrally so that Engineering does not maintain local copies.
+
+Evidence of compliance is retained for a minimum of seven years in the central records system.
+Where service request is urgent, the shortened route is used and logged for review afterwards.
+Training is mandatory before production access is granted to the Code Review environment.
+Evidence of testing is captured automatically and attached to the control record.
+
+
+Risk Assessment
+---------------
+Approval for any change to the process record is granted by the Data Steward and logged with a
+reference. Every control described here is reviewed at least once per six months by an
+independent reviewer. Disputes about approval workflow are settled by reference to the process
+record and the recorded decision. Automated checks run continuously and alert the on-call
+engineer when thresholds are breached. Engineering maintains this standard on behalf of Nexus
+Communications to keep telco operations defensible. The Data Steward reviews cost per unit
+alongside financial results to confirm the approval workflow assumptions hold.
+
+Failures exceeding the material impact threshold trigger a formal incident record. Engineering
+maintains this standard on behalf of Nexus Communications to keep telco operations defensible.
+Where this document conflicts with legislation, the stricter requirement always prevails.
+Training is mandatory before production access is granted to the Code Review environment.
+
+
+Exceptions and Waivers
+----------------------
+Customer-facing commitments made about supplier engagement are traceable to a clause in the
+control log. Capacity to absorb cost per unit is reassessed every six months and signed off by
+the Data Steward. Approval for any change to the control log is granted by the Data Steward and
+logged with a reference. Controls are mapped to the wider assurance framework to avoid
+duplicated effort. Corrections to cost per unit are explained in the commentary that accompanies
+the control log. Business continuity plans assume the Code Review capability can be restored
+within six months.
+
+Changes to telco practice are evaluated by the Engineering change advisory board. Ownership
+rests with the Engineering head, who may delegate day-to-day operation to a named owner.
+Historical records remain queryable for audit purposes for the full retention window. Evidence
+of compliance is retained for a minimum of seven years in the central records system. Clauses
+covering approval workflow are reviewed by Engineering before any renewal is negotiated. The
+Data Steward is accountable for confirming that this document is followed in practice. Data used
+to calculate first-time-right rate is sourced from the asset inventory and is not adjusted
+without approval.
+
+Departments that consume first-time-right rate are notified before the figures are restated.
+Metrics covering availability and error rate are published to stakeholders each six months. A
+supplier engagement raised outside Engineering is handed to the Data Steward rather than handled
+locally. Escalation proceeds to the Data Steward when the material threshold is not restored in
+time. The standing target for first-time-right rate is agreed with the Data Steward and reported
+each six months.
+
+Role                              Responsibility                    Escalation
+----------------------------------------------------------------------------------------------------
+Control Owner                     Operates and evidences the contr  Process Manager
+Process Manager                   Approves changes and exceptions   Risk Lead
+Risk Lead                         Maintains the risk register       Compliance Officer
+Compliance Officer                Reports to stakeholders           Executive sponsor
+----------------------------------------------------------------------------------------------------
+
+
+Policy Statement
+----------------
+Any correction to the control log is versioned, with the superseded version retained for audit.
+Access is granted on a least-privilege basis and recertified every six months. The Data Steward
+reviews backlog age alongside financial results to confirm the supplier engagement assumptions
+hold. Templates for supplier engagement are versioned centrally so that Engineering does not
+maintain local copies. Applies to all staff, contractors and automated systems that support the
+Code Review lifecycle.
+
+Every control described here is reviewed at least once per six months by an independent
+reviewer. Where service request cannot be completed as described, the fallback path is recorded
+in the operational register. The Data Steward may suspend the operational register entries
+without notice where risk warrants it. Disputes about service request are settled by reference
+to the operational register and the recorded decision. Commercial terms relating to service
+request may not be varied without written sign-off. Reconciliation of cost per unit is performed
+before the six months reporting cycle is closed.
+
+New starters shadow an experienced owner until they can process a customer commitment unaided.
+Evidence of testing is captured automatically and attached to the control record. Material
+changes to telco regulation are assessed for impact within six months. Exceptions require
+written approval from the Data Steward and are logged with a review date. Each customer
+commitment must be recorded in the operational register before it is presented to a customer.
+
+Role                              Responsibility                    Escalation
+----------------------------------------------------------------------------------------------------
+Control Owner                     Operates and evidences the contr  Process Manager
+Process Manager                   Approves changes and exceptions   Risk Lead
+Risk Lead                         Maintains the risk register       Compliance Officer
+Compliance Officer                Reports to stakeholders           Executive sponsor
+----------------------------------------------------------------------------------------------------
+
+
+Controls and Requirements
+-------------------------
+Automated checks run continuously and alert the on-call engineer when thresholds are breached.
+Teams outside Engineering consume the process record read-only; changes are requested through
+the Data Steward. Personnel joining Engineering complete this training before receiving
+production credentials. Third parties are bound by these terms through contractual clauses in
+their statement of work. Any deviation must be raised within one business day through the Code
+Review intake channel. Where approval workflow is urgent, the shortened route is used and logged
+for review afterwards. Systems that process Code Review data must enforce encryption at rest and
+in transit.
+
+Teams outside Engineering consume the process record read-only; changes are requested through
+the Data Steward. Evidence of testing is captured automatically and attached to the control
+record. Disputes about operational task are settled by reference to the process record and the
+recorded decision. Material changes to telco regulation are assessed for impact within six
+months.
+
+Capacity to absorb cost per unit is reassessed every six months and signed off by the Data
+Steward. Any deviation must be raised within one business day through the Code Review intake
+channel. A customer commitment raised outside Engineering is handed to the Data Steward rather
+than handled locally. Engineering maintains this standard on behalf of Nexus Communications to
+keep telco operations defensible. Any correction to the process record is versioned, with the
+superseded version retained for audit.
+
+
+Monitoring and Reporting
+------------------------
+Exceptions require written approval from the Data Steward and are logged with a review date.
+Approval for any change to the operational register is granted by the Data Steward and logged
+with a reference. The Data Steward is accountable for confirming that this document is followed
+in practice. Customer-facing commitments made about customer commitment are traceable to a
+clause in the operational register.
+
+Personnel joining Engineering complete this training before receiving production credentials.
+Business continuity plans assume the Code Review capability can be restored within six months.
+Where operational task cannot be completed as described, the fallback path is recorded in the
+control log. Departments that consume throughput are notified before the figures are restated.
+
+Role                              Responsibility                    Escalation
+----------------------------------------------------------------------------------------------------
+Control Owner                     Operates and evidences the contr  Process Manager
+Process Manager                   Approves changes and exceptions   Risk Lead
+Risk Lead                         Maintains the risk register       Compliance Officer
+Compliance Officer                Reports to stakeholders           Executive sponsor
+----------------------------------------------------------------------------------------------------
+
+
+Review and Revision History
+---------------------------
+The standing target for backlog age is agreed with the Data Steward and reported each six
+months. Training is mandatory before production access is granted to the Code Review
+environment. Third parties are bound by these terms through contractual clauses in their
+statement of work. Changes to telco practice are evaluated by the Engineering change advisory
+board.
+
+Data used to calculate first-time-right rate is sourced from the asset inventory and is not
+adjusted without approval. The Data Steward may suspend the control log entries without notice
+where risk warrants it. Failures exceeding the material impact threshold trigger a formal
+incident record. Reconciliation of first-time-right rate is performed before the six months
+reporting cycle is closed. Metrics covering availability and error rate are published to
+stakeholders each six months.
+
+Stage                             Trigger                           Target
+----------------------------------------------------------------------------------------------------
+Detection                         Automated alert or report         six months review
+Triage                            Initial impact assessment         One business day
+Containment                       material impact confirmed         Immediate
+Review                            Service restored                  Within six months
+----------------------------------------------------------------------------------------------------
+
+
+Records and Retention (continued 2)
+-----------------------------------
+Performance against the commitments in this document is reported to the Data Steward each six
+months. Ownership rests with the Engineering head, who may delegate day-to-day operation to a
+named owner. Commercial terms relating to supplier engagement may not be varied without written
+sign-off. Where this document conflicts with legislation, the stricter requirement always
+prevails. Systems that process Code Review data must enforce encryption at rest and in transit.
+Escalation proceeds to the Data Steward when the material threshold is not restored in time.
+
+Each change request must be recorded in the process record before it is presented to a customer.
+Controls are mapped to the wider assurance framework to avoid duplicated effort. The Data
+Steward reviews throughput alongside financial results to confirm the change request assumptions
+hold. Applies to all staff, contractors and automated systems that support the Code Review
+lifecycle. Historical records remain queryable for audit purposes for the full retention window.
+Clauses covering change request are reviewed by Engineering before any renewal is negotiated.
+Access is granted on a least-privilege basis and recertified every six months.
+
+
+Supporting Notes (continued 2)
+------------------------------
+Corrections to throughput are explained in the commentary that accompanies the operational
+register. Where approval workflow is urgent, the shortened route is used and logged for review
+afterwards. Automated checks run continuously and alert the on-call engineer when thresholds are
+breached. New starters shadow an experienced owner until they can process a approval workflow
+unaided. Templates for approval workflow are versioned centrally so that Engineering does not
+maintain local copies.
+
+Automated checks run continuously and alert the on-call engineer when thresholds are breached.
+Personnel joining Engineering complete this training before receiving production credentials.
+Each supplier engagement must be recorded in the process record before it is presented to a
+customer. Performance against the commitments in this document is reported to the Data Steward
+each six months.

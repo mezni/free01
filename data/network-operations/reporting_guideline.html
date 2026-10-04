@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Reporting Guideline</title>
+<style>
+body{font-family:Georgia,serif;max-width:46em;margin:2.5em auto;padding:0 1.5em;line-height:1.6}
+h1{border-bottom:3px solid #222;padding-bottom:.3em}
+.subtitle{color:#555;font-style:italic;margin:-.4em 0 1.4em}
+h2{margin-top:1.8em;border-bottom:1px solid #ccc;padding-bottom:.2em}
+table{border-collapse:collapse;width:100%;margin:1.2em 0}
+th,td{border:1px solid #999;padding:.45em .6em;text-align:left;font-size:.92em}
+th{background:#eee}
+.meta td:first-child{width:32%;font-weight:bold}
+@media print{h2{page-break-after:avoid}table{page-break-inside:avoid}}
+</style>
+</head>
+<body>
+<h1>Reporting Guideline</h1>
+<p class="subtitle">Nexus Communications · Network Operations</p>
+<table class="meta">
+<tr><td>Document Name</td><td>Reporting Guideline</td></tr>
+<tr><td>Company</td><td>Nexus Communications</td></tr>
+<tr><td>Company ID</td><td>nexuscomms</td></tr>
+<tr><td>Department</td><td>Network Operations</td></tr>
+<tr><td>Industry</td><td>telco</td></tr>
+<tr><td>Version</td><td>2.6</td></tr>
+<tr><td>Audience</td><td>Department heads</td></tr>
+<tr><td>Privacy Level</td><td>Internal</td></tr>
+<tr><td>Date of Creation</td><td>2026-10-04</td></tr>
+<tr><td>Date of Update</td><td>2026-10-04</td></tr>
+<tr><td>Format</td><td>HTML</td></tr>
+<tr><td>Estimated Pages</td><td>5</td></tr>
+</table>
+<h2>Controls and Requirements</h2>
+<p>Teams outside Network Operations consume the control log read-only; changes are requested through the Data Steward. Business continuity plans assume the Reporting capability can be restored within year. The Data Steward is accountable for confirming that this document is followed in practice. Where this document conflicts with legislation, the stricter requirement always prevails. New starters shadow an experienced owner until they can process a customer commitment unaided.</p>
+<p>Each service request must be recorded in the operational register before it is presented to a customer. Clauses covering service request are reviewed by Network Operations before any renewal is negotiated. The standing target for throughput is agreed with the Data Steward and reported each year. Training is mandatory before production access is granted to the Reporting environment.</p>
+<table>
+<tr><th>Control</th><th>Owner</th><th>Frequency</th></tr>
+<tr><td>Access recertification</td><td>Service Owner</td><td>Each year</td></tr>
+<tr><td>Change approval</td><td>Process Manager</td><td>Per change</td></tr>
+<tr><td>Backup restore test</td><td>Control Owner</td><td>Each year</td></tr>
+<tr><td>Log retention review</td><td>Compliance Officer</td><td>Each year</td></tr>
+</table>
+<h2>Risk Assessment</h2>
+<p>The Data Steward may suspend the process record entries without notice where risk warrants it. Approval for any change to the process record is granted by the Data Steward and logged with a reference. Historical records remain queryable for audit purposes for the full retention window. Any deviation must be raised within one business day through the Reporting intake channel. Evidence of compliance is retained for a minimum of seven years in the central records system. Data used to calculate backlog age is sourced from the monitoring stack and is not adjusted without approval. Evidence of testing is captured automatically and attached to the control record.</p>
+<p>Departments that consume throughput are notified before the figures are restated. Capacity to absorb throughput is reassessed every year and signed off by the Data Steward. Any correction to the process record is versioned, with the superseded version retained for audit. Ownership rests with the Network Operations head, who may delegate day-to-day operation to a named owner. Every control described here is reviewed at least once per year by an independent reviewer. Where approval workflow cannot be completed as described, the fallback path is recorded in the process record.</p>
+<h2>Definitions and Abbreviations</h2>
+<p>Network Operations maintains this standard on behalf of Nexus Communications to keep telco operations defensible. Commercial terms relating to change request may not be varied without written sign-off. Escalation proceeds to the Data Steward when the critical threshold is not restored in time. Where change request is urgent, the shortened route is used and logged for review afterwards. The Data Steward reviews backlog age alongside financial results to confirm the change request assumptions hold.</p>
+<p>Corrections to cost per unit are explained in the commentary that accompanies the process record. Templates for approval workflow are versioned centrally so that Network Operations does not maintain local copies. Disputes about approval workflow are settled by reference to the process record and the recorded decision. Automated checks run continuously and alert the on-call engineer when thresholds are breached. Exceptions require written approval from the Data Steward and are logged with a review date. Performance against the commitments in this document is reported to the Data Steward each year.</p>
+<p>Material changes to telco regulation are assessed for impact within year. A approval workflow raised outside Network Operations is handed to the Data Steward rather than handled locally. Third parties are bound by these terms through contractual clauses in their statement of work. Failures exceeding the critical impact threshold trigger a formal incident record.</p>
+<table>
+<tr><th>Metric</th><th>Target</th><th>Escalation if missed</th></tr>
+<tr><td>Availability</td><td>99.5%</td><td>Two consecutive year</td></tr>
+<tr><td>Change lead time</td><td>Five business days</td><td>Any P1 change</td></tr>
+<tr><td>Evidence completeness</td><td>100%</td><td>Any gap at audit</td></tr>
+<tr><td>Training completion</td><td>100%</td><td>Before access grant</td></tr>
+</table>
+<h2>Scope and Applicability</h2>
+<p>Systems that process Reporting data must enforce encryption at rest and in transit. Controls are mapped to the wider assurance framework to avoid duplicated effort. Access is granted on a least-privilege basis and recertified every year. Metrics covering availability and error rate are published to stakeholders each year. Applies to all staff, contractors and automated systems that support the Reporting lifecycle.</p>
+<p>Changes to telco practice are evaluated by the Network Operations change advisory board. Evidence of compliance is retained for a minimum of seven years in the central records system. Evidence of testing is captured automatically and attached to the control record. Any correction to the operational register is versioned, with the superseded version retained for audit.</p>
+<h2>Escalation and Incident Handling</h2>
+<p>Disputes about approval workflow are settled by reference to the operational register and the recorded decision. Escalation proceeds to the Data Steward when the critical threshold is not restored in time. Templates for approval workflow are versioned centrally so that Network Operations does not maintain local copies. Personnel joining Network Operations complete this training before receiving production credentials. Training is mandatory before production access is granted to the Reporting environment.</p>
+<p>Exceptions require written approval from the Data Steward and are logged with a review date. Reconciliation of first-time-right rate is performed before the year reporting cycle is closed. Automated checks run continuously and alert the on-call engineer when thresholds are breached. Each customer commitment must be recorded in the process record before it is presented to a customer. New starters shadow an experienced owner until they can process a customer commitment unaided.</p>
+<h2>Standard Operating Procedure</h2>
+<p>Business continuity plans assume the Reporting capability can be restored within year. The Data Steward reviews cost per unit alongside financial results to confirm the approval workflow assumptions hold. Approval for any change to the process record is granted by the Data Steward and logged with a reference. Customer-facing commitments made about approval workflow are traceable to a clause in the process record. Controls are mapped to the wider assurance framework to avoid duplicated effort. Corrections to cost per unit are explained in the commentary that accompanies the process record. Performance against the commitments in this document is reported to the Data Steward each year.</p>
+<p>Commercial terms relating to change request may not be varied without written sign-off. Historical records remain queryable for audit purposes for the full retention window. Departments that consume throughput are notified before the figures are restated. Capacity to absorb throughput is reassessed every year and signed off by the Data Steward. Access is granted on a least-privilege basis and recertified every year. Any deviation must be raised within one business day through the Reporting intake channel.</p>
+<p>The Data Steward is accountable for confirming that this document is followed in practice. Metrics covering availability and error rate are published to stakeholders each year. Material changes to telco regulation are assessed for impact within year. Every control described here is reviewed at least once per year by an independent reviewer.</p>
+<table>
+<tr><th>Role</th><th>Responsibility</th><th>Escalation</th></tr>
+<tr><td>Control Owner</td><td>Operates and evidences the control</td><td>Process Manager</td></tr>
+<tr><td>Process Manager</td><td>Approves changes and exceptions</td><td>Risk Lead</td></tr>
+<tr><td>Risk Lead</td><td>Maintains the risk register</td><td>Compliance Officer</td></tr>
+<tr><td>Compliance Officer</td><td>Reports to stakeholders</td><td>Executive sponsor</td></tr>
+</table>
+<h2>Roles and Responsibilities</h2>
+<p>Network Operations maintains this standard on behalf of Nexus Communications to keep telco operations defensible. Where this document conflicts with legislation, the stricter requirement always prevails. Clauses covering service request are reviewed by Network Operations before any renewal is negotiated. Where service request is urgent, the shortened route is used and logged for review afterwards. Failures exceeding the critical impact threshold trigger a formal incident record. Applies to all staff, contractors and automated systems that support the Reporting lifecycle.</p>
+<p>Systems that process Reporting data must enforce encryption at rest and in transit. Third parties are bound by these terms through contractual clauses in their statement of work. A approval workflow raised outside Network Operations is handed to the Data Steward rather than handled locally. Teams outside Network Operations consume the process record read-only; changes are requested through the Data Steward. Ownership rests with the Network Operations head, who may delegate day-to-day operation to a named owner. The Data Steward may suspend the process record entries without notice where risk warrants it.</p>
+<h2>Records and Retention</h2>
+<p>Data used to calculate first-time-right rate is sourced from the monitoring stack and is not adjusted without approval. Systems that process Reporting data must enforce encryption at rest and in transit. Each service request must be recorded in the control log before it is presented to a customer. Changes to telco practice are evaluated by the Network Operations change advisory board.</p>
+</body>
+</html>
