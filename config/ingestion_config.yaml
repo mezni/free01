@@ -1,0 +1,80 @@
+pipeline:
+  name: enterprise-rag-ingestion
+  version: 0.0.9
+
+ingestion:
+  knowledge_base_path: data
+  supported_extensions:
+    - .pdf
+    - .docx
+    - .txt
+    - .md
+    - .html
+    - .csv
+
+metadata:
+  required_fields:
+    - department
+    - doc_type
+    - version
+    - effective_date
+    - source
+    - file_type
+    - title
+    - owner
+    - privacy_level
+    - audience
+  departments:
+    - engineering
+    - sales
+    - billing
+    - customer-support
+    - network-operations
+    - security
+    - legal
+    - hr
+    - marketing
+    - finance
+    - general
+  doc_types:
+    - policy
+    - procedure
+    - runbook
+    - guide
+    - specification
+    - playbook
+    - manual
+    - contract
+    - report
+    - presentation
+    - faq
+    - form
+    - memo
+    - charter
+    - standard
+    - checklist
+    - document
+
+chunking:
+  strategy: semantic
+  chunk_size: 1000
+  chunk_overlap: 200
+
+vector_store:
+  backend: faiss
+  persist_directory: storage/faiss
+  hybrid:
+    vector_weight: 0.7
+    lexical_weight: 0.3
+
+generation:
+  max_context_chunks: 5
+  require_citations: true
+  refuse_when_no_context: true
+
+evaluation:
+  required_answer_fields:
+    - answer
+    - citations
+    - confidence
+  min_citation_when_answered: 1
