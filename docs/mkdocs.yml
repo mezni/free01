@@ -1,0 +1,68 @@
+site_name: Telco RAG
+site_description: Architecture, pipeline, security, quality, and operations documentation for the telco RAG platform
+repo_url: https://github.com/mamezni/telco-rag
+
+docs_dir: .
+site_dir: ../site
+
+exclude_docs: |
+  mkdocs.yml
+
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - content.code.copy
+
+plugins:
+  - search
+  - minify:
+      minify_html: true
+
+markdown_extensions:
+  - admonition
+  - tables
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+nav:
+  - Home: index.md
+  # Sections below are enabled as their pages are authored.
+  # - Architecture:
+  #     - Overview: 01-architecture/index.md
+  #     - High-Level Design: 01-architecture/high-level-design.md
+  #     - Low-Level Design: 01-architecture/low-level-design.md
+  #     - API Specification: 01-architecture/api-specification.md
+  #     - Vector Schema: 01-architecture/vector-schema.md
+  #     - Infrastructure Topology: 01-architecture/infrastructure-topology.md
+  # - Data Pipeline:
+  #     - Overview: 02-data-pipeline/index.md
+  #     - Connectors Inventory: 02-data-pipeline/connectors-inventory.md
+  #     - Parsing & Chunking: 02-data-pipeline/parsing-and-chunking.md
+  #     - Data Lineage Catalog: 02-data-pipeline/data-lineage-catalog.md
+  #     - Re-indexing Runbook: 02-data-pipeline/reindexing-runbook.md
+  # - Security & Compliance:
+  #     - Overview: 03-security-compliance/index.md
+  #     - Access Control & ACL: 03-security-compliance/access-control-acl.md
+  #     - PII & Data Protection: 03-security-compliance/pii-data-protection.md
+  #     - Threat Model: 03-security-compliance/threat-model.md
+  #     - Audit Logging Policy: 03-security-compliance/audit-logging-policy.md
+  # - Evaluation & Quality:
+  #     - Overview: 04-evaluation-quality/index.md
+  #     - Evaluation Framework: 04-evaluation-quality/evaluation-framework.md
+  #     - Golden Dataset Guide: 04-evaluation-quality/golden-dataset-guide.md
+  #     - System Prompts & Guardrails: 04-evaluation-quality/system-prompts-guardrails.md
+  # - Operations:
+  #     - Overview: 05-operations/index.md
+  #     - Deployment & CI/CD: 05-operations/deployment-cicd.md
+  #     - Observability & Monitoring: 05-operations/observability-monitoring.md
+  #     - Incident Response: 05-operations/incident-response.md
+  #     - Capacity & Cost: 05-operations/capacity-and-cost.md
+  # - Developer Guides:
+  #     - Overview: 06-developer-guides/index.md
+  #     - Quickstart SDK: 06-developer-guides/quickstart-sdk.md
+  #     - End-User Guide: 06-developer-guides/end-user-guide.md
+  #     - Changelog: 06-developer-guides/changelog.md
