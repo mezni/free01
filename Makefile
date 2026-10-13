@@ -1,17 +1,16 @@
-.PHONY: install test lint fmt check
+.PHONY: install lint format test check
 
 install:
 	uv sync
 
-test:
-	uv run pytest --cov=triagekit
-
 lint:
 	uv run ruff check .
 
-fmt:
+format:
 	uv run ruff format .
 
-check: lint
-	uv run ruff format --check .
+test:
 	uv run pytest
+
+check: lint test
+	uv run ruff format --check .
